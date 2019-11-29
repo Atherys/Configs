@@ -1,0 +1,51 @@
+{
+  "uuid": "90daeb3f-d0fe-4917-9cd3-6823153a78f2",
+  "name": "Dannie",
+  "admin": false,
+  "taxes": 50.0,
+  "extras": 0,
+  "extraspawns": 0,
+  "flags": {
+    "explosions": false,
+    "mobs": false,
+    "open": false,
+    "pvp": false,
+    "fire": false,
+    "public": false
+  },
+  "perms": {
+    "citizen": {
+      "interact": true,
+      "build": false
+    },
+    "outsider": {
+      "interact": false,
+      "build": false
+    }
+  },
+  "rects": [
+    {
+      "world": "736f86fa-afab-4bea-aa2c-5f240236a156",
+      "minX": 779,
+      "maxX": 796,
+      "minY": -147,
+      "maxY": -133
+    }
+  ],
+  "zones": [],
+  "spawns": {
+    "new": {
+      "world": "736f86fa-afab-4bea-aa2c-5f240236a156",
+      "x": 782.565797784881,
+      "y": 72.0,
+      "z": -139.36622385949647
+    }
+  },
+  "president": "75793adc-d589-499f-bed0-72db70730dd2",
+  "ministers": [],
+  "citizens": [
+    "75793adc-d589-499f-bed0-72db70730dd2",
+    "1879bbd2-dbba-4740-9da0-db71e27fa835",
+    "20048f6e-281e-4430-9baa-a8974623ea90"
+  ]
+}
