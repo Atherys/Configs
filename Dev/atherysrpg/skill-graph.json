@@ -196,7 +196,7 @@
     }
   ],
   "root-skill": {
-    "skill-id": "rpg-simple-damage",
+    "skill-id": "root-skill",
     "cost": "0",
     "cooldown": "0",
     "properties": {}
