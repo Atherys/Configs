@@ -4,37 +4,55 @@
       "skill-id": "slash",
       "cost": "25",
       "cooldown": "5",
-      "properties": {}
+      "properties": {
+        "damage": "125*(1+SOURCE_DEX/50)"
+      }
     },
     "df4aa0e3-44c7-49b6-872f-ed625132a40b": {
       "skill-id": "enfeeble",
       "cost": "28",
       "cooldown": "15",
-      "properties": {}
+      "properties": {
+        "damage": "150*(1+SOURCE_INT/50)",
+        "time": "5",
+        "amplifier": "25"
+      }
     },
     "f9da0450-1519-438f-b88e-c2bef1ebd876": {
       "skill-id": "hamstring",
       "cost": "30",
       "cooldown": "8",
-      "properties": {}
+      "properties": {
+        "damage": "100*(1+SOURCE_STR/50)",
+        "amplifier": "1",
+        "time": "3"
+      }
     },
     "f3d7d6be-2857-45a8-992e-513d987ec252": {
       "skill-id": "fireball",
       "cost": "26",
       "cooldown": "3",
-      "properties": {}
+      "properties": {
+        "damage": "72*(1+SOURCE_INT/50)"
+      }
     },
     "52daef13-2262-48db-b21d-0086ed97720a": {
       "skill-id": "shield",
       "cost": "32",
       "cooldown": "15",
-      "properties": {}
+      "properties": {
+        "phys": "40*(1+SOURCE_STR/50)",
+        "magic": "40*(1+SOURCE_WIS/50)",
+        "time": "5"
+      }
     },
     "b9f5ccb9-5d56-4bc0-960e-306f10db057c": {
       "skill-id": "light-heal",
       "cost": "35",
       "cooldown": "10",
-      "properties": {}
+      "properties": {
+        "healing": "50*(1+SOURCE_WIS/50)"
+      }
     },
     "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5": {
       "skill-id": "boulder-toss",
@@ -162,37 +180,37 @@
       "child-node": "6f7d56f7-a3d8-4dff-929d-b6c0a8b59690",
       "parent-node": "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5",
       "cost": "1000",
-      "type": "BIDIRECTIONAL"
+      "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "2416816d-8d96-4cbb-b9fd-46ae6953a511",
       "parent-node": "4e4037ef-6d4b-4c5d-90a0-43e961db788b",
       "cost": "1000",
-      "type": "BIDIRECTIONAL"
+      "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "1aa90033-9b00-4c99-b4ef-a786636b1188",
       "parent-node": "2416816d-8d96-4cbb-b9fd-46ae6953a511",
       "cost": "1000",
-      "type": "BIDIRECTIONAL"
+      "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13",
       "parent-node": "1aa90033-9b00-4c99-b4ef-a786636b1188",
       "cost": "1000",
-      "type": "BIDIRECTIONAL"
+      "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "6f7d56f7-a3d8-4dff-929d-b6c0a8b59690",
       "parent-node": "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13",
       "cost": "1000",
-      "type": "BIDIRECTIONAL"
+      "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "4e4037ef-6d4b-4c5d-90a0-43e961db788b",
       "parent-node": "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5",
       "cost": "1000",
-      "type": "BIDIRECTIONAL"
+      "type": "UNIDIRECTIONAL"
     }
   ],
   "root-skill": {
