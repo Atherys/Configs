@@ -92,38 +92,38 @@
     },
     "f07810af-2010-444d-ba29-0337e8f64006": {
       "skill-id": "cleave",
-      "cost": "",
-      "cooldown": "",
+      "cost": "0",
+      "cooldown": "0",
       "properties": {}
     },
     "54af0600-d469-454e-bf7a-b1ec427395b5": {
       "skill-id": "vexing-mark",
-      "cost": "",
-      "cooldown": "",
+      "cost": "0",
+      "cooldown": "0",
       "properties": {}
     },
     "3ed5d696-8bf5-408a-8a93-0eae36aad1c0": {
       "skill-id": "blindbolt",
-      "cost": "",
-      "cooldown": "",
+      "cost": "0",
+      "cooldown": "0",
       "properties": {}
     },
     "53c95afe-abe3-4e32-943b-a269bda9219e": {
       "skill-id": "siphon",
-      "cost": "",
-      "cooldown": "",
+      "cost": "0",
+      "cooldown": "0",
       "properties": {}
     },
     "3a6f0e6e-ef21-48d5-84ce-a287cbc7f125": {
       "skill-id": "cleanse",
-      "cost": "",
-      "cooldown": "",
+      "cost": "0",
+      "cooldown": "0",
       "properties": {}
     },
     "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff": {
       "skill-id": "shield-spikes",
-      "cost": "",
-      "cooldown": "",
+      "cost": "0",
+      "cooldown": "0",
       "properties": {}
     }
   },
