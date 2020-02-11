@@ -78,7 +78,6 @@
       "cost": "40",
       "cooldown": "5000",
       "properties": {
-        "amplifier": ""
       }
     },
     "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13": {
@@ -87,7 +86,6 @@
       "cooldown": "15000",
       "properties": {
         "damage": "140",
-        "amplifier": ""
       }
     },
     "4e4037ef-6d4b-4c5d-90a0-43e961db788b": {
