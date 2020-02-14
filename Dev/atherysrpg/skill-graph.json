@@ -69,7 +69,7 @@
       "cost": "55",
       "cooldown": "20000",
       "properties": {
-        "damage": "300",
+        "damage": "150",
         "time": "10000"
       }
     },
