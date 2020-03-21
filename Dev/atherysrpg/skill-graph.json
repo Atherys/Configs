@@ -311,73 +311,88 @@
       "child-node": "f07810af-2010-444d-ba29-0337e8f64006",
       "parent-node": "2416816d-8d96-4cbb-b9fd-46ae6953a511",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "4e4037ef-6d4b-4c5d-90a0-43e961db788b",
       "parent-node": "f07810af-2010-444d-ba29-0337e8f64006",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5",
       "parent-node": "4e4037ef-6d4b-4c5d-90a0-43e961db788b",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff",
       "parent-node": "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff",
       "parent-node": "3a6f0e6e-ef21-48d5-84ce-a287cbc7f125",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "6f7d56f7-a3d8-4dff-929d-b6c0a8b59690",
       "parent-node": "3a6f0e6e-ef21-48d5-84ce-a287cbc7f125",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "53c95afe-abe3-4e32-943b-a269bda9219e",
       "parent-node": "6f7d56f7-a3d8-4dff-929d-b6c0a8b59690",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13",
       "parent-node": "53c95afe-abe3-4e32-943b-a269bda9219e",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "3ed5d696-8bf5-408a-8a93-0eae36aad1c0",
       "parent-node": "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "54af0600-d469-454e-bf7a-b1ec427395b5",
       "parent-node": "3ed5d696-8bf5-408a-8a93-0eae36aad1c0",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "1aa90033-9b00-4c99-b4ef-a786636b1188",
       "parent-node": "54af0600-d469-454e-bf7a-b1ec427395b5",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "2416816d-8d96-4cbb-b9fd-46ae6953a511",
       "parent-node": "1aa90033-9b00-4c99-b4ef-a786636b1188",
       "cost": "1000",
-      "type": "UNIDIRECTIONAL"
+      "type": "BIDIRECTIONAL"
+    },
+    {
+      "child-node": "3ed5d696-8bf5-408a-8a93-0eae36aad1c0",
+      "parent-node": "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13",
+      "type": "BIDIRECTIONAL"
+    },
+    {
+      "child-node": "2416816d-8d96-4cbb-b9fd-46ae6953a511",
+      "parent-node": "1aa90033-9b00-4c99-b4ef-a786636b1188",
+      "type": "BIDIRECTIONAL"
+    },
+    {
+      "child-node": "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff",
+      "parent-node": "3a6f0e6e-ef21-48d5-84ce-a287cbc7f125",
+      "type": "BIDIRECTIONAL"
     }
   ],
   "root-skill": {
