@@ -6,7 +6,7 @@
       "cooldown": "5000",
       "properties": {
         "damage": "75+(0.67*SOURCE_DEX)",
-        "max-range": "3"
+        "max-range": "4"
       }
     },
     "df4aa0e3-44c7-49b6-872f-ed625132a40b": {
@@ -17,7 +17,7 @@
         "damage": "95+(0.8*SOURCE_INT)",
         "time": "5000",
         "amplifier": "20+(0.14*SOURCE_WIS)",
-        "max-range": "35"
+        "max-range": "25"
       }
     },
     "f9da0450-1519-438f-b88e-c2bef1ebd876": {
@@ -94,7 +94,7 @@
       "properties": {
         "damage": "90+(1.8*SOURCE_STR)",
         "time": "5000",
-        "max-range": "3"
+        "max-range": "4"
       }
     },
     "6f7d56f7-a3d8-4dff-929d-b6c0a8b59690": {
@@ -103,7 +103,7 @@
       "cooldown": "20000",
       "properties": {
         "healing": "80+(1.6*SOURCE_WIS)",
-        "max-range": "20"
+        "max-range": "15"
       }
     },
     "f07810af-2010-444d-ba29-0337e8f64006": {
@@ -120,7 +120,7 @@
       "cooldown": "30000",
       "properties": {
         "time": "10000",
-        "max-range": "35"
+        "max-range": "25"
       }
     },
     "3ed5d696-8bf5-408a-8a93-0eae36aad1c0": {
@@ -130,7 +130,7 @@
       "properties": {
         "damage": "150+(3*SOURCE_INT)",
         "time": "5000",
-        "max-range": "35"
+        "max-range": "25"
       }
     },
     "53c95afe-abe3-4e32-943b-a269bda9219e": {
@@ -149,7 +149,7 @@
       "cost": "70",
       "cooldown": "30000",
       "properties": {
-        "max-range": "20"
+        "max-range": "15"
       }
     },
     "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff": {
