@@ -26,7 +26,7 @@
       "cooldown": "8000",
       "properties": {
         "damage": "60+(0.54*SOURCE_STR)",
-        "amplifier": "0",
+        "amplifier": "1",
         "time": "3000"
       }
     },
@@ -76,10 +76,10 @@
     "2416816d-8d96-4cbb-b9fd-46ae6953a511": {
       "skill-id": "leap",
       "cost": "40",
-      "cooldown": "5000",
+      "cooldown": "8000",
       "properties": {
-        "horizontal": "1.5",
-        "vertical": "0.8"
+        "horizontal": "0.8+(0.005*SOURCE_DEX)",
+        "vertical": "0.6+(0.0015*SOURCE_DEX)"
       }
     },
     "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13": {
@@ -157,11 +157,11 @@
     },
     "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff": {
       "skill-id": "shield-spikes",
-      "cost": "80",
+      "cost": "70",
       "cooldown": "30000",
       "properties": {
-        "damage": "20+(0.4*SOURCE_STR)",
-        "time": "5000"
+        "damage": "30+(0.4*SOURCE_STR)",
+        "time": "3000+(40*SOURCE_CON)"
       }
     }
   },
