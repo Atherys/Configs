@@ -139,7 +139,7 @@
     "53c95afe-abe3-4e32-943b-a269bda9219e": {
       "skill-id": "siphon",
       "cost": "75",
-      "cooldown": "25000",
+      "cooldown": "30000",
       "properties": {
         "damage": "185+(3.74*SOURCE_INT)",
         "healing": "60+(1.27*SOURCE_WIS)",
