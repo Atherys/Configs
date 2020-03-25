@@ -123,6 +123,7 @@
       "cooldown": "30000",
       "properties": {
         "time": "10000",
+        "amplifier": "20+(0.4*SOURCE_WIS)",
         "max-range": "25"
       }
     },
