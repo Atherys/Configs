@@ -35,7 +35,7 @@
       "cost": "20",
       "cooldown": "3000",
       "properties": {
-        "damage": "35+(0.27*SOURCE_INT)"
+        "damage": "45+(0.4*SOURCE_INT)"
       }
     },
     "52daef13-2262-48db-b21d-0086ed97720a": {
