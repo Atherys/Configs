@@ -1,0 +1,44 @@
+GriefPrevention {
+    accessor-groups=[]
+    accessors=[]
+    builder-groups=[]
+    builders=[
+        "09010eee-aab9-48d2-af02-a314ecb1b8f5"
+    ]
+    claim-expiration=true
+    claim-farewell {
+        text="Now leaving Korghor..."
+    }
+    claim-greeting {
+        text="Now entering Korghor..."
+    }
+    claim-name {
+        text=Korghor
+    }
+    claim-type=ADMIN
+    container-groups=[]
+    containers=[]
+    cuboid=false
+    date-created="2019-12-14T10:18:58.846Z"
+    date-last-active="2019-12-14T10:18:58.846Z"
+    deny-messages=true
+    economyData {
+        bankTransactionLog=[]
+        for-sale=false
+        sale-price=0.0
+        tax-balance=0.0
+    }
+    flag-overrides=true
+    greater-boundary-corner="2065;255;796"
+    inherit-parent=true
+    isExpired=false
+    lesser-boundary-corner="1764;0;630"
+    manager-groups=[]
+    managers=[]
+    owner-uuid="1879bbd2-dbba-4740-9da0-db71e27fa835"
+    pvp=UNDEFINED
+    requires-claim-blocks=true
+    resizable=true
+    sizeRestrictions=false
+    world-uuid=fd6d8039-d33d-4943-aa53-2befe6036149
+}
