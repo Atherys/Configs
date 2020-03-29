@@ -1,0 +1,24 @@
+
+setIcon(<minecraft:milk_bucket>)
+
+setTitle("Cleanse")
+
+setDescription("A skill")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-124,33)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+criteria.setBlock(<minecraft:wool:13>)
+
+addParent("triumph:skills/bolster")
+
+addParent("triumph:skills/recovery")
+
+addParent("triumph:skills/shield_spikes")
+
+drawDirectLines(true)

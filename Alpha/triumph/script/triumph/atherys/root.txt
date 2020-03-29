@@ -1,0 +1,16 @@
+
+setIcon(<minecraft:bedrock>)
+
+setTitle("Skills")
+
+setDescription("Unlock Skills")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(-125,-57)
+
+addCriteria("location", "minecraft:location")

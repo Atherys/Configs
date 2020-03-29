@@ -1,0 +1,20 @@
+
+setIcon(<minecraft:golden_apple>)
+
+setTitle("Recovery")
+
+setDescription("A skill")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-97,-21)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+criteria.setBlock(<minecraft:wool:4>)
+
+addParent("triumph:skills/root")
+
+drawDirectLines(true)
