@@ -39,7 +39,7 @@ databases:
       nameBans: bm_name_bans
       nameBanRecords: bm_name_ban_records
   global:
-    enabled: false
+    enabled: true
     storageType: postgresql
     host: psql-db
     port: 5432
