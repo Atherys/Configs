@@ -78,8 +78,8 @@
       "cost": "40",
       "cooldown": "8000",
       "properties": {
-        "horizontal": "1.1",
-        "vertical": "0.7"
+        "horizontal": "0.8+(0.005*SOURCE_DEX)",
+        "vertical": "0.6+(0.0015*SOURCE_DEX)"
       }
     },
     "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13": {
