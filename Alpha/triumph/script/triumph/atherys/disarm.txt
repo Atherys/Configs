@@ -1,0 +1,22 @@
+
+setIcon(<minecraft:string>)
+
+setTitle("Disarm")
+
+setDescription("A skill")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-231,-57)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+criteria.setBlock(<minecraft:wool:7>)
+
+addParent("triumph:skills/hamstring")
+
+addParent("triumph:skills/cleave")
+
+drawDirectLines(true)

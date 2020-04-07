@@ -40,7 +40,7 @@ databases:
       nameBanRecords: bm_name_ban_records
   global:
     enabled: false
-    storageType: mysql
+    storageType: postgresql
     host: psql-db
     port: 5432
     name: banmanager

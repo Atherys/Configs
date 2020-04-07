@@ -1,0 +1,22 @@
+
+setIcon(<minecraft:cooked_porkchop>)
+
+setTitle("Invigorate")
+
+setDescription("A skill")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-63,26)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+criteria.setBlock(<minecraft:wool:15>)
+
+addParent("triumph:skills/recovery")
+
+addParent("triumph:skills/cleanse")
+
+drawDirectLines(true)

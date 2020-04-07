@@ -1,0 +1,24 @@
+
+setIcon(<minecraft:ender_eye>)
+
+setTitle("Blindbolt")
+
+setDescription("A skill")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-40,-105)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+criteria.setBlock(<minecraft:wool:10>)
+
+addParent("triumph:skills/fireball")
+
+addParent("triumph:skills/enfeeble")
+
+addParent("triumph:skills/pulsewave")
+
+drawDirectLines(true)

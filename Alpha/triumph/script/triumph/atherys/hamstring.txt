@@ -1,0 +1,20 @@
+
+setIcon(<minecraft:redstone>)
+
+setTitle("Hamstring")
+
+setDescription("A skill")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-171,-58)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+criteria.setBlock(<minecraft:wool:1>)
+
+addParent("triumph:skills/root")
+
+drawDirectLines(true)
