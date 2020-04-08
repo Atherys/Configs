@@ -123,7 +123,8 @@
       "cooldown": "30000",
       "properties": {
         "time": "10000",
-        "amplifier": "20+(0.4*SOURCE_WIS)",
+        "attribute": "atherys:base_armor",
+        "amplifier": "0.2+(0.004*SOURCE_WIS)",
         "max-range": "25"
       }
     },
