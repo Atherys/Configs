@@ -1,1 +1,14 @@
-*.db
+*
+
+!*.conf
+!*.json
+!*.properties
+!*.cfg
+!*.schematic
+!*.txt
+!*.yml
+!*.groovy
+!*.js
+!*.lang
+
+!*/

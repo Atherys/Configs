@@ -59,7 +59,7 @@
       "cooldown": "10000",
       "properties": {
         "healing": "45+(0.4*SOURCE_WIS)",
-        "other-text": "Scales with &6Wisdom&2."
+        "other-text": "&2Scales with &6Wisdom&2."
       }
     },
     "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5": {
@@ -169,7 +169,8 @@
       "cost": "70",
       "cooldown": "30000",
       "properties": {
-        "max-range": "15"
+        "max-range": "15",
+        "other-text": ""
       }
     },
     "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff": {
