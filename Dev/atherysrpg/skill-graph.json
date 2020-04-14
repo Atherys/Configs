@@ -6,7 +6,8 @@
       "cooldown": "5000",
       "properties": {
         "damage": "75+(0.67*SOURCE_DEX)",
-        "max-range": "4"
+        "max-range": "4",
+        "other-text": "Scales with &6Dexterity&2."
       }
     },
     "df4aa0e3-44c7-49b6-872f-ed625132a40b": {
@@ -17,7 +18,8 @@
         "damage": "95+(0.8*SOURCE_INT)",
         "time": "5000",
         "amplifier": "20+(0.14*SOURCE_WIS)",
-        "max-range": "25"
+        "max-range": "25",
+        "other-text": "Scales with &6Wisdom&2 and &6Intelligence&2."
       }
     },
     "f9da0450-1519-438f-b88e-c2bef1ebd876": {
@@ -27,7 +29,8 @@
       "properties": {
         "damage": "60+(0.54*SOURCE_STR)",
         "amplifier": "1",
-        "time": "3000"
+        "time": "3000",
+        "other-text": "Scales with &6Strength&2."
       }
     },
     "f3d7d6be-2857-45a8-992e-513d987ec252": {
@@ -35,7 +38,8 @@
       "cost": "20",
       "cooldown": "3000",
       "properties": {
-        "damage": "45+(0.4*SOURCE_INT)"
+        "damage": "45+(0.4*SOURCE_INT)",
+        "other-text": "Scales with &6Intelligence&2."
       }
     },
     "52daef13-2262-48db-b21d-0086ed97720a": {
@@ -45,7 +49,8 @@
       "properties": {
         "phys": "30+(0.27*SOURCE_CON)",
         "magic": "30+(0.27*SOURCE_CON)",
-        "time": "5000"
+        "time": "5000",
+        "other-text": "Scales with &6Constitution&2."
       }
     },
     "b9f5ccb9-5d56-4bc0-960e-306f10db057c": {
@@ -53,7 +58,8 @@
       "cost": "30",
       "cooldown": "10000",
       "properties": {
-        "healing": "45+(0.4*SOURCE_WIS)"
+        "healing": "45+(0.4*SOURCE_WIS)",
+        "other-text": "&2Scales with &6Wisdom&2."
       }
     },
     "fbaac73c-60fa-496d-b5a8-f2bf46c7d1d5": {
@@ -61,7 +67,8 @@
       "cost": "65",
       "cooldown": "25000",
       "properties": {
-        "damage": "125+(2.47*SOURCE_STR)"
+        "damage": "125+(2.47*SOURCE_STR)",
+        "other-text": "Scales with &6Strength&2."
       }
     },
     "1aa90033-9b00-4c99-b4ef-a786636b1188": {
@@ -70,7 +77,8 @@
       "cooldown": "20000",
       "properties": {
         "damage": "75+(1.47*SOURCE_DEX)",
-        "time": "10000"
+        "time": "10000",
+        "other-text": "Scales with &6Dexterity&2."
       }
     },
     "2416816d-8d96-4cbb-b9fd-46ae6953a511": {
@@ -79,7 +87,8 @@
       "cooldown": "8000",
       "properties": {
         "horizontal": "0.8+(0.005*SOURCE_DEX)",
-        "vertical": "0.6+(0.0015*SOURCE_DEX)"
+        "vertical": "0.6+(0.0015*SOURCE_DEX)",
+        "other-text": "Scales with &6Dexterity&2."
       }
     },
     "10cf7467-e1f2-4799-bb0c-8e5c2e04ae13": {
@@ -87,7 +96,8 @@
       "cost": "50",
       "cooldown": "15000",
       "properties": {
-        "damage": "70+(1.4*SOURCE_INT)"
+        "damage": "70+(1.4*SOURCE_INT)",
+        "other-text": "Scales with &6Intelligence&2."
       }
     },
     "4e4037ef-6d4b-4c5d-90a0-43e961db788b": {
@@ -97,7 +107,8 @@
       "properties": {
         "damage": "90+(1.8*SOURCE_STR)",
         "time": "5000",
-        "max-range": "4"
+        "max-range": "4",
+        "other-text": "Scales with &6Strength&2."
       }
     },
     "6f7d56f7-a3d8-4dff-929d-b6c0a8b59690": {
@@ -106,7 +117,8 @@
       "cooldown": "20000",
       "properties": {
         "healing": "80+(1.6*SOURCE_WIS)",
-        "max-range": "15"
+        "max-range": "15",
+        "other-text": "Scales with &6Wisdom&2."
       }
     },
     "f07810af-2010-444d-ba29-0337e8f64006": {
@@ -114,7 +126,8 @@
       "cost": "60",
       "cooldown": "15000",
       "properties": {
-        "damage": "100+(2*SOURCE_STR)"
+        "damage": "100+(2*SOURCE_STR)",
+        "other-text": "Scales with &6Strength&2."
       }
     },
     "54af0600-d469-454e-bf7a-b1ec427395b5": {
@@ -123,9 +136,9 @@
       "cooldown": "30000",
       "properties": {
         "time": "10000",
-        "attribute": "atherys:base_armor",
-        "amplifier": "0.2+(0.004*SOURCE_WIS)",
-        "max-range": "25"
+        "amplifier": "20+(0.4*SOURCE_WIS)",
+        "max-range": "25",
+        "other-text": "Scales with &6Wisdom&2."
       }
     },
     "3ed5d696-8bf5-408a-8a93-0eae36aad1c0": {
@@ -135,7 +148,8 @@
       "properties": {
         "damage": "150+(3*SOURCE_INT)",
         "time": "5000",
-        "max-range": "25"
+        "max-range": "25",
+        "other-text": "Scales with &6Intelligence&2."
       }
     },
     "53c95afe-abe3-4e32-943b-a269bda9219e": {
@@ -146,7 +160,8 @@
         "damage": "185+(3.74*SOURCE_INT)",
         "healing": "60+(1.27*SOURCE_WIS)",
         "time": "10000",
-        "max-range": "10"
+        "max-range": "10",
+        "other-text": "Scales with &6Wisdom&2 and &6Intelligence&2."
       }
     },
     "3a6f0e6e-ef21-48d5-84ce-a287cbc7f125": {
@@ -154,7 +169,8 @@
       "cost": "70",
       "cooldown": "30000",
       "properties": {
-        "max-range": "15"
+        "max-range": "15",
+        "other-text": ""
       }
     },
     "cf41c955-5f4b-45a2-b9c7-9735aa01f7ff": {
@@ -163,7 +179,8 @@
       "cooldown": "30000",
       "properties": {
         "damage": "30+(0.4*SOURCE_STR)",
-        "time": "3000+(40*SOURCE_CON)"
+        "time": "3000+(40*SOURCE_CON)",
+        "other-text": "Scales with &6Strength&2 and &6Constitution&2."
       }
     }
   },
