@@ -116,7 +116,7 @@
       "cost": "80",
       "cooldown": "20000",
       "properties": {
-        "healing": "(80+(1.6*SOURCE_WIS))",
+        "healing": "80+(1.6*SOURCE_WIS)",
         "max-range": "15",
         "other-text": "Scales with &6Wisdom&2."
       }
@@ -159,7 +159,7 @@
       "cooldown": "30000",
       "properties": {
         "damage": "185+(3.74*SOURCE_INT)",
-        "healing": "60+(1.27*SOURCE_WIS))*(SOURCE_ARMOR/50)",
+        "healing": "(60+(1.27*SOURCE_WIS))*(SOURCE_ARMOR/50)",
         "time": "10000",
         "max-range": "10",
         "other-text": "Scales with &6Wisdom&2 and &6Intelligence&2."
