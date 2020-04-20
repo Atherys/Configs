@@ -147,7 +147,7 @@
       "cost": "75",
       "cooldown": "25000",
       "properties": {
-        "damage": "150+(3*SOURCE_INT)",
+        "damage": "105+(2.05*SOURCE_INT)",
         "time": "5000",
         "max-range": "15",
         "other-text": "Scales with &6Intelligence&2."
@@ -158,7 +158,7 @@
       "cost": "75",
       "cooldown": "30000",
       "properties": {
-        "damage": "185+(3.74*SOURCE_INT)",
+        "damage": "150+(3*SOURCE_INT)",
         "healing": "(60+(1.27*SOURCE_WIS))*(SOURCE_ARMOR/50)",
         "time": "10000",
         "max-range": "10",
