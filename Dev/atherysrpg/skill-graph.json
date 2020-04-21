@@ -84,7 +84,7 @@
     "2416816d-8d96-4cbb-b9fd-46ae6953a511": {
       "skill-id": "leap",
       "cost": "40",
-      "cooldown": "15000-(120*DEX)",
+      "cooldown": "15000-(120*SOURCE_DEX)",
       "properties": {
         "horizontal": "1.1",
         "vertical": "0.66",
