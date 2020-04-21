@@ -28,7 +28,7 @@
       "cooldown": "8000",
       "properties": {
         "damage": "60+(0.54*SOURCE_STR)",
-        "amplifier": "2",
+        "amplifier": "1",
         "time": "3000",
         "other-text": "Scales with &6Strength&2."
       }
