@@ -84,10 +84,10 @@
     "2416816d-8d96-4cbb-b9fd-46ae6953a511": {
       "skill-id": "leap",
       "cost": "40",
-      "cooldown": "8000",
+      "cooldown": "15000-(120*DEX)",
       "properties": {
-        "horizontal": "0.7+(0.007*SOURCE_DEX)",
-        "vertical": "0.5+(0.004*SOURCE_DEX)",
+        "horizontal": "1.1",
+        "vertical": "0.66",
         "other-text": "Scales with &6Dexterity&2."
       }
     },
