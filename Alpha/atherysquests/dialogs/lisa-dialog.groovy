@@ -1,0 +1,3 @@
+onDialogRegistration({event -> 
+    
+}as Consumer)
