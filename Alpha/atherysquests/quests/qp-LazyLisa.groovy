@@ -25,6 +25,8 @@ onQuestRegistration({ event  ->
         /* Stage 1 */
         stageOf(itemDeliveryObjective(orange, getNpcUUID(lisa), textOf("Lisa")), null), /* Reward given on stage completion */
         /* Stage 2 */
+        stageOf(dialogObjective("lisa-dialog", 2, textOf("Return to Lisa"), null)),
+        /* Stage 3 */
         stageOf(itemDeliveryObjective(blackberry, getNpcUUID(lisa), textOf("Lisa")), null)
     ];
     addQuestStages(quest, stages);
