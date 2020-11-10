@@ -3,7 +3,7 @@ onQuestRegistration({ event  ->
     /* General info and creation */
     def qId = "qp-LazyLisa";
     def qName = textOf("Lazy Lisa");
-    def qDesc = textOf("Lisa is a lazy young woman. Fetch her various items, and she *might* reward you.");
+    def qDesc = textOf("Lisa is a lazy, young woman. Fetch her various items, and she *might* reward you.");
     def version = 1;
     def quest = createStagedQuest(qId, qName, qDesc, version);
     def world = getWorldFromName("alphaworld_1");
