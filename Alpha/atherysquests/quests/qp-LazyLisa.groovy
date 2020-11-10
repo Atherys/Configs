@@ -25,7 +25,7 @@ onQuestRegistration({ event  ->
         /* Stage 1 */
         stageOf(itemDeliveryObjective(orange, getNpcUUID(lisa), textOf("Lisa")), null), /* Reward given on stage completion */
         /* Stage 2 */
-        stageOf(itemDeliveryObjective(orange, getNpcUUID(lisa), textOf("Lisa")), null)
+        stageOf(itemDeliveryObjective(blackberry, getNpcUUID(lisa), textOf("Lisa")), null)
     ];
     addQuestStages(quest, stages);
 
