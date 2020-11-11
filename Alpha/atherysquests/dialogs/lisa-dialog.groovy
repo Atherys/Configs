@@ -8,7 +8,7 @@ onDialogRegistration({ event ->
         ])
         .responses([
             dialogNode(1)
-                requirements([
+                .requirements([
                     notRequirement(turnedInQuestRequirement("qp-LazyLisa")),
                     notRequirement(hasQuestRequirement("qp-LazyLisa"))
                 ])
