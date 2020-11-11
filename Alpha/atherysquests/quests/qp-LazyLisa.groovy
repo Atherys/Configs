@@ -7,7 +7,7 @@ onQuestRegistration({ event  ->
     def version = 1;
     def quest = createStagedQuest(qId, qName, qDesc, version);
     def world = getWorldFromName("alphaworld_1");
-    makeQuestDeliverable(quest, "Talk to Lisa");
+    makeQuestDeliverable(quest, textOf("Talk to Lisa"));
 
     /* NPCS */ 
     def lisa = getNpc("Lisa");
