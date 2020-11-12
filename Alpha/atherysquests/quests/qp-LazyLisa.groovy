@@ -25,11 +25,11 @@ onQuestRegistration({ event  ->
     /* Multiple objectives, seqeuntial (requires stagedQuest instead of simepleQuest) */
     def stages = [
         /* Stage 1 */
-        stageOf(itemDeliveryObjective(orange, lisaUUID, textOf("Lisa")), null), /* Reward given on stage completion */
+        stageOf(itemDeliveryObjective(orange, lisaUUID[0], textOf("Lisa")), null), /* Reward given on stage completion */
         /* Stage 2 */
         stageOf(dialogObjective("lisa-dialog", 2, textOf("Return to Lisa")), null),
         /* Stage 3 */
-        stageOf(itemDeliveryObjective(blackberry, lisaUUID, textOf("Lisa")), null)
+        stageOf(itemDeliveryObjective(blackberry, lisaUUID[0], textOf("Lisa")), null)
     ];
     addQuestStages(quest, stages);
 
