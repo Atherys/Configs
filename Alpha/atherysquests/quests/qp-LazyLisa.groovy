@@ -11,8 +11,7 @@ onQuestRegistration({ event  ->
 
     /* NPCS */ 
     def lisa = getNpc("Lisa");
-    def lisaUUID = getNpcUUID(lisa);
-
+    
     /* Items */
     def orange = createItemStack("conquest:citrus_food", 5);
     def blackberry = createItemStack("conquest:blackberry_food", 5);
@@ -25,11 +24,11 @@ onQuestRegistration({ event  ->
     /* Multiple objectives, seqeuntial (requires stagedQuest instead of simepleQuest) */
     def stages = [
         /* Stage 1 */
-        stageOf(itemDeliveryObjective(orange, (UUID)lisaUUID, textOf("Lisa")), null), /* Reward given on stage completion */
+        stageOf(itemDeliveryObjective(orange, lisa, textOf("Lisa")), null), /* Reward given on stage completion */
         /* Stage 2 */
         stageOf(dialogObjective("lisa-dialog", 2, textOf("Return to Lisa")), null),
         /* Stage 3 */
-        stageOf(itemDeliveryObjective(blackberry, (UUID)lisaUUID, textOf("Lisa")), null)
+        stageOf(itemDeliveryObjective(blackberry, lisa, textOf("Lisa")), null)
     ];
     addQuestStages(quest, stages);
 
