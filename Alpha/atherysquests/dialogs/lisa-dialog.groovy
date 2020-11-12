@@ -20,11 +20,21 @@ onDialogRegistration({ event ->
                     "How about you fetch me some oranges? *wink*",
                     "I'll give you a smooch."
                 ])
-                .quest(getQuestById("qp-LazyLisa"))
                 .responses([
                     dialogNode(11)
                         .player("Sure thing!")
                         .npc(["Thanks, cutie."])
+                        .responses([
+                            dialogNode(111)
+                                .player("You're welcome.")
+                                .npc(["...You're still here?"])
+                                .build()
+                        ])
+                        .quest(getQuestById("qp-LazyLisa"))
+                        .build(),
+                    dialogNode(12)
+                        .player("Perhaps later.")
+                        .npc(["Urgh, whatever..."])
                         .build()
                 ])
                 .build(),
