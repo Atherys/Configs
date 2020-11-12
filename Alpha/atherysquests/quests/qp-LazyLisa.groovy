@@ -11,8 +11,9 @@ onQuestRegistration({ event  ->
 
     /* NPCS */ 
     def lisa = getNpc("Lisa");
-    
+
     /* Items */
+    def stone = createItemStack("minecraft:stone", 1);
     def orange = createItemStack("conquest:citrus_food", 5);
     def blackberry = createItemStack("conquest:blackberry_food", 5);
 
@@ -24,7 +25,7 @@ onQuestRegistration({ event  ->
     /* Multiple objectives, seqeuntial (requires stagedQuest instead of simepleQuest) */
     def stages = [
         /* Stage 1 */
-        stageOf(itemDeliveryObjective(orange, lisa, textOf("Lisa")), null), /* Reward given on stage completion */
+        stageOf(itemDeliveryObjective(stone, lisa, textOf("Lisa")), null), /* Reward given on stage completion */
         /* Stage 2 */
         stageOf(dialogObjective("lisa-dialog", 2, textOf("Return to Lisa")), null),
         /* Stage 3 */
