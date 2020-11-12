@@ -65,6 +65,10 @@ onDialogRegistration({ event ->
                         .completes(getQuestById("qp-LazyLisa"))
                         .build()
                 ])
+                .build(),
+            dialogNode(9)
+                .player("Bye!")
+                .npc(["Bye!"])
                 .build()
         ])
         .build();
