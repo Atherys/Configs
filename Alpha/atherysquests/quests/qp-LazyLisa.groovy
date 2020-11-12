@@ -10,7 +10,7 @@ onQuestRegistration({ event  ->
     makeQuestDeliverable(quest, textOf("Talk to Lisa"));
 
     /* NPCS */ 
-    def lisa = getNpc("Lisa");
+    def lisa = getNpc("Brumhilda");
 
     /* Items */
     def stone = createItemStack("minecraft:stone", 1);
