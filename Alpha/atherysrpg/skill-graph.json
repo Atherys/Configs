@@ -397,29 +397,9 @@
   },
   "unique-skills": [
     "fireball",
-    "leap",
     "bash",
     "invocation",
-	"sprint",
-	"shield",
-	"envenom",
-	"backstab",
-	"vanish",
-	"shock",
-	"immolate",
-	"blindbolt",
-	"enfeeble",
-	"vexing-mark",
-	"pray",
-	"cleanse",
-	"holy-presence",
-	"shield-spikes",
-	"fortify",
-	"critical-mass",
-	"kick",
-	"hamstring",
-	"cleave",
-	"boulder-toss",
-	"tackle"
+    "sprint",
+    "shield"
   ]
 }
