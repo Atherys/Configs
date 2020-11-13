@@ -241,31 +241,31 @@
     {
       "child-node": "759ba955-8c03-49fe-b4d9-ccd83fe5b030",
       "parent-node": "root-skill",
-      "cost": "1000",
+      "cost": "0",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "4d1db43d-81d9-4fb5-96c7-7284af93237d",
       "parent-node": "root-skill",
-      "cost": "1000",
+      "cost": "0",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "f884f8d6-2f65-4a41-8a42-a1375c8dab5d",
       "parent-node": "root-skill",
-      "cost": "1000",
+      "cost": "0",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "eb4d0d1f-32ae-47c9-906b-14e554fe2326",
       "parent-node": "root-skill",
-      "cost": "1000",
+      "cost": "0",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "3bbf50ca-79e1-493a-8a49-4d4cc3af3e8f",
       "parent-node": "root-skill",
-      "cost": "1000",
+      "cost": "0",
       "type": "UNIDIRECTIONAL"
     },
     {
