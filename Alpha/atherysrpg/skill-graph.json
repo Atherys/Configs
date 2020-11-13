@@ -390,9 +390,9 @@
     }
   ],
   "root-skill": {
-    "skill-id": "",
-    "cost": "",
-    "cooldown": "",
+    "skill-id": "root-skill",
+    "cost": "0",
+    "cooldown": "0",
     "properties": {}
   },
   "unique-skills": [
