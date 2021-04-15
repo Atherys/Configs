@@ -179,7 +179,7 @@
       "cooldown": "22000",
       "properties": {
         "time": "10000",
-        "attribute": "base_armor",
+        "attribute": "healingmulti",
         "percent": "35+(1.2*SOURCE_WIS)",
         "max-range": "10"
       }
