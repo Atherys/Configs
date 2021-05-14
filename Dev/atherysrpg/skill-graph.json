@@ -69,7 +69,7 @@
       "cost": "30",
       "cooldown": "8000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "amplifier": "(40+0.8*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(PHYSDMGMULTI/100)",
+        "amplifier": "(40+0.8*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "prepared_duration": "3000"
       }
     },
@@ -214,7 +214,7 @@
       "properties": {
         "horizonal": "1+(0.01*SOURCE_CON)",
         "vertical": "0.4",
-        "damage": "(45+1.8*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(PHYSDMGMULTI/100)",
+        "damage": "(45+1.8*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "max-range": "3"
       }
     },
