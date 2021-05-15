@@ -115,7 +115,7 @@
       "cooldown": "20000",
       "properties": {
         "time": "8000",
-        "amplifier": "20+(1*SOURCE_STR)"
+        "amplifier": "15+(0.7*SOURCE_STR)"
       }
     },
     "fc130f6c-bf02-453d-8330-84dbb8fc67f2": {
