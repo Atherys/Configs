@@ -114,9 +114,8 @@
       "cost": "40",
       "cooldown": "20000",
       "properties": {
-        "damage": "80+(1.8*SOURCE_STR)",
         "time": "8000",
-        "amplifier": "20+(3*SOURCE_STR)"
+        "amplifier": "20+(1*SOURCE_STR)"
       }
     },
     "fc130f6c-bf02-453d-8330-84dbb8fc67f2": {
