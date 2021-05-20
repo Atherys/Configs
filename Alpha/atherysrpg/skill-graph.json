@@ -52,7 +52,7 @@
         "damage": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "range": "5",
         "time": "5000",
-        "dot": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
+        "damage": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
     },
     "4d117fc0-8f69-4d20-b2df-13d8dc5d5e12": {
@@ -232,9 +232,10 @@
       "cost": "40",
       "cooldown": "16000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "dot": "(45+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
+        "damage": "(45+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "time": "5000",
-        "reduction": "10+(0.3*SOURCE_WIS)",
+        "magical": "10+(0.3*SOURCE_WIS)",
+        "physical": "10+(0.3*SOURCE_WIS)",
         "max-range": "10"
       }
     }
