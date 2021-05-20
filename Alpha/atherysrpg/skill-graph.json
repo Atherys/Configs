@@ -87,7 +87,7 @@
       "cost": "40",
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "radius": "6",
+        "range": "6",
         "damage": "(80+1.8*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
     },
@@ -98,7 +98,7 @@
       "properties": {
         "damage": "(60+1.8*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "amplifier": "1",
-        "time": "(3000*(CCMULTI/100))*(1-(TARGET_CCRES/100))"
+        "time": "(3000*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
     },
     "c8d96c5f-949d-4c4c-a6e3-4bfd85fefb4f": {
@@ -126,7 +126,7 @@
         "prepared-duration": "5000",
         "damage": "(60+1.2*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "amplifier": "1",
-        "time": "(3000*(CCMULTI/100))*(1-(TARGET_CCRES/100))"
+        "time": "(3000*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
     },
     "6088cf7c-e5e0-4eca-b4e8-637ae9d2a699": {
@@ -181,7 +181,7 @@
       "cooldown": "22000*(100/(100+SOURCE_CDR))",
       "properties": {
         "time": "10000",
-        "attribute": "healing_rate",
+        "attribute": "atherys:healing_rate",
         "amplifier": "(35+0.8*SOURCE_WIS)",
         "max-range": "10"
       }
@@ -203,7 +203,7 @@
         "vertical": "0.2",
         "damage": "40+(1.2*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "amplifier": "2",
-        "time": "((2000+100*SOURCE_STR)*(CCMULTI/100))*(1-(TARGET_CCRES/100))"
+        "time": "((2000+100*SOURCE_STR)*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
     },
     "bc73343a-2b3e-404f-ae79-15fc48f63719": {
