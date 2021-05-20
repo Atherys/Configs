@@ -235,8 +235,8 @@
       "properties": {
         "damage": "(45+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "time": "5000",
-        "magical": "10+(0.3*SOURCE_WIS)",
-        "physical": "10+(0.3*SOURCE_WIS)",
+        "magic": "10+(0.3*SOURCE_WIS)",
+        "phys": "10+(0.3*SOURCE_WIS)",
         "max-range": "10"
       }
     }
