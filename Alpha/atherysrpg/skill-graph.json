@@ -94,11 +94,11 @@
     "774fa013-6384-44f8-9321-a7274a9a0dd7": {
       "skill-id": "ice-bolt",
       "cost": "40",
-      "cooldown": "20000*(100/(100+SOURCE_CDR))",
+      "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "(60+1.8*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "amplifier": "1",
-        "time": "(3000*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
+        "time": "(5000*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
     },
     "c8d96c5f-949d-4c4c-a6e3-4bfd85fefb4f": {
@@ -115,6 +115,7 @@
       "cooldown": "20000",
       "properties": {
         "time": "8000",
+        "attribute": "atherys:melee_multiplier
         "amplifier": "15+(0.7*SOURCE_STR)"
       }
     },
@@ -124,7 +125,7 @@
       "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
         "prepared-duration": "5000",
-        "damage": "(60+1.2*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
+        "damage": "(40+SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "amplifier": "1",
         "time": "(3000*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
