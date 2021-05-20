@@ -52,7 +52,7 @@
         "damage": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "range": "5",
         "time": "5000",
-        "damage": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
+        "amplifier": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
     },
     "4d117fc0-8f69-4d20-b2df-13d8dc5d5e12": {
