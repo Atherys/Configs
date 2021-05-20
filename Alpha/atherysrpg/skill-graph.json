@@ -115,7 +115,7 @@
       "cooldown": "20000",
       "properties": {
         "time": "8000",
-        "attribute": "atherys:melee_multiplier
+        "attribute": "atherys:melee_multiplier",
         "amplifier": "15+(0.7*SOURCE_STR)"
       }
     },
