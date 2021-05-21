@@ -111,7 +111,7 @@
     },
     "297b432a-7925-4ba8-bc60-c20bdad2eac4": {
       "skill-id": "empower",
-      "cost": "40",
+      "cost": "30",
       "cooldown": "20000",
       "properties": {
         "time": "6000",
@@ -160,7 +160,7 @@
     },
     "d973b747-76d6-42ba-901c-f1341fbf6227": {
       "skill-id": "shieldspikes",
-      "cost": "50",
+      "cost": "40",
       "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "(30+SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
