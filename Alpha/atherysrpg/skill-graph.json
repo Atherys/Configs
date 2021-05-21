@@ -12,10 +12,10 @@
     "759ba955-8c03-49fe-b4d9-ccd83fe5b030": {
       "skill-id": "sprint",
       "cost": "40",
-      "cooldown": "(30000-(100*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
+      "cooldown": "(20000-(100*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
-        "amplifier": "1",
-        "time": "10000"
+        "amplifier": "2",
+        "time": "5000"
       }
     },
     "f884f8d6-2f65-4a41-8a42-a1375c8dab5d": {
@@ -23,7 +23,7 @@
       "cost": "20",
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "absorption": "(20+0.5*SOURCE_CON)",
+        "amplifier": "((15+0.4*SOURCE_CON)-1)",
         "time": "6000"
       }
     },
@@ -39,7 +39,7 @@
     "3bbf50ca-79e1-493a-8a49-4d4cc3af3e8f": {
       "skill-id": "fireball",
       "cost": "20",
-      "cooldown": "4000*(100/(100+SOURCE_CDR))",
+      "cooldown": "3000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "(30+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
@@ -49,15 +49,15 @@
       "cost": "40",
       "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "damage": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
+        "damage": "25+(0.8*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "range": "5",
         "time": "5000",
-        "amplifier": "20+(0.6*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
+        "amplifier": "25+(0.8*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
     },
     "4d117fc0-8f69-4d20-b2df-13d8dc5d5e12": {
       "skill-id": "backstab",
-      "cost": "20",
+      "cost": "30",
       "cooldown": "10000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "50+(2.5*SOURCE_DEX)",
@@ -114,9 +114,9 @@
       "cost": "40",
       "cooldown": "20000",
       "properties": {
-        "time": "8000",
+        "time": "6000",
         "attribute": "atherys:melee_multiplier",
-        "amplifier": "15+(0.7*SOURCE_STR)"
+        "amplifier": "20+(1*SOURCE_STR)"
       }
     },
     "fc130f6c-bf02-453d-8330-84dbb8fc67f2": {
@@ -142,18 +142,18 @@
     },
     "f3becfef-acc0-44f2-ad0c-53bcffe567c8": {
       "skill-id": "fortify",
-      "cost": "20",
+      "cost": "30",
       "cooldown": "25000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "phys": "10+(0.7*SOURCE_CON)",
-        "magic": "10+(0.7*SOURCE_CON)",
+        "phys": "15+(0.7*SOURCE_CON)",
+        "magic": "15+(0.7*SOURCE_CON)",
         "time": "10000"
       }
     },
     "76ab30cc-8a32-4cb6-99b2-039f93080407": {
       "skill-id": "cleanse",
       "cost": "40",
-      "cooldown": "(20000-(250*SOURCE_WIS))*(100/(100+SOURCE_CDR))",
+      "cooldown": "(15000-(250*SOURCE_WIS))*(100/(100+SOURCE_CDR))",
       "properties": {
         "max-range": "10"
       }
@@ -161,7 +161,7 @@
     "d973b747-76d6-42ba-901c-f1341fbf6227": {
       "skill-id": "shieldspikes",
       "cost": "50",
-      "cooldown": "25000*(100/(100+SOURCE_CDR))",
+      "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "(30+SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "time": "3000+(60*SOURCE_CON)"
@@ -170,7 +170,7 @@
     "8a1dd521-4c60-48d3-89a3-d06429b3ae3f": {
       "skill-id": "pray",
       "cost": "40",
-      "cooldown": "12000*(100/(100+SOURCE_CDR))",
+      "cooldown": "10000*(100/(100+SOURCE_CDR))",
       "properties": {
         "healing": "45+(2.4*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
         "max-range": "10"
@@ -178,26 +178,26 @@
     },
     "ac8518df-b74c-4172-8df6-c04465e41c89": {
       "skill-id": "vexing-mark",
-      "cost": "20",
-      "cooldown": "22000*(100/(100+SOURCE_CDR))",
+      "cost": "30",
+      "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
         "time": "10000",
         "attribute": "atherys:healing_rate",
-        "amplifier": "(35+0.8*SOURCE_WIS)",
+        "amplifier": "(35+1*SOURCE_WIS)",
         "max-range": "10"
       }
     },
     "9238e0e7-6c9d-4572-9c5b-450d93f4f168": {
       "skill-id": "vanish",
       "cost": "40",
-      "cooldown": "(20000-(200*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
+      "cooldown": "(25000-(200*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
         "time": "5000+(100*SOURCE_INT)"
       }
     },
     "c531890c-d7da-4521-bc0b-9a07ac39fd16": {
       "skill-id": "tackle",
-      "cost": "60",
+      "cost": "50",
       "cooldown": "16000*(100/(100+SOURCE_CDR))",
       "properties": {
         "horizontal": "1",
@@ -212,9 +212,9 @@
       "cost": "20",
       "cooldown": "6000",
       "properties": {
-        "horizonal": "1+(0.01*SOURCE_CON)",
+        "horizonal": "1+(0.03*SOURCE_CON)",
         "vertical": "0.4",
-        "damage": "(45+1.8*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
+        "damage": "(50+2*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "max-range": "3"
       }
     },
@@ -223,7 +223,7 @@
       "cost": "60",
       "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "radius": "3+(0.4*SOURCE_CON)",
+        "radius": "3+(0.2*SOURCE_CON)",
         "amplifier": "2",
         "time": "(4000+(200*SOURCE_WIS)*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
@@ -231,9 +231,9 @@
     "68b8ab74-3435-44bf-b18e-1fcc8b749560": {
       "skill-id": "enfeeble",
       "cost": "40",
-      "cooldown": "16000*(100/(100+SOURCE_CDR))",
+      "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "damage": "(45+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
+        "damage": "(50+1.2*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "time": "5000",
         "magic": "10+(0.3*SOURCE_WIS)",
         "phys": "10+(0.3*SOURCE_WIS)",
