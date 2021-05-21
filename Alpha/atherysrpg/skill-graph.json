@@ -11,7 +11,7 @@
     },
     "759ba955-8c03-49fe-b4d9-ccd83fe5b030": {
       "skill-id": "sprint",
-      "cost": "30",
+      "cost": "25",
       "cooldown": "(20000-(100*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
         "amplifier": "2",
@@ -58,7 +58,7 @@
     "4d117fc0-8f69-4d20-b2df-13d8dc5d5e12": {
       "skill-id": "backstab",
       "cost": "30",
-      "cooldown": "10000*(100/(100+SOURCE_CDR))",
+      "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "50+(2.5*SOURCE_DEX)",
         "max-range": "4"
@@ -75,7 +75,7 @@
     },
     "ddf7a17e-2009-47fd-8732-9ab9bb9079c0": {
       "skill-id": "leap",
-      "cost": "40",
+      "cost": "30",
       "cooldown": "(12000-(100*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
         "horizontal": "1.1",
