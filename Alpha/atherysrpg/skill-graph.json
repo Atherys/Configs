@@ -66,7 +66,7 @@
     },
     "1e6f39ea-bc26-4aec-bbf5-5b1d88d3a7ad": {
       "skill-id": "split-shot",
-      "cost": "30",
+      "cost": "20",
       "cooldown": "8000*(100/(100+SOURCE_CDR))",
       "properties": {
         "amplifier": "(0.4+0.008*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
@@ -189,7 +189,7 @@
     },
     "9238e0e7-6c9d-4572-9c5b-450d93f4f168": {
       "skill-id": "vanish",
-      "cost": "50",
+      "cost": "40",
       "cooldown": "(25000-(200*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
         "time": "5000+(100*SOURCE_INT)"
