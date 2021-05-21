@@ -11,7 +11,7 @@
     },
     "759ba955-8c03-49fe-b4d9-ccd83fe5b030": {
       "skill-id": "sprint",
-      "cost": "40",
+      "cost": "30",
       "cooldown": "(20000-(100*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
         "amplifier": "2",
@@ -23,7 +23,7 @@
       "cost": "20",
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "amplifier": "((15+0.4*SOURCE_CON)-1)",
+        "amplifier": "((12+0.4*SOURCE_CON)-1)",
         "time": "6000"
       }
     },
@@ -103,7 +103,7 @@
     },
     "c8d96c5f-949d-4c4c-a6e3-4bfd85fefb4f": {
       "skill-id": "cleave",
-      "cost": "40",
+      "cost": "30",
       "cooldown": "10000*(100/(100+SOURCE_CDR))",
       "properties": {
         "damage": "60+(2.5*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)"
@@ -121,7 +121,7 @@
     },
     "fc130f6c-bf02-453d-8330-84dbb8fc67f2": {
       "skill-id": "hamstring",
-      "cost": "20",
+      "cost": "30",
       "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
         "prepared-duration": "5000",
@@ -189,7 +189,7 @@
     },
     "9238e0e7-6c9d-4572-9c5b-450d93f4f168": {
       "skill-id": "vanish",
-      "cost": "40",
+      "cost": "50",
       "cooldown": "(25000-(200*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
         "time": "5000+(100*SOURCE_INT)"
@@ -197,7 +197,7 @@
     },
     "c531890c-d7da-4521-bc0b-9a07ac39fd16": {
       "skill-id": "tackle",
-      "cost": "50",
+      "cost": "40",
       "cooldown": "16000*(100/(100+SOURCE_CDR))",
       "properties": {
         "horizontal": "1",
@@ -220,7 +220,7 @@
     },
     "c6c76b73-72bb-4d0a-849c-ee9359bf7caf": {
       "skill-id": "holy-presence",
-      "cost": "60",
+      "cost": "50",
       "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
         "radius": "3+(0.2*SOURCE_CON)",
