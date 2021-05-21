@@ -39,9 +39,9 @@
     "3bbf50ca-79e1-493a-8a49-4d4cc3af3e8f": {
       "skill-id": "fireball",
       "cost": "20",
-      "cooldown": "3000*(100/(100+SOURCE_CDR))",
+      "cooldown": "4000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "damage": "(30+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
+        "damage": "(35+SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
     },
     "c28b87a4-6aaf-4e12-ad49-73e537c0b872": {
