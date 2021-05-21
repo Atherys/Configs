@@ -60,7 +60,7 @@
       "cost": "30",
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "damage": "40+(1.5*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
+        "damage": "(40+(1.5*SOURCE_DEX))*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "max-range": "4"
       }
     },
@@ -145,8 +145,7 @@
       "cost": "30",
       "cooldown": "25000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "phys": "15+(0.7*SOURCE_CON)",
-        "magic": "15+(0.7*SOURCE_CON)",
+        "percent": "15+(0.7*SOURCE_CON)",
         "time": "10000"
       }
     },
@@ -235,8 +234,7 @@
       "properties": {
         "damage": "(50+1.2*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)",
         "time": "5000",
-        "magic": "10+(0.3*SOURCE_WIS)",
-        "phys": "10+(0.3*SOURCE_WIS)",
+        "percent": "10+(0.3*SOURCE_WIS)",
         "max-range": "10"
       }
     }
