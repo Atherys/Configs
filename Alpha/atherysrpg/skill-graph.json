@@ -212,7 +212,7 @@
       "cost": "20",
       "cooldown": "6000",
       "properties": {
-        "horizonal": "1+(0.03*SOURCE_CON)",
+        "horizontal": "1+(0.03*SOURCE_CON)",
         "vertical": "0.4",
         "damage": "(50+2*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "max-range": "3"
