@@ -209,7 +209,7 @@
       "cost": "0",
       "cooldown": "0",
       "properties": {
-        "horizonal": "1+(0.01*SOURCE_CON)",
+        "horizontal": "1+(0.01*SOURCE_CON)",
         "vertical": "0.4",
         "damage": "45+(1.8*SOURCE_STR)",
         "max-range": "3"
