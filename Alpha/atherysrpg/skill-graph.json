@@ -32,7 +32,7 @@
       "cost": "20",
       "cooldown": "4000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "healing": "(35+0.4*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
+        "healing": "(30+0.5*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
         "max-range": "8"
       }
     },
@@ -171,7 +171,7 @@
       "cost": "40",
       "cooldown": "10000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "healing": "45+(2.4*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
+        "healing": "40+(1.2*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
         "max-range": "10"
       }
     },
@@ -211,7 +211,7 @@
       "cost": "20",
       "cooldown": "6000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "horizontal": "1+(0.03*SOURCE_CON)",
+        "horizontal": "1+(0.02*SOURCE_CON)",
         "vertical": "0.4",
         "damage": "(50+2*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "max-range": "3"
