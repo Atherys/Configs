@@ -23,7 +23,7 @@
       "cost": "20",
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "amplifier": "((9+0.3*SOURCE_CON)-1)",
+        "amplifier": "((10+0.4*SOURCE_CON)-1)",
         "time": "5000"
       }
     },
@@ -135,14 +135,14 @@
       "cost": "40",
       "cooldown": "10000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "radius": "6+(0.2*SOURCE_CON)",
+        "radius": "6+(0.15*SOURCE_CON)",
         "horizontal": "1",
         "vertical": "0.05"
       }
     },
     "f3becfef-acc0-44f2-ad0c-53bcffe567c8": {
       "skill-id": "fortify",
-      "cost": "30",
+      "cost": "35",
       "cooldown": "25000*(100/(100+SOURCE_CDR))",
       "properties": {
         "percent": "15+(0.7*SOURCE_CON)",
@@ -196,7 +196,7 @@
     },
     "c531890c-d7da-4521-bc0b-9a07ac39fd16": {
       "skill-id": "tackle",
-      "cost": "40",
+      "cost": "30",
       "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
         "horizontal": "1",
