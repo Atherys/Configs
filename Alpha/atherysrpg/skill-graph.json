@@ -23,13 +23,13 @@
       "cost": "20",
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "amplifier": "((12+0.4*SOURCE_CON)-1)",
-        "time": "6000"
+        "amplifier": "((9+0.3*SOURCE_CON)-1)",
+        "time": "5000"
       }
     },
     "eb4d0d1f-32ae-47c9-906b-14e554fe2326": {
       "skill-id": "invocation",
-      "cost": "20",
+      "cost": "25",
       "cooldown": "4000*(100/(100+SOURCE_CDR))",
       "properties": {
         "healing": "(30+0.5*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
@@ -88,7 +88,7 @@
       "cooldown": "12000*(100/(100+SOURCE_CDR))",
       "properties": {
         "range": "6",
-        "damage": "(80+1.8*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
+        "damage": "(45+1.5*SOURCE_INT)*(SOURCE_DMGMULTI/100)*(SOURCE_MAGICDMGMULTI/100)"
       }
     },
     "774fa013-6384-44f8-9321-a7274a9a0dd7": {
@@ -162,13 +162,13 @@
       "cost": "40",
       "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "damage": "(30+SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
-        "time": "3000+(60*SOURCE_CON)"
+        "damage": "(25+0.6*SOURCE_CON)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
+        "time": "3000"
       }
     },
     "8a1dd521-4c60-48d3-89a3-d06429b3ae3f": {
       "skill-id": "pray",
-      "cost": "40",
+      "cost": "45",
       "cooldown": "10000*(100/(100+SOURCE_CDR))",
       "properties": {
         "healing": "40+(1.2*SOURCE_WIS)*(SOURCE_HEALINGMULTI/100)*(TARGET_HEALINGRATE/100)",
@@ -188,16 +188,16 @@
     },
     "9238e0e7-6c9d-4572-9c5b-450d93f4f168": {
       "skill-id": "vanish",
-      "cost": "40",
+      "cost": "45",
       "cooldown": "(25000-(200*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
       "properties": {
-        "time": "5000+(100*SOURCE_INT)"
+        "time": "4000+(100*SOURCE_INT)"
       }
     },
     "c531890c-d7da-4521-bc0b-9a07ac39fd16": {
       "skill-id": "tackle",
       "cost": "40",
-      "cooldown": "20000*(100/(100+SOURCE_CDR))",
+      "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
         "horizontal": "1",
         "vertical": "0.2",
