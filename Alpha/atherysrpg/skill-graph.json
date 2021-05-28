@@ -133,7 +133,7 @@
     "6088cf7c-e5e0-4eca-b4e8-637ae9d2a699": {
       "skill-id": "critical-mass",
       "cost": "40",
-      "cooldown": "10000*(100/(100+SOURCE_CDR))",
+      "cooldown": "15000*(100/(100+SOURCE_CDR))",
       "properties": {
         "radius": "6+(0.15*SOURCE_CON)",
         "horizontal": "1",
@@ -201,7 +201,7 @@
       "properties": {
         "horizontal": "1",
         "vertical": "0.2",
-        "damage": "40+(1.2*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
+        "damage": "40+(1.5*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
         "amplifier": "2",
         "time": "((2000+100*SOURCE_STR)*(SOURCE_CCMULTI/100))*(1-(TARGET_CCRES/100))"
       }
