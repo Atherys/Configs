@@ -70,7 +70,7 @@
       "cooldown": "20000",
       "properties": {
         "damage": "35+(1.1*SOURCE_DEX)",
-        "prepared-time": "5000",
+        "prepared-duration": "5000",
         "time": "10000"
       }
     },
