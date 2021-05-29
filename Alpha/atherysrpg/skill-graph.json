@@ -65,12 +65,13 @@
       }
     },
     "1e6f39ea-bc26-4aec-bbf5-5b1d88d3a7ad": {
-      "skill-id": "split-shot",
-      "cost": "20",
-      "cooldown": "8000*(100/(100+SOURCE_CDR))",
+      "skill-id": "envenom",
+      "cost": "35",
+      "cooldown": "20000",
       "properties": {
-        "amplifier": "(0.4+0.008*SOURCE_DEX)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
-        "prepared-duration": "3000"
+        "damage": "35+(1.1*SOURCE_DEX)",
+        "prepared-time": "5000",
+        "time": "10000"
       }
     },
     "ddf7a17e-2009-47fd-8732-9ab9bb9079c0": {
