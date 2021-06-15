@@ -210,12 +210,12 @@
     "bc73343a-2b3e-404f-ae79-15fc48f63719": {
       "skill-id": "kick",
       "cost": "20",
-      "cooldown": "6000*(100/(100+SOURCE_CDR))",
+      "cooldown": "8000*(100/(100+SOURCE_CDR))",
       "properties": {
         "horizontal": "1+(0.02*SOURCE_CON)",
         "vertical": "0.4",
-        "damage": "(50+2*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
-        "max-range": "3"
+        "damage": "(25+1.5*SOURCE_STR)*(SOURCE_DMGMULTI/100)*(SOURCE_PHYSDMGMULTI/100)",
+        "max-range": "4"
       }
     },
     "c6c76b73-72bb-4d0a-849c-ee9359bf7caf": {
