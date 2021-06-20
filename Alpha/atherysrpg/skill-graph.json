@@ -12,10 +12,10 @@
     "759ba955-8c03-49fe-b4d9-ccd83fe5b030": {
       "skill-id": "sprint",
       "cost": "25",
-      "cooldown": "(20000-(100*SOURCE_DEX))*(100/(100+SOURCE_CDR))",
+      "cooldown": "(20000*(100/(100+SOURCE_CDR))",
       "properties": {
         "amplifier": "3",
-        "time": "5000"
+        "time": "5000+(150*SOURCE_DEX)"
       }
     },
     "f884f8d6-2f65-4a41-8a42-a1375c8dab5d": {
