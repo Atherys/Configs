@@ -31,31 +31,31 @@ permitted-weapon:
 - STONE
 - IRON
 - GOLD
-- minecraft:diamond_axe
-- minecraft:diamond_pickaxe
-- minecraft:diamond_shovel
-- minecraft:diamond_hoe
-- minecraft:netherite_axe
-- minecraft:netherite_pickaxe
-- minecraft:netherite_shovel
-- minecraft:netherite_hoe
-- minecraft:shears
-- minecraft:fishing_rod
+- DIAMOND_AXE
+- DIAMOND_PICK
+- DIAMOND_SHOVEL
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICK
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- SHEARS
+- FISHING_ROD
 permitted-offhand:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- minecraft:diamond_axe
-- minecraft:diamond_pickaxe
-- minecraft:diamond_shovel
-- minecraft:diamond_hoe
-- minecraft:netherite_axe
-- minecraft:netherite_pickaxe
-- minecraft:netherite_shovel
-- minecraft:netherite_hoe
-- minecraft:shears
-- minecraft:fishing_rod
+- DIAMOND_AXE
+- DIAMOND_PICK
+- DIAMOND_SHOVEL
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICK
+- NETHERITE_SHOVEL
+- NETHERITE_HOE
+- SHEARS
+- FISHING_ROD
 
 permitted-skills:
 #PASSIVES
@@ -128,34 +128,34 @@ base-mana-regen: 3
 mana-regen-per-level: .2
 
 item-damage:
-    minecraft:wooden_sword: 1
-    minecraft:STONE_SWORD: 1
-    minecraft:GOLD_SWORD: 1
-    minecraft:IRON_SWORD: 1
-    minecraft:WOOD_SPADE: 1
-    minecraft:STONE_SPADE: 1
-    minecraft:GOLD_SPADE: 1
-    minecraft:IRON_SPADE: 1
-    minecraft:DIAMOND_SPADE: 1
-    minecraft:NETHERITE_SPADE: 1
-    minecraft:WOOD_PICKAXE: 1
-    minecraft:STONE_PICKAXE: 1
-    minecraft:GOLD_PICKAXE: 1
-    minecraft:IRON_PICKAXE: 1
-    minecraft:DIAMOND_PICKAXE: 1
-    minecraft:NETHERITE_PICKAXE: 1
-    minecraft:WOOD_AXE: 1
-    minecraft:STONE_AXE: 1
-    minecraft:GOLD_AXE: 1
-    minecraft:IRON_AXE: 1
-    minecraft:DIAMOND_AXE: 1
-    minecraft:NETHERITE_AXE: 1
-    minecraft:WOOD_HOE: 2
-    minecraft:STONE_HOE: 4
-    minecraft:GOLD_HOE: 6
-    minecraft:IRON_HOE: 8
-    minecraft:DIAMOND_HOE: 10
-    minecraft:NETHERITE_HOE: 12
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 2
+    STONE_HOE: 4
+    GOLDEN_HOE: 6
+    IRON_HOE: 8
+    DIAMOND_HOE: 10
+    NETHERITE_HOE: 12
 
 item-damage-level:
 projectile-damage:
