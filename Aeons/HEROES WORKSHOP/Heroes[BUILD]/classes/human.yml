@@ -8,7 +8,7 @@ wildcard-permission: true
 primary: false
 secondary: false
 race: true
-description: 'The people of A'therys.'
+description: 'The people of Atherys.'
 
 permitted-armor:
 - ALL

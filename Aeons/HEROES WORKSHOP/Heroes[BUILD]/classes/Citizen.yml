@@ -1,11 +1,17 @@
 name: Citizen
 tier: 0
-max-level: 0
+max-level: 1
 default: true
 wildcard-permission: true
 primary: true
 secondary: false
 description: Fancy yourself an adventurer, eh?
+parents: 
+
+    strong:
+    
+    weak:
+
 base-attributes:
     STRENGTH: 0
     CONSTITUTION: 0
@@ -15,30 +21,67 @@ base-attributes:
     WISDOM: 0
     CHARISMA: 0
 allocation-points-per-level: 0
+
 permitted-armor:
+- ALL
 permitted-weapon:
+- ALL
 permitted-offhand:
+- ALL
+
+permitted-skills:
+
 permission-skills:
 experience-sources:
 - KILLING
 - PVP
+
+expmodifier: 0.0
+expLoss: 0.0
+
 base-max-health: 100
-max-health-per-level: 0
+max-health-per-level: 2.0
+
 base-max-mana: 200
-max-mana-per-level: 1
-base-mana-regen: 1
-mana-regen-per-level: 1
-base-max-stamina: 100
-max-stamina-per-level: 1
-base-stamina-regen: 2
-base-max-shield: 100
-base-shield-per-level: 10
-base-shield-regen: 25
-expmodifier: 1.0
+max-mana-per-level: 4
+base-mana-regen: 3
+mana-regen-per-level: .2
+
 item-damage:
-pvp-item-damage-multiplier:
-pvp-item-damage-multiplier-level:
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 1
+    STONE_HOE: 1
+    GOLDEN_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
+
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
-expLoss: 0
+
+pvp-item-damage-multiplier: 0.0
+pvp-item-damage-multiplier-level: 0.0
