@@ -1,0 +1,137 @@
+name: Cryomancer
+description: Tier 3 - Master of Ice
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Warlock
+    weak:
+permitted-armor:
+- LEATHER
+- IRON
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Enchant:
+    level: 1
+  Disenchant:
+    level: 1
+  Slow:
+    level: 1
+    mana: 15
+    duration: 10000
+    cooldown: 20000
+  Web:
+    level: 1
+    mana: 15
+    duration: 6000
+    reagent: 287
+    reagent-cost: 3
+    cooldown: 30000
+  Piggify:
+    level: 1
+    mana: 20
+    duration: 6000
+    cooldown: 30000
+  Inversion:
+    level: 1
+    max-damage: 75
+    cooldown: 180000
+  Icebolt:
+    level: 1
+    mana: 5
+    damage: 30
+    slow-duration: 2500
+    cooldown: 1500
+    speed-multiplier: 3
+  Root:
+    level: 1
+    mana: 10
+    duration: 6000
+    cooldown: 20000
+  Harmtouch:
+    level: 1
+    mana: 20
+    damage: 35
+    cooldown: 60000
+  Arcanism:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.25
+    physical-damage-reduction: -0.13
+    amount-increase: 0.0
+  IceAura:
+    level: 10
+    cooldown: 5000
+    period: 7000
+    radius: 10
+  ManaPotion:
+    level: 30
+    cooldown: 60000
+  Icebrand:
+    level: 40
+    cooldown: 1000
+  Frostbite:
+    level: 50
+    mana: 10
+    cooldown: 30000
+    damage: 15
+    damage_tick: 8
+    period: 2000
+    duration: 10000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+- ENCHANTING
+max-level: 50
+expmodifier: 1
+mana-regen: 7.5
+base-max-health: 250
+max-health-per-level: 0
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 6
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 5
+    STONE_AXE: 7
+    GOLD_AXE: 9
+    IRON_AXE: 11
+    DIAMOND_AXE: 14
+    WOOD_HOE: 1
+    STONE_HOE: 1
+    GOLD_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1

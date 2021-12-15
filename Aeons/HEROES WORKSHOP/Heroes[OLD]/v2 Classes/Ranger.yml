@@ -1,0 +1,126 @@
+name: Ranger
+description: Tier 3 Cutthroat-inherited Bowman
+user-class: false
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Cutthroat
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+- BOW
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Sneak:
+    level: 1
+    duration: 300000
+  Sprint:
+    level: 1
+    cooldown: 30000
+    duration: 15000
+    radius: 5
+  Jump:
+    level: 1
+    cooldown: 10000
+  EscapeArtist:
+    level: 1
+    cooldown: 90000
+    chance: .5
+  Pickpocket:
+    level: 1
+    cooldown: 5000
+    base-chance: 0.25
+    chance-per-level: 0.001
+  Smoke:
+    level: 1
+    duration: 60000
+    cooldown: 15000
+  Backstab:
+    level: 1
+    damage: 30
+    cooldown: 30000
+  Despair:
+    level: 1
+    radius: 10
+    duration: 6000
+    cooldown: 25000
+    damage: 20
+  AssassinsBlade:
+    level: 1
+    buff-duration: 60000
+    poison-duration: 25000
+    period: 5000
+    tick-damage: 8
+    attacks: 1
+    cooldown: 10000
+  Evasiveness:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.00
+    physical-damage-reduction: 0.05
+    amount-increase: 0.0
+  SummonArrow:
+    level: 10
+    amount: 10
+    reagent: 280
+    reagent-cost: 10
+  Icebolt:
+    level: 20
+    mana: 0
+    damage: 30
+    slow-duration: 3000
+    cooldown: 15000
+    speed-multiplier: 5
+  Dodge:
+    level: 30
+    cooldown: 3000
+  PoisonArrow:
+    level: 40
+    duration: 10000
+    period: 2000
+    mana-per-shot: 0
+    tick-damage: 12
+  Arrowblast:
+    level: 50
+    max_arrows: 20
+    min_arrows: 10
+    min_rate: 10
+    max_rate: 20
+    cooldown: 30000
+  BowMastery:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 20
+    level: 1
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+exploss: 0
+base-max-health: 245
+max-health-per-level: 0
+mana-regen: 5
+mana-regen-per-level: 0
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 8
+    STONE_SWORD: 10
+    IRON_SWORD: 12
+    DIAMOND_SWORD: 15
+projectile-damage:
+projectile-damage:
+  Arrow: 20

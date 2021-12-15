@@ -1,0 +1,339 @@
+name: Doomsayer
+
+description: Master Tank Slayer
+
+user-class: true
+
+default: false
+
+primary: true
+
+secondary: false
+
+parents:
+
+    strong:
+
+    - Squire
+
+    weak:
+
+permitted-armor:
+
+- DIAMOND_HELMET
+
+- IRON
+
+- CHAINMAIL
+
+- LEATHER
+
+- PUMPKIN
+
+- ELYTRA
+
+permitted-weapon:
+
+- '*'
+
+permitted-offhand:
+
+- '*'
+
+permitted-skills:
+
+  Defences:
+
+    level: 1
+
+    magic-damage-reduction: 0.0
+
+    physical-damage-reduction: 0.0
+
+    projectile-damage-reduction: 0.0
+
+    wither-damage-reduction: 0.0
+
+    anvil-damage-reduction: 0.0
+
+    falling-damage-reduction: 0.0
+
+    lightning-damage-reduction: 0.0
+
+  Potion:
+
+    level: 1
+
+    description: Grants the ability to use potions when out of combat.
+
+  Wound:
+
+    level: 1
+
+    tick-damage: 7
+
+    cooldown: 35000
+
+    max-distance: 5
+
+    mortalwound-duration: 7000
+
+    bleed-duration: 15000
+
+    period: 3000
+
+    max-distance: 7
+
+    description: Wound your target, dealing %tick-damage% physical damage every %period/1000% seconds for %bleed-duration/1000% seconds total and negating their healing for %mortalwound-duration/1000% seconds.
+
+  Shield:
+
+    level: 1
+
+    iron-door-physical: 0.30
+
+    wooden-door-physical: 0.50
+
+    trapdoor-physical: 0.70
+
+    iron-door-projectile: 0.30
+
+    wooden-door-projectile: 0.65
+
+    trapdoor-projectile: 0.80
+
+    iron-door-magic: 1.0
+
+    wooden-door-magic: 1.0
+
+    trapdoor-magic: 1.0
+
+    description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
+
+  Repair:
+
+    level: 1
+
+    wood : 1
+
+    stone : 1
+
+    leather : 1
+
+    chain : 1
+
+    iron: 1
+
+    gold: 1
+
+    diamond: 1
+
+    unchant-chance: 0.00
+
+    description: You are able to repair armor and weapons by targeting an anvil and using the skill.
+
+  Kick:
+
+    level: 20
+
+    cooldown: 20000
+
+    max_distance: 3
+
+    silence-duration: 1000
+
+    damage: 20
+
+    description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
+
+  BattleCry:
+
+    level: 30
+
+    damage-radius: 5
+
+    buff-radius: 10
+
+    damage: 10
+
+    silence-duration: 2000
+
+    buff-duration: 6000
+
+    bonus-damage: 4
+
+    cooldown: 25000
+
+    description: You deal %damage% magic damage and silence enemies within %damage-radius% blocks for %silence-duration/1000% seconds while also giving yourself and allies within %buff-radius% blocks a melee damage boost of %bonus-damage% for %buff-duration/1000% seconds.
+
+  BurningPresence:
+
+    level: 40
+
+    tick-damage: 16
+
+    tick-damage-increase: 0
+
+    period: 5000
+
+    radius: 5
+
+    raidus-increase: 0
+
+    cooldown: 5000
+
+    description: Toggleable aura that gives you resistance to fire damage and does %tick-damage% damage every %period/1000% seconds to all targets within %radius% blocks of you.
+
+  LavaStride:
+
+    level: 50
+
+    duration: 10000
+
+    cooldown: 30000
+
+    description: You are able to run across lava for %duration/1000% seconds.
+
+  Corruption:
+
+    level: 60
+
+    radius: 2
+
+    duration: 5000
+
+    damage: 10
+
+    damage-cap: 100
+
+    cooldown: 30000
+
+    description: Throw a corrupting potion that will invert healing skills of enemies within %radius% blocks of the impact into a maximum of %damage-cap% damage and negate their healing skills for %duration/1000% seconds. 
+
+  Lifesteal:
+
+    level: 70
+
+    health-per-attack: 14
+
+    cooldown: 3000
+
+    description: Passive healthgain of %health-per-attack% on attack. Can be activated %cooldown/1000% seconds after each activation.
+
+  InfernalBlade:
+
+    level: 80
+
+    radius: 7
+
+    duration: 8000
+
+    cooldown: 25000
+
+    description: For the next %duration/1000% seconds, when you melee enemies, your melee attack damage is also dealt to all other enemies in a cone in front of you and within %radius% blocks.
+
+  Undeath:
+
+    level: 90
+
+    health-percent-on-rebirth: 0.4
+
+    kill-after: 10000
+
+    cooldown: 600000
+
+    description: You are saved from death for %kill-after/1000% seconds before dying. If you get a kill you do not die from Undeath.
+
+  Condemn:
+
+    level: 100
+
+    max-distance: 8
+
+    damage: 6
+
+    duration: 5000
+
+    period: 1000
+
+    apply-text: '%target% is now %skill%ed!'
+
+    expire-text: '%skill% expired from %target%!'
+
+    cooldown: 30000
+
+    description: Disables your targets weapon, makes you unstoppable, and deals %damage% damage every %period/1000% second for %duration/1000% seconds.
+
+permission-skills:
+
+experience-sources:
+
+- KILLING
+
+- PVP
+
+max-level: 100
+
+expmodifier: 1
+
+mana-regen: 3
+
+base-max-health: 500
+
+max-health-per-level: 0
+
+recipes: [ crafter ]
+
+tier: 2
+
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+
+expLoss: 0.000 #xp loss per death
+
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+
+max-mana-per-level: 0 #max mana to gain per level
+
+mana-regen-per-level: 0 #mana regen per level
+
+base-max-mana: 100
+
+item-damage:
+
+    WOOD_AXE: 1
+
+    STONE_AXE: 1
+    
+    WOOD_SWORD: 18
+    
+    STONE_SWORD: 20
+
+    IRON_SWORD: 22
+
+    DIAMOND_SWORD: 24
+
+projectile-damage:
+
+  ARROW: 1
+
+projectile-damage-level: []
+
+pve-projectile-damage-multiplier: []
+
+pve-projectile-damage-multiplier-level: []
+
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+
+  Strength: 0 #Increases damage done per point.
+
+  Constitution: 0 #Increases health per point
+
+  Endurance: 0 #Increases stamina per point.
+
+  Dexterity: 0 #Increases speed per point
+
+  Intellect: 0 #Increases mana per point
+
+  Wisdom: 0 #Increases mana regen per point.
+
+  Charisma: 0 

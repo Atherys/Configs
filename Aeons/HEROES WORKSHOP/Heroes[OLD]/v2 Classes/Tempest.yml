@@ -1,0 +1,148 @@
+name: Tempest
+description: Tier 3 - Master of Lightning
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Warlock
+    weak:
+permitted-armor:
+- GOLD_HELMET
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Enchant:
+    level: 1
+  Disenchant:
+    level: 1
+  Slow:
+    level: 1
+    mana: 15
+    duration: 10000
+    cooldown: 20000
+  Fireball:
+    level: 1
+    mana: 5
+    damage: 30
+    cooldown: 2000
+    velocity-multiplier: 2.5
+  Web:
+    level: 1
+    mana: 15
+    duration: 6000
+    reagent: 287
+    reagent-cost: 3
+    cooldown: 30000
+  Piggify:
+    level: 1
+    mana: 20
+    duration: 6000
+    cooldown: 30000
+  Inversion:
+    level: 1
+    max-damage: 75
+    cooldown: 180000
+  Bolt:
+    level: 1
+    mana: 10
+    damage: 45
+    cooldown: 15000
+  Icebolt:
+    level: 1
+    mana: 10
+    damage: 30
+    slow-duration: 3000
+    cooldown: 6000
+  Root:
+    level: 1
+    mana: 10
+    duration: 6000
+    cooldown: 20000
+  Harmtouch:
+    level: 1
+    mana: 30
+    damage: 40
+    cooldown: 90000
+  Arcanism:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.25
+    physical-damage-reduction: 0.10
+    amount-increase: 0.0
+  Multibolt:
+    level: 20
+    mana: 20
+    cooldown: 30000
+    damage: 45
+  ManaPotion:
+    level: 30
+    cooldown: 60000
+  Stun:
+    level: 40
+    duration: 2000
+    mana: 5
+    cooldown: 25000
+  Megabolt:
+    level: 50
+    radius: 15
+    mana: 20
+    damage: 45
+    cooldown: 60000
+    delay: 2000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+- ENCHANTING
+max-level: 50
+expmodifier: 1
+base-max-health: 230
+mana-regen: 7.5
+max-health-per-level: 0
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 1
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 2
+    GOLD_HOE: 3
+    IRON_HOE: 4
+    DIAMOND_HOE: 7

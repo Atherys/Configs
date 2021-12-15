@@ -1,0 +1,108 @@
+name: Sapper
+description: Tier 3 - Master of Blades
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Cutthroat
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- '*'
+permitted-skills:
+  Potion:
+    level: 1
+  Sneak:
+    level: 1
+    duration: 300000
+  Sprint:
+    level: 1
+    cooldown: 30000
+    duration: 15000
+    radius: 5
+  Jump:
+    level: 1
+    cooldown: 10000
+  EscapeArtist:
+    level: 1
+    cooldown: 90000
+    chance: .5
+  Pickpocket:
+    level: 1
+    cooldown: 5000
+    base-chance: 0.25
+    chance-per-level: 0.001
+  Smoke:
+    level: 1
+    duration: 60000
+    cooldown: 6000
+  Backstab:
+    level: 1
+    attack-bonus: 1.5
+    attack-chance: 0.25
+    sneak-bonus: 2.0
+    sneak-chance: 1.0
+    cooldown: 3000
+  Despair:
+    level: 1
+    radius: 10
+    duration: 6000
+    cooldown: 25000
+    damage: 25
+  AssassinsBlade:
+    level: 1
+    buff-duration: 60000
+    poison-duration: 25000
+    period: 5000
+    tick-damage: 7.5
+    attacks: 1
+    cooldown: 12000
+  Evasiveness:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.00
+    physical-damage-reduction: 0.10
+    amount-increase: 0.0
+  Bleed:
+    level: 10
+    tick-damage: 10
+    period: 5000
+    duration: 25000
+    cooldown: 40000
+  Critical:
+    level: 20
+    cooldown: 5000
+    chance: 0.2
+  Icebrand:
+    level: 30
+    cooldown: 3000
+  Dodge:
+    level: 40
+    cooldown: 3000
+  VoidBlade:
+    level: 50
+    cooldown: 3000
+  BowMastery:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 15
+    level: 1
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+base-max-health: 240
+max-health-per-level: 0
+mana-regen: 5
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 10
+    STONE_SWORD: 12
+    IRON_SWORD: 14
+    DIAMOND_SWORD: 18

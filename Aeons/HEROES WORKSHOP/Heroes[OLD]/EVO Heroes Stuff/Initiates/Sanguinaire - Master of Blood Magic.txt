@@ -1,0 +1,76 @@
+Sanguinaire - (Melee/ranged) Sanguinaire is a light armored mage-rogue with life steal and good crowd control. Sanguinaire excels at picking out targets and killing them.
+
+Hero Stats
+
+Class Stats
+Health Max - 240
+Mana Regen - 4
+
+Armor
+Helmet - Leather, Gold
+Chestplate - Leather
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Sword - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 25 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Enchant
+You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+Disenchant
+Removes the enchantment from the item you are holding.
+
+Main Skills
+
+Level 1 - Fireball
+Launch a fireball that deals 20 magic damage and lights your target on fire.
+Damage 20 / Mana 5 / Cooldown 4s
+
+Level 10 - Smoke
+Disappear from view completely for 12 seconds. Silent to other players.
+Damage 0 / Mana 5 / Cooldown 20s
+
+Level 20 - Leech
+Deal 5 magic damage to a target enemy every 4 seconds and gain 8 health every 2 seconds. Lasts 20 seconds.
+Damage 5 / Mana 5 / Cooldown 25s
+
+Level 30 - Piggify
+Force the target to ride a pig for 5 seconds. While affected, they are immune to all damage until meleed or the duration expires.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 40 - Inversion
+Deal magic damage based on how much mana your target is missing, capped at 50 magic damage total.
+Damage 50 / Mana 7.5 / Cooldown 75s
+
+Level 50 – Lifesteal
+Gain 5 health on-hit.
+Damage 0 / Mana 0 / Cooldown 3s
+
+Level 60 - Blink
+Teleport 15 blocks in the direction you are facing.
+Damage 0 / Mana 0 / Cooldown 15s
+
+Level 70 - BloodBoil
+Stun enemies within 6 blocks for 1 seconds. Heal for 10 health for every player you stun up to 10 players.
+Damage 5 / Mana 0 / Cooldown 45s
+
+Level 80 - Confuse
+Your target wanders in random directions for 5 seconds.
+Damage 0 / Mana 15 / Cooldown 35s
+
+Level 90 - Web
+Place a web at target location for 3 seconds.
+Damage 0 / Mana 15 / Cooldown 35s
+
+Level 100 - BloodBend 
+Mark your target. Right click the ground within 10 seconds to teleport your target to the clicked location and root them.
+Damage 0 / Mana 0 / Cooldown 60s

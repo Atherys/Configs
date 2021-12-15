@@ -1,0 +1,29 @@
+name: Crafter
+tier: 1
+max-level: 20
+default: false
+default-prof: true
+wildcard-permission: true
+primary: false
+secondary: true
+description: Able bodied, capable of tool use.
+
+permitted-weapon:
+
+permitted-skills:
+    Mark:
+        level: 1
+        mana: 100
+    Recall:
+        level: 1
+        mana: 150
+        cooldown: 900000
+permission-skills: []
+
+experience-sources:
+expmodifier: 1.0
+item-damage:
+expLoss: 0.0
+recipes:
+- CRAFTER
+

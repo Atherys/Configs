@@ -1,0 +1,126 @@
+name: Warlock
+description: Tier 2 magician - Damager
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Initiate
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Enchant:
+    level: 1
+  Fireball:
+    level: 1
+    mana: 5
+    damage: 25
+    cooldown: 2000
+  Slow:
+    level: 1
+    mana: 15
+    duration: 6000
+    cooldown: 25000
+  Web:
+    level: 1
+    mana: 15
+    duration: 6000
+    reagent: 287
+    reagent-cost: 3
+    cooldown: 30000
+  Piggify:
+    level: 1
+    mana: 20
+    duration: 6000
+    cooldown: 30000
+  Inversion:
+    level: 1
+    max-damage: 75
+    cooldown: 180000
+  Arcanism:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.25
+    physical-damage-reduction: 0.05
+    amount-increase: 0.0
+  Bolt:
+    level: 5
+    mana: 10
+    damage: 35
+    cooldown: 15000
+  Icebolt:
+    level: 10
+    mana: 10
+    damage: 20
+    slow-duration: 3000
+    cooldown: 6000
+  Root:
+    level: 15
+    mana: 10
+    duration: 6000
+    cooldown: 20000
+  Harmtouch:
+    level: 20
+    mana: 25
+    damage: 50
+    cooldown: 60000
+    health-cost: 25
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+- ENCHANTING
+max-level: 25
+expmodifier: 1
+exploss: 0
+base-max-health: 160
+max-health-per-level: 2.5
+mana-regen: 7.5
+recipes: [ noncrafter ]
+tier: 2
+item-damage:
+    WOOD_SWORD: 1
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 2
+    GOLD_HOE: 3
+    IRON_HOE: 4
+    DIAMOND_HOE: 5

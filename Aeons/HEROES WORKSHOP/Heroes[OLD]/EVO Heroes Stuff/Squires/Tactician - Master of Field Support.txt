@@ -1,0 +1,77 @@
+Tactician - (Melee) tactician is a medium armored support warrior with mobile buffs. Tactician is good for supporting and providing buffs his/her team 
+
+Hero Stats
+
+Class Stats
+Health Max - 270
+Mana Regen - 3
+
+Armor
+Helmet - Leather, Chainmail, Iron
+Chestplate - Leather, Chainmail, Diamond
+Leggings - Leather, Chainmail, Iron
+Boots - Leather, Chainmail, Iron
+
+Weapons
+Axe – Diamond
+
+Trade Skills
+
+Defences
+N/A
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Repair
+You have the ability to repair armor and weapons by targeting an anvil and using the skill.
+
+Main Skills
+
+Level 1 – Shield
+When holding an Iron Door in hand and crouching, you only take .5 percent physical damage and .7 percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 1 - Wound
+Wound your target, dealing 7 physical damage every 5 seconds for 25 seconds total and negating their healing for 10 seconds.
+Damage 0 / Mana 0 / Cooldown 35s
+
+Level 10 - Rally
+You and allies within 10 blocks recieve speed 3 for 20 seconds.
+Damage 0 / Mana 0 / Cooldown 60s
+
+Level 20 - Kick
+You deal 10 physical damage to your target, knock them into the air, and silence them for 1 seconds.
+Damage 10 / Mana 0 / Cooldown 20s
+
+Level 30 - BattleCry
+You deal 5 magic damage and silence enemies within 5 blocks for 1 seconds while also giving yourself and allies within 10 blocks a melee damage boost of 2 for 6 seconds.
+Damage 5 / Mana 0 / Cooldown 25s
+
+Level 40 – BattleCommander
+Target ally within 15 blocks becomes the BattleCommander. If no ally is targeted, you become the BattleCommander. Cannot be cast on a target that is already the BattleCommander or MoraleOfficer.
+Damage 0 / Mana 0 / Cooldown 2s
+
+Level 50 - Command
+Send a command, giving all allies within 7 blocks of the BattleCommander Speed 2 and .3 percent additional melee damage for 5 seconds. Also gives all allies within 7 blocks of the MoraleOfficer 5 health and 4 mana every 1 seconds for 5 seconds total.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 60 - MoraleOfficer
+Allies within 10 blocks of the MoraleOfficer recieve 4 health and 4 mana every 2 seconds for 10 seconds. Buff repeats every 30 seconds.
+Damage 0 / Mana 0 / Cooldown 5m
+
+Level 70 - Recover
+Cure all harmful effects from allies within 10 blocks of the MoraleOfficer.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 80 - Track
+Track a target. If the player is within 3000 blocks, you will obtain their co-ordinates, current health, class and class level.
+Damage 0 / Mana 0 / Cooldown 45s
+
+Level 90 - ShatteringStrike
+Break the Invulnerability or Bulwark effect of target enemy within 8 blocks.
+Damage 0 / Mana 0 / Cooldown 15s 
+
+Level 100 - March
+Order a March, making all allies within 8 blocks of the BattleCommander Untouchable for 5 seconds.
+Damage 0 / Mana 0 / Cooldown 50s

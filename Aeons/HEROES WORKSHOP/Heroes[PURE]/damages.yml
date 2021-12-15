@@ -1,0 +1,142 @@
+creature-health:
+    Bat: 6
+#    Bee: 10
+    Cat: 10
+    Chicken: 4
+    Cow: 10
+    Creeper: 20
+    Drowned: 20
+    Ghast: 10
+    Giant: 100
+    Horse: 20
+    Husk: 20
+#    Hoglin: 40
+#    Zoglin: 40
+    Llama: 20
+    Ocelot: 10
+    Parrot: 6
+    Pig: 10
+#    Pig_Zombie: 20 # exists until 1.16
+#    Piglin: 20
+#    Zombified_Piglin: 20
+#    Piglin_Brute: 25
+    Sheep: 8
+    Skeleton: 20
+    Stray: 20
+    Slime: 16
+    Spider: 20
+    Squid: 10
+    Cave_Spider: 20
+    Enderman: 40
+    Ender_Dragon: 200
+    Silverfish: 8
+    Villager: 20
+#    Pillager: 24
+#    Illusioner: 32
+    Blaze: 20
+    Mushroom_Cow: 10
+    Magma_Cube: 16
+    Phantom: 20
+#    Ravager: 100
+    SnowMan: 4
+#    Strider: 20
+    Iron_Golem: 100
+    Witch: 26
+    Wither: 300
+    Wither_Skeleton: 20
+    Wolf: 8
+    Zombie: 20
+creature-damage:
+#    Bee: 3
+    Creeper: 49
+    Giant: 17
+    Zombie: 4
+    Husk: 4
+    Drowned: 4
+#    Pig_Zombie: 5 # exists until 1.16
+#    Piglin: 20
+#    Zombified_Piglin: 20
+#    Piglin_Brute: 25
+    Ender_Dragon: 10
+    Wolf: 2
+    Enderman: 7
+    Skeleton: 4
+    Wither_Skeleton: 12
+    Stray: 3
+    Spider: 2
+    Cave_Spider: 2
+    SnowMan: 0
+    Iron_Golem: 20
+    Ocelot: 3
+    Llama: 1
+    Slime: 4
+    Magma_Cube: 6
+    Wither: 5
+    Phantom: 3
+    Evoker: 9
+#    Pillager: 5
+#    Illusioner: 5
+#    Ravager: 18
+#    Hoglin: 8.5
+#    Zoglin: 12
+# If true, the creeper explosion damage will be set by the value under 'creature-damage', or 1 otherwise.
+override-creeper-damage: true
+item-damage:
+    Air: 2
+    # Note that firework rocket damage (without crossbow) can only be set globally here, not within class configs.
+    Firework_Rocket: 5
+#Uncomment to edit projectile damages
+projectile-damage:
+#    ARROW: 1
+#    EGG: 1
+#    SNOWBALL: 1
+#    TRIDENT: 1
+    CROSSBOW_ARROW: 9
+    CROSSBOW_FIREWORK_ROCKET: 5
+#Uncomment to edit environmental damages
+#environmental-damage:
+#    These values are flat damage:
+#
+#    CONTACT: 1 #cactus
+#    FIRE_TICK: 1 #being on fire
+#    LIGHTNING: 5 #struck by lightning
+#    POISON: 0.5 #poison potion effect
+#    PROJECTILE: 1 #dispenser damage
+#
+#    These values are percent max health damage:
+#
+#    CRAMMING: 0.3 #too many entities in a block
+#    DROWNING: 0.1 #drowning damage
+#    FIRE: 0.2 #standing on fire
+#    HOT_FLOOR: 0.2 #magma block
+#    LAVA: 0.2 #lava block
+#    MELTING: 0.25 #snowmen
+#    STARVATION: 0.05 #out of food
+#    SUFFOCATION: 0.05 #inside a block
+#    VOID: 0.2 #under the map
+#
+#    These values are percent max health damage, multiplied by the original damage:
+#
+#    BLOCK_EXPLOSION: 0.05 #at range 0
+#    ENTITY_EXPLOSION: 0.05 #at range 0
+#    FALL: 0.05 #per block above 3
+#    FALLING_BLOCK: 0.05 #anvils
+#    FLY_INTO_WALL: 0.05 #elytra damage
+#    MAGIC: 0.05 #splash damage potions
+#    THORNS: 0.05 #thorns armor enchant
+#    WITHER: 0.05 #decay potion effect
+#
+potions:
+    health-per-tier: .1
+enchantment-damage:
+    THORNS: 1.5
+    DAMAGE_ALL: 1.5
+    DAMAGE_UNDEAD: 1.5
+    DAMAGE_ARTHROPODS: 1.5
+    ARROW_DAMAGE: 1.5
+enchantment-protection:
+    PROTECTION_ENVIRONMENTAL: 0.35
+    PROTECTION_FIRE: 0.5
+    PROTECTION_EXPLOSIONS: 0.5
+    PROTECTION_PROJECTILE: 0.5
+    PROTECTION_FALL: 3.0

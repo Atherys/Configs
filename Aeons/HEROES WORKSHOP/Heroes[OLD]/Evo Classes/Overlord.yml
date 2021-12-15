@@ -1,0 +1,353 @@
+name: Overlord
+
+description: Master of Field Control
+
+user-class: true
+
+default: false
+
+primary: true
+
+secondary: false
+
+parents:
+
+    strong:
+
+    - Squire
+
+    weak:
+
+permitted-armor:
+
+- IRON
+
+- DIAMOND_CHESTPLATE
+
+- CHAINMAIL
+
+- LEATHER
+
+- PUMPKIN
+
+- ELYTRA
+
+permitted-weapon:
+
+- WOOD
+
+- STONE
+
+- IRON
+
+- GOLD_AXE
+
+- GOLD_PICKAXE
+
+- GOLD_SPADE
+
+- GOLD_HOE
+
+- DIAMOND_AXE
+
+- DIAMOND_PICKAXE
+
+- DIAMOND_SPADE
+
+- DIAMOND_HOE
+
+- BOW
+
+- SHEARS
+
+- FISHING_ROD
+
+permitted-offhand:
+
+- '*'
+
+permitted-skills:
+
+  Defences:
+
+    level: 1
+
+    magic-damage-reduction: 0.0
+
+    physical-damage-reduction: 0.0
+
+    projectile-damage-reduction: 0.0
+
+    wither-damage-reduction: 0.0
+
+    anvil-damage-reduction: 0.0
+
+    falling-damage-reduction: 0.0
+
+    lightning-damage-reduction: 0.0
+
+  Potion:
+
+    level: 1
+
+    description: Grants the ability to use potions when out of combat.
+
+  Shield:
+
+    level: 1
+
+    iron-door-physical: 0.30
+
+    wooden-door-physical: 0.50
+
+    trapdoor-physical: 0.70
+
+    iron-door-projectile: 0.30
+
+    wooden-door-projectile: 0.65
+
+    trapdoor-projectile: 0.80
+
+    iron-door-magic: 1.0
+
+    wooden-door-magic: 1.0
+
+    trapdoor-magic: 1.0
+
+    description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
+
+  Wound:
+
+    level: 1
+
+    tick-damage: 7
+
+    cooldown: 35000
+
+    max-distance: 5
+
+    mortalwound-duration: 7000
+
+    bleed-duration: 15000
+
+    period: 3000
+
+    max-distance: 7
+
+    description: Wound your target, dealing %tick-damage% physical damage every %period/1000% seconds for %bleed-duration/1000% seconds total and negating their healing for %mortalwound-duration/1000% seconds.
+
+  Repair:
+
+    level: 1
+
+    wood : 1
+
+    stone : 1
+
+    leather : 1
+
+    chain : 1
+
+    iron: 1
+
+    gold: 1
+
+    diamond: 1
+
+    unchant-chance: 0.00
+
+    description: You are able to repair armor and weapons by targeting an anvil and using the skill.
+
+  Rift:
+
+    level: 10
+
+    duration: 60000
+
+    radius: 8
+
+    amount: 0.5
+
+    max-distance: 8
+
+    vertical-vector: 1
+
+    horizontal-vector: 4
+
+    cooldown: 60000
+
+    description: Place a large glass obelisk that will give allies within %radius% blocks %amount*100% percent physical damage reduction and give enemies within %radius% blocks slowness.
+
+  Kick:
+
+    level: 20
+
+    cooldown: 20000
+
+    max_distance: 3
+
+    silence-duration: 1000
+
+    damage: 20
+
+    description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
+
+  BattleCry:
+
+    level: 30
+
+    damage-radius: 5
+
+    buff-radius: 10
+
+    damage: 10
+
+    silence-duration: 2000
+
+    buff-duration: 6000
+
+    bonus-damage: 4
+
+    cooldown: 25000
+
+    description: You deal %damage% magic damage and silence enemies within %damage-radius% blocks for %silence-duration/1000% seconds while also giving yourself and allies within %buff-radius% blocks a melee damage boost of %bonus-damage% for %buff-duration/1000% seconds.
+
+  GuardianAngel:
+
+    level: 40
+
+    cooldown: 50000
+
+    duration: 8000
+
+    radius: 15
+
+    description: You and your allies within %radius% blocks become completely invulnerable to damage and unable to deal damage for %duration/1000% seconds.
+
+  Barrier:
+
+    level: 60
+
+    cooldown: 30000
+
+    radius: 8
+
+    amount: 0.35
+
+    duration: 6000
+
+    description: Give allies within %radius% blocks of the rift %amount*100% percent physical damage reduction and fire resistance for %duration/1000% seconds. Also give enemies within %radius% blocks of the Rift Kneebreak.
+
+  Healbomb:
+
+    level: 70
+
+    health: 100
+
+    damage: 40
+
+    radius: 6
+
+    max-distance: 15
+
+    cooldown: 20000
+
+    description: Heal a target ally within %max-distance% blocks for %health% health and deal %damage% magic damage to all enemies within %radius% blocks of the ally. Cannot be cast on the caster.
+
+  Garrison:
+
+    level: 80
+
+    max-distance: 30
+
+    cooldown: 15000
+
+    description: Free target ally within %max-distance% blocks from movement impeding effects and teleport them to your Rift.
+
+  Resolve:
+
+    level: 90
+
+    max-damage: 50
+
+    description: You cannot take more than %max-damage% damage at a time from other entities and are resistant to Kneebreak effects.
+
+  Pulse:
+
+    level: 100
+
+    duration: 5000
+
+    cooldown: 60000
+
+    description: Push enemies away from the Rift every second for %duration/1000% seconds.
+
+permission-skills:
+
+experience-sources:
+
+- KILLING
+
+- PVP
+
+max-level: 100
+
+expmodifier: 1
+
+mana-regen: 3
+
+base-max-health: 440
+
+max-health-per-level: 0
+
+recipes: [ crafter ]
+
+tier: 2
+
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+
+expLoss: 0.000 #xp loss per death
+
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+
+max-mana-per-level: 0 #max mana to gain per level
+
+mana-regen-per-level: 0 #mana regen per level
+
+base-max-mana: 100
+
+item-damage:
+
+    WOOD_SWORD: 16
+
+    STONE_AXE: 18
+
+    IRON_AXE: 20
+
+    DIAMOND_AXE: 28
+
+projectile-damage:
+
+  ARROW: 1
+
+projectile-damage-level: []
+
+pve-projectile-damage-multiplier: []
+
+pve-projectile-damage-multiplier-level: []
+
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+
+  Strength: 0 #Increases damage done per point.
+
+  Constitution: 0 #Increases health per point
+
+  Endurance: 0 #Increases stamina per point.
+
+  Dexterity: 0 #Increases speed per point
+
+  Intellect: 0 #Increases mana per point
+
+  Wisdom: 0 #Increases mana regen per point.
+
+  Charisma: 0 

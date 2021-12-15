@@ -1,0 +1,167 @@
+name: Knave
+tier: 1
+max-level: 25
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: A beginner rogue.
+parents: 
+
+    strong:
+
+    weak:
+
+base-attributes:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points-per-level: 0
+
+permitted-armor:
+- PUMPKIN
+- LEATHER
+- ELYTRA
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICKAXE
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- BOW
+- CROSSBOW
+- SHEARS
+- FISHING_ROD
+permitted-offhand:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICKAXE
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- BOW
+- CROSSBOW
+- SHEARS
+- FISHING_ROD
+
+permitted-skills:
+  Defences:
+    level: 1
+    magic-damage-reduction: 0.0
+    physical-damage-reduction: 0.0
+    projectile-damage-reduction: 0.0
+    wither-damage-reduction: 0.0
+    anvil-damage-reduction: 0.0
+    falling-damage-reduction: 0.33
+    lightning-damage-reduction: 0.0
+#PASSIVES
+  Potion:
+    level: 1
+    description: Grants the ability to use potions when out of combat.
+
+  BowMastery:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 30
+    description: You are skilled with a bow and deal %damage% damage per shot.
+#ACTIVES
+  Sneak:
+    level: 1
+    duration: 300000
+    description: Begin to sneak, appearing crouched to other players and hiding your nametag.
+  
+  One:
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    speed-multiplier: 2
+    duration: 15000
+    apply-text: '%hero% gained a burst of speed!'
+    expire-text: '%hero% returned to normal speed!'
+  
+  Smoke:
+    level: 10
+    duration: 12000
+    cooldown: 20000
+    description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
+
+  EscapeArtist:
+    level: 15
+    cooldown: 45000
+    chance: 1
+    description: Use impressive dexterity to escape movement impeding effects.
+
+  SmokeBomb:
+    level: 20
+    radius: 5
+    duration: 5000
+    cooldown: 25000
+    damage: 10
+    description: You launch a bomb, dealing %damage% magic damage, interrupting channeling, and blinding your enemy for %duration/1000% seconds.
+
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+
+expmodifier: 1
+expLoss: 0
+
+base-max-health: 100
+max-health-per-level: 2.0
+
+base-max-mana: 200
+max-mana-per-level: 4
+base-mana-regen: 1
+mana-regen-per-level: .2
+
+item-damage:
+    WOOD_SWORD: 8
+    STONE_SWORD: 10
+    GOLD_SWORD: 15
+    IRON_SWORD: 15
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    NETHERITE_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 1
+    GOLD_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
+
+item-damage-level:
+projectile-damage:
+  ARROW: 1
+projectile-damage-level:

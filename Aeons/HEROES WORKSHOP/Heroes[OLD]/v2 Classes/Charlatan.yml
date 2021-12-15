@@ -1,0 +1,112 @@
+name: Charlatan
+description: Tier 3 - Ultimate Utility Knave
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Vagabond
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- DIAMOND
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- BOW
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Sneak:
+    level: 1
+    duration: 300000
+  Sprint:
+    level: 1
+    cooldown: 25000
+    duration: 15000
+    speed-multiplier: 3
+  Jump:
+    level: 1
+    cooldown: 5000
+  EscapeArtist:
+    level: 1
+    cooldown: 90000
+    chance: 1
+  Pickpocket:
+    level: 1
+    cooldown: 3000
+    base-chance: 0.45
+    chance-per-level: 0.002
+    max-stolen: 15
+    always-steal-all: true
+  Despair:
+    level: 1
+    radius: 10
+    duration: 10000
+    cooldown: 25000
+  Telekinesis:
+    level: 1
+    mana: 10
+  Smoke:
+    level: 1
+    duration: 3600000
+    cooldown: 10000
+  Track:
+    level: 1
+    cooldown: 45000
+    randomness: 20
+  Evasiveness:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.00
+    physical-damage-reduction: 0.00
+    amount-increase: 0.0
+  Dodge:
+    level: 10
+  Speed:
+    level: 20
+  DeathFromAbove:
+    level: 30
+    duration: 15000
+    radius: 5
+    damage-multiplier: .75
+    safefall: 'true'
+    apply-text: '%hero% is filled with adrenaline!'
+    remove-text: '%hero%`s adrenaline rush subsides!'
+    cooldown: 60000
+  Basher:
+    level: 40
+    cooldown: 5000
+  SuperJump:
+    level: 50
+    cooldown: 90000
+    jump-force: 5.0
+  BowMastery:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 15
+    level: 1
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+mana-regen: 5
+base-max-health: 245
+max-health-per-level: 0
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 10
+    STONE_SWORD: 12
+    IRON_SWORD: 16
+    DIAMOND_SWORD: 16

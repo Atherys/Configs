@@ -1,0 +1,437 @@
+name: Conduit
+
+description: Master of Transport
+
+user-class: true
+
+default: false
+
+primary: true
+
+secondary: false
+
+parents: 
+
+    strong:
+
+    - Initiate
+
+    weak:
+
+permitted-armor:
+
+- PUMPKIN
+
+- GOLD_HELMET
+
+- LEATHER
+
+- ELYTRA
+
+permitted-weapon:
+
+- '*'
+
+permitted-offhand:
+
+- '*'
+
+- DIAMOND_PICKAXE
+
+permitted-skills:
+
+  Defences:
+
+    level: 1
+
+    magic-damage-reduction: 0.25
+
+    physical-damage-reduction: 0.0
+
+    projectile-damage-reduction: 0.0
+
+    wither-damage-reduction: 0.0
+
+    anvil-damage-reduction: 0.0
+
+    falling-damage-reduction: 0.0
+
+    lightning-damage-reduction: 0.0
+
+  Potion:
+
+    level: 1
+
+    description: Grants the ability to use potions when out of combat.
+
+  Repair:
+
+    level: 1
+
+    wood : 1
+
+    stone : 1
+
+    leather : 1
+
+    chain : 1
+
+    iron: 1
+
+    gold: 1
+
+    diamond: 1
+
+    description: You are able to repair armor and weapons by targeting an anvil and using the skill.
+
+  Enchant:
+
+    level: 1
+
+    featfallfour: 0.8
+
+    featfallthree: 0.95
+
+    featfalltwo: 1.0
+
+    featfallone: 1.0
+
+    respthree: 0.8
+
+    resptwo: 1.0
+
+    respone: 1.0
+
+    thorthree: 0.0
+
+    thortwo: 1.0
+
+    thorone: 1.0
+
+    knoctwo: 0.8
+
+    knocone: 1.0
+
+    firetwo: 0.8
+
+    fireone: 1.0
+
+    effifive: 0.0
+
+    effifour: 0.8
+
+    effithree: 0.95
+
+    effitwo: 1.0
+
+    effione: 1.0
+
+    unbrthree: 0.8
+
+    unbrtwo: 1.0
+
+    unbrone: 1.0
+
+    luckthree: 0.8
+
+    lucktwo: 1.0
+
+    luckone: 1.0
+
+    lurethree: 0.8
+
+    luretwo: 1.0
+
+    lureone: 1.0
+
+    description: You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+  Disenchant:
+
+    level: 1
+
+    description: Removes the enchantment from the item you are holding.
+
+  Fireball:
+
+    level: 1
+
+    mana: 13
+
+    damage: 75
+
+    cooldown: 2000
+
+    description: Launch a fireball that deals %damage% magic damage and lights your target on fire.
+
+  Blink:
+
+    level: 10
+
+    mana: 19
+
+    max-distance: 15
+
+    cooldown: 15000
+
+    description: Teleport %max-distance% blocks in the direction you are facing.
+
+  ArcanePulse:
+
+    level: 20
+
+    mana: 13
+
+    radius: 7
+
+    coeficient: 1.0
+
+    degrees: 45
+
+    slow-amplifier: 2
+
+    max-targets: 3
+
+    duration: 5000
+
+    cooldown: 25000
+
+    description: Send a pulse of energy out in a cone extending %radius% blocks in front of you. The %max-targets% closest enemies are knocked back further the closer they are to you and are slowed for %duration/1000% seconds.
+
+  Inversion:
+
+    level: 30
+
+    mana: 19
+
+    max-damage: 125
+
+    cooldown: 75000
+
+    description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
+
+  Teleport:
+
+    level: 40
+
+    cooldown: 1200000
+
+    mana: 125
+
+    description: Teleport to specified party member.
+
+  Web:
+
+    level: 50
+
+    mana: 38
+
+    duration: 6000
+
+    reagent: 287
+
+    reagent-cost: 0
+
+    cooldown: 30000
+
+    description: Place a web at target location for %duration/1000% seconds.
+
+  Summon:
+
+    level: 60 
+
+    cooldown: 1200000
+
+    mana: 125
+
+    description: Teleport specified party member to the caster.
+
+  Confuse:
+
+    level: 70
+
+    mana: 38
+
+    cooldown: 35000
+
+    duration: 5000
+
+    max-drift: 10.0
+
+    description: Your target wanders in random directions for %duration/1000% seconds.
+
+  MassPiggify:
+
+    level: 80
+
+    duration: 4000
+
+    radius: 8
+
+    mana: 50
+
+    cooldown: 60000
+
+    description: Force all enemies within %radius% to ride pigs.
+
+  PartyBlink:
+
+    level: 90
+
+    max-distance: 20
+
+    restrict-ender-pearl: true
+
+    radius: 5
+
+    cooldown: 60000
+
+    mana: 38
+
+    description: Blink all nearby party members %max-distance% blocks towards target location.
+
+  Portal:
+
+    level: 100
+
+    locations:
+
+    - monas:12830:81:11191:world
+
+    - vrovona:12180:67:7866:world
+
+    - ithero:1364:78:9015:world
+
+    - arselukk:4114:118:14207:world
+
+    - aloreh:8410:127:10981:world
+
+    - roreg:8016:142:14765:world
+
+    - cyridon:6440:149:10513:world
+
+    - halion:13360:119:14682:world
+
+    duration: 120000
+
+    cooldown: 1800000
+
+    mana: 250
+
+    reagent: 264
+
+    reagent-cost: 0
+
+    description: Place a portal to specified location for %duration/1000% seconds.
+
+experience-sources:
+
+- KILLING
+
+- PVP
+
+- ENCHANTING
+
+max-level: 100 
+
+expmodifier: 1
+
+mana-regen: 10
+
+base-max-health: 470
+
+max-health-per-level: 0
+
+base-max-mana: 250
+
+recipes: [ crafter ]
+
+tier: 2
+
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+
+expLoss: 0.000 #xp loss per death
+
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+
+max-mana-per-level: 0 #max mana to gain per level
+
+mana-regen-per-level: 0 #mana regen per level
+
+item-damage:
+
+    WOOD_SWORD: 1
+
+    STONE_SWORD: 1
+
+    IRON_SWORD: 1
+
+    GOLD_SWORD: 1
+
+    DIAMOND_SWORD: 1
+
+    WOOD_SPADE: 1
+
+    STONE_SPADE: 1
+
+    GOLD_SPADE: 1
+
+    IRON_SPADE: 1
+
+    DIAMOND_SPADE: 1
+
+    WOOD_PICKAXE: 1
+
+    STONE_PICKAXE: 1
+
+    GOLD_PICKAXE: 1
+
+    IRON_PICKAXE: 1
+
+    DIAMOND_PICKAXE: 1
+
+    WOOD_AXE: 1
+
+    STONE_AXE: 1
+
+    GOLD_AXE: 1
+
+    IRON_AXE: 1
+
+    DIAMOND_AXE: 1
+
+    WOOD_HOE: 1
+
+    STONE_HOE: 4
+
+    GOLD_HOE: 6
+
+    IRON_HOE: 8
+
+    DIAMOND_HOE: 16
+
+projectile-damage:
+
+  ARROW: 1
+
+projectile-damage-level: []
+
+pve-projectile-damage-multiplier: []
+
+pve-projectile-damage-multiplier-level: []
+
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+
+  Strength: 0 #Increases damage done per point.
+
+  Constitution: 0 #Increases health per point
+
+  Endurance: 0 #Increases stamina per point.
+
+  Dexterity: 0 #Increases speed per point
+
+  Intellect: 0 #Increases mana per point
+
+  Wisdom: 0 #Increases mana regen per point.
+
+  Charisma: 0 

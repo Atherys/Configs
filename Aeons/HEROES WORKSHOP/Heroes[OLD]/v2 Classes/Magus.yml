@@ -1,0 +1,165 @@
+name: Magus
+description: Tier 3 - Ultimate Magical Utility
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Scholar
+    weak:
+permitted-armor:
+- GOLD_HELMET
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Enchant:
+    level: 1
+  Disenchant:
+    level: 1
+  Fireball:
+    level: 1
+    mana: 5
+    damage: 35
+    cooldown: 2000
+  Slow:
+    level: 1
+    mana: 15
+    duration: 6000
+    cooldown: 25000
+  Web:
+    level: 1
+    mana: 15
+    duration: 6000
+    reagent: 287
+    reagent-cost: 1
+    cooldown: 30000
+  Piggify:
+    level: 1
+    mana: 20
+    duration: 10000
+    cooldown: 30000
+  Inversion:
+    level: 1
+    max-damage: 75
+    cooldown: 180000
+  Blink:
+    level: 1
+    mana: 5
+    max-distance: 25
+    cooldown: 15000
+  Confuse:
+    level: 1
+    mana: 15
+    cooldown: 35000
+    duration: 10000
+    max-drift: 10.0
+  FeatherFalling:
+    level: 15
+    mana: 1
+    duration: 25000
+    cooldown: 60000
+  Telekinesis:
+    level: 1
+    mana: 5
+    cooldown: 5000
+  Arcanism:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.25
+    physical-damage-reduction: 0.10
+    amount-increase: 0.0
+  ManaPotion:
+    level: 10
+    cooldown: 60000
+  Dampen:
+    level: 20
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    block-if-mana-below: 50
+    block-increase: 0
+    mana-required: 20
+    mana-required-decrease: .2
+    block-text: '%name%s dampening field stopped %target%s attack!'
+  Glassshield:
+    level: 30
+    cooldown: 90000
+    mana: 10
+    use-text: '%hero% used %skill%!'
+    min_duration: 10000
+    max_duration: 60000
+    duration-increase: 0
+  PositionSwap:
+    level: 40
+    mana: 5
+    cooldown: 15000
+  Port:
+    delay: 15000
+    radius: 10
+    mana: 30
+    cooldown: 900000
+    vrovona: 'world:3369:54:4997:50'
+    ithero: 'world:-3362:92:-4157:50'
+    arselukk: 'world:-4348:64:5133:50'
+    aloreh: 'world:2635:123:-838:50'
+    roreg: 'world:-295:73:1788:50'
+    monas: 'world:-6272:59:-1895:50'
+    lightfoot: 'world:-1696:68:6472:50'
+    merchant: 'world:6906:149:7225:50'
+    lyceum: 'world:3363:148:-2481:50'
+    maze: 'world:500:60:2550:50'
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+- ENCHANTING
+max-level: 50
+expmodifier: 1
+mana-regen: 10
+base-max-health: 235
+max-health-per-level: 0
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 1
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 2
+    GOLD_HOE: 3
+    IRON_HOE: 4
+    DIAMOND_HOE: 6

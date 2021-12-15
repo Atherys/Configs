@@ -1,0 +1,158 @@
+name: Zealot
+description: The path to offensive magic
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - ACOLYTE
+    weak:
+permitted-armor:
+- GOLD_HELMET
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- STONE_SWORD
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- IRON_SWORD
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- GOLD_SWORD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Piety:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    amount: .15 
+  Smite:
+    level: 1
+    mana: 5
+    damage: 20
+    cooldown: 1500
+  Prayer:
+    level: 1
+    mana: 15
+    cooldown: 60000
+    health: 25
+  Absolution:
+    level: 1
+    use-text: '%hero% used %skill%!'
+    mana: 15
+    amount: 2.0
+    radius: 20
+    duration: 15000
+    cooldown: 60000
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+  Repentance:
+    level: 1
+    mana: 15
+    max-distance: 15
+    cooldown: 30000
+    damage: 55
+  Poison:
+    level: 5
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    duration: 10000
+    period: 2000
+    tick-damage: 1
+    expire-text: '%target% has recovered from the poison!'
+  Harmtouch:
+    level: 10
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage: 45
+    mana: 15
+    cooldown: 30000
+  Unheal:
+    level: 15
+    mana: 15
+    cooldown: 30000
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    max-distance-increase: 0
+    duration: 10000
+    duration-reduce: 0
+    miss-text: '%target%s heal was inverted!'
+    apply-text: '%target% has been cursed!'
+    expire-text: '%target% has recovered from the curse!'
+  Pandemic:
+    level: 20
+    mana: 15
+    cooldown: 60000
+    use-text: '%hero% used %skill%!'
+    radius: 10
+    radius-increase: 0
+    damage: 10
+    damage-increase: 0
+    period: 2000
+    duration: 15000
+    duration-increase: 0
+    apply-text: '%target% has caught %hero%s %skill%!'
+    expire-text: '%target% has recovered from %hero%s %skill%!'
+  CreepingPain:
+    level: 25
+    mana: 15
+    cooldown: 30000
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    duration: 10000
+    duration-increase: 0
+    no_effect_expire_text: '%target%s urge to throw up passes!'
+    apply-text: '%target% feels a sudden urge to throw up!'
+    expire-text: '%target% falls to his knees and pukes blood!'
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 25
+expmodifier: 1
+exploss: 0
+base-max-health: 150
+max-health-per-level: 2.5
+mana-regen: 8
+recipes: [ noncrafter ]
+tier: 2
+item-damage:
+    WOOD_SWORD: 6
+    STONE_SWORD: 7
+    GOLD_SWORD: 8
+    IRON_SWORD: 9
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 7
+    STONE_HOE: 8
+    GOLD_HOE: 9
+    IRON_HOE: 10
+    DIAMOND_HOE: 11

@@ -1,0 +1,21 @@
+name: human
+tier: 1
+max-level: 20
+default: false
+default-prof: true
+default-race: true
+wildcard-permission: true
+primary: false
+secondary: false
+race: true
+description: 'The people of A'therys.'
+
+permitted-weapon:
+permitted-skills:
+permission-skills: []
+
+experience-sources:
+expmodifier: 1.0
+expLoss: 0.0
+
+item-damage:

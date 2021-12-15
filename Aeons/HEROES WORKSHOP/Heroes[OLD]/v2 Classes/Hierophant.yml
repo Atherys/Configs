@@ -1,0 +1,175 @@
+name: Hierophant
+description: The path to strengthing and weakening
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - APOSTLE
+    weak:
+permitted-armor:
+- GOLD_HELMET
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- STONE_SWORD
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- IRON_SWORD
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- GOLD_SWORD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Piety:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    amount: .3
+  Smite:
+    level: 1
+    max-distance: 15
+    mana: 5
+    damage: 15
+    cooldown: 1500
+  Pray:
+    level: 1
+    max-distance: 15
+    mana: 15
+    cooldown: 15000
+    health: 35
+  Absolution:
+    level: 1
+    mana: 15
+    amount: 2.0
+    radius: 20
+    duration: 20000
+    cooldown: 60000
+    use-text: '%hero% used %skill%!'
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+  Repentance:
+    level: 1
+    mana: 15
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    cooldown: 30000
+    damage: 50
+  GroupHeal:
+    level: 1   
+    mana: 15
+    use-text: '%hero% used %skill%!'
+    cooldown: 25000
+    heal-amount: 25
+    radius: 20
+  Kharma:
+    level: 1
+    mana: 10
+    cooldown: 45000
+    max-distance: 15
+    amount: 2.0
+    radius: 20
+    duration: 15000
+    use-text: '%hero% used %skill% on %target%!'
+    apply-text: ''
+    expire-text: Kharma effect expired
+  Mend:
+    level: 1
+    mana: 10
+    cooldown: 15000
+    amount: 7.0
+    period: 1000
+    duration: 9000
+    use-text: '%hero% used %skill%!'
+    apply-text: You was picked as weakest member of party.
+    expire-text: Mend effect expired
+  Zeal:
+    level: 1
+    mana: 10
+    cooldown: 45000
+    max-distance: 15
+    amount: 0.1
+    duration: 20000
+    use-text: '%hero% used %skill% on %target%!'
+    apply-text: You feel stronger
+    expire-text: Zeal effect expired
+  Bolster:
+    duration: 15000
+    radius: 15
+    amount: 0.2
+    level: 10
+    cooldown: 60000
+  MassDispell: 
+    use-text: '%hero% used %skill%!'
+    level: 20
+    radius: 20
+    amount: 1
+    cooldown: 60000
+  Preach:
+    use-text: '%hero% used %skill%!'
+    radius: 10
+    duration: 2000
+    messages: [The girl who can't dance says the band can't play.,ToothWizards eat babies!,Aloreh is the blessed land of Thesse - One must respect it,A courtyard common to all will be swept by none.,A drowning man is not troubled by rain.,A fool sees not the same tree that a wise man sees.,A monkey never thinks her baby's ugly.,A rumor goes in one ear and out many mouths.,A table is not blessed if it has fed no scholars.,A wise man hears one word and understands two.,Better to light a candle than to curse the darkness.,Beware of a silent dog and still water.,Children should be seen and not heard.,He who serves two masters has to lie to one.]
+    level: 30
+    cooldown: 120000
+  Invuln:
+    use-text: '%hero% used %skill%!'
+    duration: 10000
+    apply-text: '%hero% has become invulnerable!'
+    expire-text: '%hero% is once again vulnerable!'
+    cooldown: 180000
+    mana: 30
+    level: 40
+
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+exploss: 0
+base-max-health: 265
+max-health-per-level: 0
+mana-regen: 9
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 7
+    STONE_SWORD: 8
+    GOLD_SWORD: 9
+    IRON_SWORD: 10
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 6
+    STONE_HOE: 7
+    GOLD_HOE: 8
+    IRON_HOE: 9
+    DIAMOND_HOE: 10

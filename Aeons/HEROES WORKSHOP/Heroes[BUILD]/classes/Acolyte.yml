@@ -1,0 +1,171 @@
+name: Acolyte
+tier: 1
+max-level: 25
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: A beginner priest.
+parents: 
+
+    strong:
+
+    weak:
+
+base-attributes:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points-per-level: 0
+
+permitted-armor:
+- PUMPKIN
+- GOLD_HELMET
+- ELYTRA
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICKAXE
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- SHEARS
+- FISHING_ROD
+permitted-offhand:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICKAXE
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- SHEARS
+- FISHING_ROD
+
+permitted-skills:
+  Defences:
+    level: 1
+    magic-damage-reduction: 0.15
+    physical-damage-reduction: 0.0
+    projectile-damage-reduction: 0.10
+    wither-damage-reduction: 0.0
+    anvil-damage-reduction: 0.0
+    falling-damage-reduction: 0.0
+    lightning-damage-reduction: 0.0
+#PASSIVES
+  Potion:
+    level: 1
+    description: Grants the ability to use potions when out of combat.
+
+  Alchemy:
+    level: 15
+    description: Grants the ability to create potions in a brewing stand.
+#ACTIVES
+  Smite:
+    level: 1
+    max-distance: 10
+    mana: 40
+    damage: 30
+    cooldown: 2000
+    multiplier: 3.0
+    description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
+
+  Absolution:
+    level: 5
+    mana: 120
+    amount: 30
+    radius: 20
+    duration: 6000
+    period: 2000
+    cooldown: 45000
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+    description: Give %amount% mana every %period/1000% seconds for %duration/1000% seconds total to 3 party members with the lowest mana within %radius% blocks of you.
+
+  Blessing:
+    level: 10
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 10
+    target-hit-tolerance: 0.4
+    duration: 300000
+    duration-increase-per-level: 10000
+    attribute-increase: 5
+    apply-text: $1 is Blessed!
+    expire-text: $1 is no longer Blessed.
+
+  Pray:
+    level: 15
+    mana: 25
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 25
+    target-hit-tolerance: 0.4
+    is-scaled-healing: false
+    healing-scale-expression: '1'
+    healing: 10
+    description: Heal yourself, or an ally within %radius% blocks for %health% health.
+
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+
+expmodifier: 1
+expLoss: 0
+
+base-max-health: 100
+max-health-per-level: 2.0
+
+base-max-mana: 200
+max-mana-per-level: 4
+base-mana-regen: 3
+mana-regen-per-level: .2
+
+item-damage:
+    WOOD_SWORD: 2
+    STONE_SWORD: 3
+    GOLD_SWORD: 4
+    IRON_SWORD: 5
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    NETHERITE_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOOD_HOE: 2
+    STONE_HOE: 4
+    GOLD_HOE: 6
+    IRON_HOE: 8
+    DIAMOND_HOE: 10
+    NETHERITE_HOE: 12
+
+item-damage-level:
+projectile-damage:
+projectile-damage-level:

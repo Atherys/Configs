@@ -1,0 +1,73 @@
+Plaguebearer - (ranged) Plaguebearer is a light armored caster with sustain damage and debuffs. Plaguebearer is good for dealing damage over time and debuffing the enemy team with area damage.
+
+Hero Stats
+
+Class Stats
+Max Health - 260
+Mana regen - 7
+
+Armor
+Helmet - Leather, Diamond
+Chestplate - Leather
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Hoe – Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 15 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Alchemy
+You have the ability to create potions in a brewing stand.
+ 
+Main Skills
+
+Level 1 - Blight
+Throw Blight, which deals 4 damage periodically every 1 second over 4 seconds with an explosion radius of 3 blocks.
+Damage 4 / Mana 5 / Cooldown 2.5s
+
+Level 10 - Repentance
+Give yourself or an ally within 7 blocks with the lowest health a buff that also knocks back and damages attackers for 1 percent of their melee damage for 5 seconds or until 50 damage is done.
+Damage 50 / Mana 10 / Cooldown 30s
+
+Level 20 - Pandemic
+Spread a fast acting illness that knocks enemies within 10 blocks away from you every 2 seconds for 15 total.
+Damage 20 / Mana 7.5 / Cooldown 30s
+
+Level 30 - Outbreak
+Target an enemy to receive hunger, nausea, and 3 damage every 2 seconds for 10 seconds total. Spreads to other enemies within 7 blocks of your target, healing you for 5 health for every enemy infected.
+Damage 15 / Mana 7.5 / Cooldown 15s
+
+Level 40 - Affliction
+Target an enemy to receive slowness and 3 damage every 4 seconds for 20 seconds total. Spreads to other enemies within 7 blocks of your target, healing you for 5 health for every enemy infected.
+Damage 15 / Mana 7.5 / Cooldown 15s
+
+Level 50 - Immunity
+You are immune to poison effects.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 60 - Rottenaura
+Togglable - Give hunger and nausea to enemies within 5 blocks within 5 seconds.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 70 - Dormant venom
+Mark an enemy for 30 seconds. After 5 seconds, you may cast again to snare the target for 5 seconds.
+Damage 0 / Mana 10 / Cooldown 45s
+
+Level 80 - Corruption
+Throw a corrupting potion that will invert healing skills of enemies within 2 blocks of the impact into a maximum of 50% damage and negate their healing skills for 5 seconds.
+Damage 5 / Mana 5 / Cooldown 30s
+
+Level 90 - Plague
+Give a target a plague that deals 4 damage to them and 3 damage to all other enemies within 10 blocks of them every 3 seconds for 30 seconds
+Damage 4 / Mana 10 / Cooldown 45s
+
+Level 100 - Fester
+Release a disease that deals 3 damage every 3 seconds for 12 seconds total to enemies within 10 blocks. If the enemy is also affected by Outbreak or Affliction, stun them for 500 seconds on every damage tick and gain 6 mana.
+Damage ? / Mana 0 / Cooldown 45s

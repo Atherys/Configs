@@ -1,0 +1,57 @@
+creature-health:
+    Chicken: 10
+    Cow: 20
+    Creeper: 80
+    Ghast: 300
+    Giant: 1000
+    Pig: 20
+    PigZombie: 150
+    Sheep: 10
+    Skeleton: 75
+    Ozelot: 20
+    Slime: 60
+    Spider: 60
+    Squid: 20
+    Zombie: 60
+    Wolf: 60
+    CaveSpider: 60
+    Enderman: 75
+    EnderDragon: 5000
+    Silverfish: 20
+    Villager: 100
+    Blaze: 75
+    MushroomCow: 10
+    LavaSlime: 100
+    SnowMan: 20
+    VillagerGolem: 100
+    bat: 25
+creature-damage:
+    Creeper: 70
+    Giant: 35
+    Zombie: 15
+    PigZombie: 25
+    EnderDragon: 50
+    Wolf: 5
+    Enderman: 25
+    Skeleton: 10
+    Spider: 10
+    CaveSpider: 10
+    SnowMan: 12
+    VillagerGolem: 40
+    Ozelot: 10
+    Slime: 15
+    LavaSlime: 25
+    bat: 5
+item-damage:
+    Air: 5
+environmental-damage:
+    FALL: .02 #Per block above 3
+    LAVA: .2
+    FIRE: .05
+    FIRE_TICK: 2 #flat amount per tick
+    POISON: 2 #flat amount per tick
+    SUFFOCATION: .05
+    DROWNING: .1
+    STARVATION: .10
+potions:
+    health-per-tier: 25

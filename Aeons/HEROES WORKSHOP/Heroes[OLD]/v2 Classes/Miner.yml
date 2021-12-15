@@ -1,0 +1,23 @@
+name: Miner
+description: Miner Profession
+user-class: true
+default: false
+primary: false
+secondary: true
+parents: 
+    strong:
+    weak:
+permitted-armor:
+permitted-weapon:
+permitted-skills:
+  Excavate:
+    level: 25
+    cooldown: 300000
+  Superheat:
+    level: 50
+permission-skills:
+experience-sources:
+- MINING
+max-level: 50
+expmodifier: .75
+recipes: [ noncrafter ]

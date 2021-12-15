@@ -1,0 +1,73 @@
+Adjudicator (melee) - Adjudicator is a medium armored class with good disruption capabilities. Adjudicator is a good class for backline disruption.
+
+Hero Stats
+
+Class Stats
+Max Health - 275
+Mana Regen - 35
+
+Armor
+Helmet - Leather, Chain, Diamond
+Chestplate – Leather, Chain
+Leggings – Leather, Chain
+Boots – Leather, Chain
+
+Weapons
+Sword - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 15 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Alchemy
+You have the ability to create potions in a brewing stand. 
+
+Main Skills
+
+Level 1 - Wrath
+You become filled with holy wrath, gaining speed and 6 additional melee damage for 8 seconds.
+Damage 6 / Mana 30 / Cooldown 15s
+
+Level 10 - Judgement
+Attackers also feel 0.1 percent of melee damage done to you at the cost of 1 mana each activation.
+Damage 0.1 / Mana 1 / Cooldown 0s
+
+Level 20 - Absolution
+Give 15 mana every 2 seconds for 6 seconds total to 3 party members with the lowest mana within 20 blocks of you.
+Damage 0 / Mana 15 / Cooldown 45s
+
+Level 30 - Repentance
+Give yourself or an ally within 7 blocks with the lowest health a buff that also knocks back and damages attackers for 100 percent of their melee damage for 5 seconds or until 50 damage is done.
+Damage 50 / Mana 20 / Cooldown 30s
+
+Level 40 - Innerlight
+Create a shield that will expire after 100 damage is absorbed or 15 seconds.
+Damage 0 / Mana 40 / Cooldown 25s
+
+Level 50 - Shatter
+Destroy all items placed by other skills within 10 blocks.
+Damage 0 / Mana 12.5 / Cooldown 30s
+
+Level 60 - Hamstring
+Imbue your weapon, causing your next attack to deal 5 extra damage and slow the target for 6 seconds. Expires after 7.5 seconds.
+Damage 0 / Mana 10 / Cooldown 15s
+
+Level 70 - Jump
+Launch yourself several blocks forward. Silent to other players.
+Damage 0 / Mana 15 / Cooldown 7s
+
+Level 80 - Wrestle
+Stun all enemies within 3 blocks for 1.5 seconds.
+Damage 10 / Mana 35 / Cooldown 25s
+
+Level 90 - VoidBlade
+Passive 100 percent chance for melees to silence target for 1 second duration.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 100 - Verdict
+Pass judgement on target enemy within 4 blocks, stunning them and yourself for 5 seconds.
+Damage 0 / Mana 25 / Cooldown 35s

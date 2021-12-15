@@ -1,0 +1,165 @@
+name: Berserker
+description:
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Marauder
+    weak:
+permitted-armor:
+- LEATHER_CHESTPLATE
+- LEATHER_LEGGINGS
+- IRON_HELMET
+- IRON_BOOTS
+permitted-weapon:
+- '*'
+permitted-skills:
+  Kick:
+    level: 1
+    cooldown: 20000
+    max_distance: 3
+    silence-duration: 0
+    mana: 0
+  Potion:
+    level: 1
+  Repair:
+    level: 1
+    unchant-chance: 0.25
+  Bleed:
+    level: 1
+    tick-damage: 10
+    period: 5000
+    duration: 25000
+    cooldown: 30000
+  Shield:
+    level: 1
+  Tether:
+    use-text: '%hero% used %skill% on %target%!'
+    level: 1
+    max-distance: 10
+    duration: 6000
+    duration-increase: 0
+    exp-per-creature-tethered: 0
+    exp-per-player-tethered: 0
+    apply-text: '%target% was tethered!'
+    expire-text: '%target% got away!'
+    cooldown: 25000
+  Wrestle:
+    level: 1
+    cooldown: 15000
+    radius: 2
+    duration: 1500
+    duration-increase: 10
+  Might:
+    level: 1
+    damage-bonus: 1.25
+    radius: 0
+    duration: 6000
+    cooldown: 30000
+  MortalWound:
+    level: 1
+    max-distance: 5
+    duration: 7500
+    duration-increase: 0
+    damage: 15
+    cooldown: 45000
+  SonicBoom:
+    level: 1
+    cooldown: 30000
+    duration: 3000
+    duration-per-level: 0
+    radius: 5
+    radius-increase: 0
+    damage: 25
+    damage-per-level: 0
+  Chivalry:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.00
+    physical-damage-reduction: 0.10
+    amount-increase: 0.0
+  Spines:
+    level: 1
+    chance: 0.15
+    cooldown: 5000
+  Tackle:
+    level: 1
+    max-distance: 7
+    radius: 2
+    duration: 500
+    damage: 20
+    cooldown: 20000
+  VoidBlade:
+    level: 1
+    cooldown: 5000
+  Basher:
+    level: 1
+    duration: 500
+    cooldown: 5000
+  GroundPound:
+    level: 1
+    BaseDamage: 5
+    Radius: 5
+    Targets: 2
+    cooldown: 60000
+  BowMastery:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 15
+    level: 1
+  Roar:
+    level: 10
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage: 10
+    vertical-vector: 2
+    horizontal-vector: 2
+    cooldown: 20000
+  BattleLust:
+    level: 20
+    use-text: '%hero% used %skill%!'
+    max-stacks: 10
+    bonus-damage-per-kill: 2
+    max-damage: 0
+    apply-text: BattleLust enabled.
+    expire-text: BattleLust disabled.
+    cooldown: 15000
+    duration: 60000
+  Ram:
+    level: 30
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage: 50
+    caster-damage: 0.1
+    cooldown: 20000
+  Smash:
+    level: 40
+    use-text: '%hero% used %skill%!'
+    vertical-vector: 1
+    radius: 3
+    damage: 10
+    falling-damage-mult: 0
+    cooldown: 35000
+  Bulldoze:
+    level: 50
+    use-text: '%hero% used %skill%!'
+    cooldown: 45000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+base-max-health: 265
+max-health-per-level: 0
+mana-regen: 5
+recipes: [ noncrafter ]
+tier: 4
+item-damage:
+    WOOD_SWORD: 8
+    STONE_SWORD: 10
+    IRON_SWORD: 12
+    DIAMOND_SWORD: 13
+    DIAMOND_AXE: 20

@@ -1,0 +1,74 @@
+name: Knave
+description: Tier 1 rogue
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- BOW
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+    Potion:
+        level: 1
+    Sneak:
+        level: 1
+        duration: 300000
+    Evasiveness:
+        apply-text: '%hero% gained %skill%!'
+        unapply-text: '%hero% lost %skill%!'
+        magic-damage-reduction: 0.00
+        physical-damage-reduction: 0.05
+        amount-increase: 0.0
+    Sprint:
+        level: 5
+        cooldown: 60000
+        duration: 15000
+    Jump:
+        level: 10
+        cooldown: 10000
+    EscapeArtist:
+        level: 15
+        cooldown: 180000
+        chance: .5
+    Pickpocket:
+        level: 20
+        cooldown: 5000
+    BowMastery:
+        apply-text: '%hero% gained %skill%!'
+        unapply-text: '%hero% lost %skill%!'
+        damage: 15
+        level: 1
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 25
+expmodifier: 1
+exploss: 0
+base-max-health: 100
+max-health-per-level: 2.8
+mana-regen: 5
+mana-regen-per-level: 0
+recipes: [ noncrafter ]
+tier: 1
+item-damage:
+    WOOD_SWORD: 4
+    STONE_SWORD: 5
+    IRON_SWORD: 9

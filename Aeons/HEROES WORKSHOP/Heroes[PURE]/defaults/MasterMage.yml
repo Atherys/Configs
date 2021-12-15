@@ -1,0 +1,153 @@
+# See citizen class example for descriptions on most options.
+# This is a example child class for "ApprenticeMage"
+# Note that its tier is 2, as set below (1 more than ApprenticeMage's)
+name: MasterMage
+default: false
+parents:
+    strong: [ApprenticeMage]
+    weak: []
+primary: true
+secondary: false
+description: No longer an apprentice, you have gained formidable control of the elements of magic. You now learn magic spells quicker and have discovered further abilities.
+max-level: 40
+tier: 2
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p iron_hoe
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+base-attributes:
+    STRENGTH: 2
+    CONSTITUTION: 3
+    ENDURANCE: 4
+    DEXTERITY: 5
+    INTELLECT: 10
+    WISDOM: 8
+    CHARISMA: 5
+permitted-armor:
+- LEATHER
+- GOLD
+permitted-weapon:
+- WOOD
+- STONE_PICKAXE
+- STONE_AXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_HOE
+- DIAMOND_HOE
+- IRON_PICKAXE
+item-damage:
+  STONE_HOE: 2.5
+  IRON_HOE: 3
+  GOLD_HOE: 3.5
+  DIAMOND_HOE: 5
+item-damage-level:
+  STONE_HOE: 0.15
+  IRON_HOE: 0.2
+  GOLD_HOE: 0.25
+  DIAMOND_HOE: 0.25
+permitted-skills:
+    Port:
+        level: 1
+    Icebolt:
+        level: 1
+        damage: 4
+        cooldown: 2000
+        slow-duration: 2000
+        mana: 0
+    Mark:
+        level: 1
+        mana: 5
+        reagent: RED_BED
+        reagent-cost: 1
+    Recall:
+        level: 1
+        mana: 40
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    Piggify:
+        level: 2
+        duration: 8000
+        max-distance: 15
+        cooldown: 30000
+        mana: 25
+    Fireball:
+        level: 2
+        mana: 15
+        cooldown: 25000
+        damage: 10
+        fire-ticks: 5
+    Web:
+        level: 3
+        mana: 25
+        duration: 10000
+    Wisdom:
+        level: 5
+        radius: 1
+        regen-multiplier: 2.0
+        duration: 300000
+        mana: 0
+        cooldown: 301000
+    Blink:
+        level: 10
+        max-distance: 10
+        cooldown: 20000
+    Telekinesis:
+        level: 15
+        max-distance: 15
+        cooldown: 0
+        mana: 5
+    ArcaneStorm:
+        level: 20
+        radius: 5.0
+        duration: 6000
+        period: 1000
+        damage-tick: 100.0
+        damage-tick-per-intellect: 1.0
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+expmodifier: 1.0
+base-max-health: 30.0
+max-health-per-level: 0.25
+base-max-shield: 15
+max-shield-per-level: 0.5
+base-max-mana: 125
+max-mana-per-level: 2
+base-mana-regen: 2.5
+mana-regen-per-level: .1
+base-max-stamina: 50
+max-stamina-per-level: 0
+base-stamina-regen: 50
+base-max-skill-prepare-points: 100
+max-skill-prepare-points-per-level: 0
+expLoss: 0.01
+wildcard-permission: true
+recipes: [ default ]

@@ -1,0 +1,135 @@
+name: Hellknight
+description: Tier 3 - Unholy Master of the Nether
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Gladiator
+    weak:
+permitted-armor:
+- LEATHER
+- CHAINMAIL
+- IRON
+permitted-weapon:
+- '*'
+permitted-skills:
+  Potion:
+    level: 1
+  Repair:
+    level: 1
+    unchant-chance: 0.25
+  Fireskin:
+    level: 1
+    mana: 0
+  Bleed:
+    level: 1
+    tick-damage: 9
+    period: 5000
+    duration: 25000
+    cooldown: 30000
+  Kick:
+    level: 1
+    use_text: ""
+    cooldown: 20000
+    mana: 0
+    max_distance: 3
+    silence-duration: 0
+  Shield:
+    level: 1
+  Stun:
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    duration: 1500
+    duration-increase: 0
+    damage: 10
+    damage-increase: 0
+    cooldown: 30000
+  Wrestle:
+    level: 1
+    cooldown: 20000
+    radius: 2
+    duration: 3000
+    duration-increase: 10
+  Might:
+    level: 1
+    damage-bonus: 1.25
+    radius: 0
+    duration: 6000
+    cooldown: 30000
+  MortalWound:
+    level: 1
+    max-distance: 5
+    duration: 7500
+    duration-increase: 0
+    damage: 15
+    cooldown: 45000
+  SonicBoom:
+    level: 1
+    cooldown: 30000
+    duration: 4000
+    duration-per-level: 0
+    radius: 5
+    radius-increase: 0
+    damage: 10
+    damage-per-level: 0
+  Chivalry:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.05
+    physical-damage-reduction: -.13
+    amount-increase: 0.0
+  Lifesteal:
+    level: 10
+    health-per-attack: 2
+    cooldown: 5000
+  Harmtouch:
+    max-distance: 10
+    damage: 30
+    cooldown: 45000
+    level: 20
+    mana: 10
+    health-cost: 0
+  Unheal:
+    level: 30
+    max-distance: 15
+    max-distance-increase: 0
+    duration: 10000
+    duration-reduce: 0
+    cooldown: 45000
+    mana: 15
+  Blaaze:
+    chance-2x: 0.2
+    chance-3x: 0.1
+    added-chance-2x-per-level: 0.0
+    added-chance-3x-per-level: 0.0
+    level: 40
+    mana: 10
+    cooldown: 180000
+  BurningPresence:
+    level: 50
+    tick-damage: 8
+    tick-damage-increase: 0
+    period: 5000
+    radius: 7
+    raidus-increase: 0
+    cooldown: 5000
+    mana: 1
+    mana-reduce: 0.0
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+mana-regen: 5
+base-max-health: 275
+max-health-per-level: 0
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_AXE: 6
+    STONE_AXE: 8
+    IRON_SWORD: 10
+    DIAMOND_SWORD: 17

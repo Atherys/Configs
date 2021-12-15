@@ -1,0 +1,293 @@
+name: Initiate
+
+description: Introductory - Mage
+
+user-class: true
+
+default: false
+
+primary: true
+
+secondary: false
+
+parents: 
+
+    strong:
+
+    weak:
+
+permitted-armor:
+
+- PUMPKIN
+
+- GOLD_HELMET
+
+- ELYTRA
+
+permitted-weapon:
+
+- '*'
+
+permitted-offhand:
+
+- '*'
+
+permitted-skills:
+
+  Defences:
+
+    level: 1
+
+    magic-damage-reduction: 0.25
+
+    physical-damage-reduction: 0.0
+
+    projectile-damage-reduction: 0.0
+
+    wither-damage-reduction: 0.0
+
+    anvil-damage-reduction: 0.0
+
+    falling-damage-reduction: 0.0
+
+    lightning-damage-reduction: 0.0
+
+  Potion:
+
+    level: 1
+
+    description: Grants the ability to use potions when out of combat.
+
+  Enchant:
+
+    level: 10
+
+    featfallfour: 0.1
+
+    featfallthree: 0.25
+
+    featfalltwo: 0.5
+
+    featfallone: 1.0
+
+    respthree: 0.25
+
+    resptwo: 0.5
+
+    respone: 1.0
+
+    thorthree: 0.0
+
+    thortwo: 0.25
+
+    thorone: 1.0
+
+    knoctwo: 0.5
+
+    knocone: 1.0
+
+    firetwo: 0.5
+
+    fireone: 1.0
+
+    effifive: 0.0
+
+    effifour: 0.1
+
+    effithree: 0.25
+
+    effitwo: 0.5
+
+    effione: 1.0
+
+    unbrthree: 0.25
+
+    unbrtwo: 0.5
+
+    unbrone: 1.0
+
+    luckthree: 0.25
+
+    lucktwo: 0.5
+
+    luckone: 1.0
+
+    lurethree: 0.25
+
+    luretwo: 0.5
+
+    lureone: 1.0
+
+    description: You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+  Fireball:
+
+    level: 1
+
+    mana: 40
+
+    damage: 40
+
+    cooldown: 1500
+
+    description: Launch a fireball that deals %damage% magic damage and lights your target on fire.
+
+  ArcanePulse:
+
+    level: 2
+
+    mana: 40
+
+    radius: 7
+
+    coeficient: 1.0
+
+    degrees: 45
+
+    slow-amplifier: 2
+
+    max-targets: 3
+
+    duration: 5000
+
+    cooldown: 25000
+
+    description: Send a pulse of energy out in a cone extending %radius% blocks in front of you. The %max-targets% closest enemies are knocked back further the closer they are to you and are slowed for %duration/1000% seconds.
+
+  Piggify:
+
+    level: 5
+
+    mana: 80
+
+    duration: 5000
+
+    cooldown: 30000
+
+    description: Force the target to ride a pig for %duration/1000% seconds. While affected, they are immune to all damage until meleed or the duration expires.
+
+  Inversion:
+
+    level: 7
+
+    mana: 60
+
+    max-damage: 100
+
+    cooldown: 75000
+
+    description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
+
+permission-skills:
+
+experience-sources:
+
+- KILLING
+
+- PVP
+
+- ENCHANTING
+
+max-level: 10
+
+expmodifier: 1
+
+exploss: 0
+
+base-max-health: 400
+
+max-health-per-level: 0
+
+mana-regen: 3
+
+mana-regen-per-level: 0
+
+recipes: [ noncrafter ]
+
+tier: 1
+
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+
+max-mana-per-level: 0 #max mana to gain per level
+
+base-max-mana: 800
+
+item-damage:
+
+    WOOD_SWORD: 1
+
+    STONE_SWORD: 1
+
+    IRON_SWORD: 1
+
+    GOLD_SWORD: 1
+
+    DIAMOND_SWORD: 1
+
+    WOOD_SPADE: 1
+
+    STONE_SPADE: 1
+
+    GOLD_SPADE: 1
+
+    IRON_SPADE: 1
+
+    DIAMOND_SPADE: 1
+
+    WOOD_PICKAXE: 1
+
+    STONE_PICKAXE: 1
+
+    GOLD_PICKAXE: 1
+
+    IRON_PICKAXE: 1
+
+    DIAMOND_PICKAXE: 1
+
+    WOOD_AXE: 1
+
+    STONE_AXE: 1
+
+    GOLD_AXE: 1
+
+    IRON_AXE: 1
+
+    DIAMOND_AXE: 1
+
+    WOOD_HOE: 2
+
+    STONE_HOE: 2
+
+    GOLD_HOE: 4
+
+    IRON_HOE: 4
+
+    DIAMOND_HOE: 6
+
+projectile-damage:
+
+  ARROW: 1
+
+projectile-damage-level: []
+
+pve-projectile-damage-multiplier: []
+
+pve-projectile-damage-multiplier-level: []
+
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+
+  Strength: 0 #Increases damage done per point.
+
+  Constitution: 0 #Increases health per point
+
+  Endurance: 0 #Increases stamina per point.
+
+  Dexterity: 0 #Increases speed per point
+
+  Intellect: 0 #Increases mana per point
+
+  Wisdom: 0 #Increases mana regen per point.
+
+  Charisma: 0 

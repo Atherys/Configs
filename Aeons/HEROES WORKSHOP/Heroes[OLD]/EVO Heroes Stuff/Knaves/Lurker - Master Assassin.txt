@@ -1,0 +1,74 @@
+Lurker - (Melee) Lurker is a light armored rogue with great burst damage. Lurker is great at bursting down light armored targets quickly.
+
+Hero Stats
+
+Class Stats
+Health Max - 210
+Mana Regen - 3
+
+Armor
+Helmet - Leather
+Chestplate - Leather
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Sword - Diamond
+
+Trade Skills
+
+Defences
+Reduction of fall damage by 33 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Main Skills
+
+Level 1 - Sneak
+Begin to sneak, appearing crouched to other players and hiding your nametag.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 1 - Smoke
+Disappear from view completely for 15 seconds. Silent to other players.
+Damage 20 / Mana 0 / Cooldown 0s
+
+Level 10 - Rend
+Your next melee attack will deal 15 more damage, slow your target for 3 seconds and apply a DoT dealing 1.5 magic damage every 1.5 seconds for 15 seconds.
+Damage 0 / Mana 0 / Cooldown 12s
+
+Level 20 - Jump
+Launch yourself several blocks forward. Silent to other players.
+Damage 0 / Mana 0 / Cooldown 8s
+
+Level 30 - Sprint
+Quicken your pace, gaining speed for 10 seconds.
+Damage 0 / Mana 0 / Cooldown 20s
+
+Level 40 - EscapeArtist
+Use impressive dexterity to escape movement impeding effects.
+Damage 0 / Mana 0 / Cooldown 45s
+
+Level 50 – SmokeBomb
+You launch a bomb, dealing 5 magic damage, interrupting channeling, and blinding your enemy for 5 seconds.
+Damage 5 / Mana 0 / Cooldown 25s
+
+Level 60 - Backstab
+Passive .25 percent chance to melee for 1.5 percent damage increase when striking from behind. 
+Damage 0 / Mana 0 / Cooldown 3s
+
+Level 70 - ShadowStep
+Teleports you up to 5 blocks in the targeted direction. You have up to 10 seconds to reactivate the skill, teleporting you back.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 80 - Fillet
+Slice into the target, dealing 20 true damage and adding a stack of Fillet. For each additional stack, Fillet does 15 more true damage. Fillet stacks are capped at 3 and break after 10 seconds of it going off cooldown. 
+Damage 20 / Mana 0 / Cooldown 15s
+
+Level 90 - Slit
+Your next melee attack will do 15 damage. If cast while invisible, your next melee will do a bonus 20 damage in addition to the base damage and silence the target for 3 seconds. 
+Damage 15 / Mana 0 / Cooldown 30s
+
+Level 100 - Antivenom 
+Removes all damaging effects that are currently placed on you.
+Damage 0 / Mana 0 / Cooldown 45s

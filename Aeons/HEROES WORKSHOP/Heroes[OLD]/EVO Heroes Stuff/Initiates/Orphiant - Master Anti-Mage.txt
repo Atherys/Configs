@@ -1,0 +1,76 @@
+Orphiant - (melee/ranged) Orphiant is a light armored mage-rogue with mana drain abilities and crowd control. Orphiant is good for taking out mana-dependent classes.
+
+Hero Stats
+
+Class Stats
+Health Max - 240
+Mana Regen - 4
+
+Armor
+Helmet - Leather, Gold
+Chestplate - Leather
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Sword – Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 25 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Enchant
+You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+Disenchant
+Removes the enchantment from the item you are holding.
+
+Main Skills
+
+Level 1 - Fireball
+Launch a fireball that deals 20 magic damage and lights your target on fire.
+Damage 20 / Mana 5 / Cooldown 4s
+
+Level 10 - Smoke
+Disappear from view completely for 12 seconds. Silent to other players.
+Damage 0 / Mana 5 / Cooldown 20s
+
+Level 20 - Siphon
+Steal 7 mana on-hit. Steal an extra 5 mana if Absorb is active.
+Damage 0 / Mana 0 / Cooldown 3s
+
+Level 30 - Inversion
+Deal magic damage based on how much mana your target is missing, capped at 50 magic damage total.
+Damage 0 / Mana 7.5 / Cooldown 75s
+
+Level 40 - Blink
+Teleport 15 blocks in the direction you are facing.
+Damage 0 / Mana 7.5 / Cooldown 15s
+
+Level 50 - EnergyShield
+Gain a shield that absorbs .65 percent of incoming physical damage. The shield explodes at the end of the 10 second duration or if 100 damage is absorbed, dealing 20 damage and knocking back nearby enemies.
+Damage 0 / Mana 25 / Cooldown 30s
+
+Level 60 - Confuse
+Your target wanders in random directions for 5 seconds.
+Damage 0 / Mana 15 / Cooldown 35s
+
+Level 70 - Absorb
+Gain a shield that absorbs .65 percent magic damage for 10 seconds and converts the damage absorbed to mana.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 80 - Daze
+Imbue, your next successful melee will slow and silence for 5 seconds.
+Damage 0 / Mana 20 / Cooldown 35s
+
+Level 90 - PositionSwap
+Swap positions with the target enemy.
+Damage 0 / Mana 2.5 / Cooldown 15s
+
+Level 100 - ManaBomb
+Place a bomb that periodically pulls enemies within 8 blocks towards it. After 3 second duration the bomb explodes dealing 30 magic damage and draining 15 mana to all enemies within 5 blocks.
+Damage 30 / Mana 35 / Cooldown 30s

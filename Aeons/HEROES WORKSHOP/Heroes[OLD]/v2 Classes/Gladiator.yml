@@ -1,0 +1,107 @@
+name: Gladiator
+description: Tier 2 swordsman - Damage
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Squire
+    weak:
+permitted-armor:
+- LEATHER_CHESTPLATE
+- LEATHER_LEGGINGS
+- IRON_HELMET
+- IRON_BOOTS
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+- BOW
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Kick:
+    level: 1
+    use_text: ""
+    cooldown: 20000
+    max_distance: 3
+    mana: 9
+    silence-duration: 0
+  Potion:
+    level: 1
+  Repair:
+    level: 1
+  Bleed:
+    level: 1
+    tick-damage: 7
+    period: 5000
+    duration: 25000
+    cooldown: 30000
+  Shield:
+    level: 1
+  Stun:
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    duration: 3000
+    duration-increase: 0
+    damage: 10
+    damage-increase: 0
+    cooldown: 30000
+  Chivalry:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.00
+    physical-damage-reduction: 0.00
+    amount-increase: 0.0
+  Wrestle:
+    level: 5
+    cooldown: 15000
+    radius: 2
+    duration: 3000
+    duration-increase: 10
+  Might:
+    level: 10
+    damage-bonus: 1.25
+    radius: 0
+    duration: 6000
+    cooldown: 30000
+  MortalWound:
+    level: 15
+    max-distance: 5
+    duration: 7500
+    duration-increase: 0
+    damage: 25
+    cooldown: 45000
+  SonicBoom:
+    level: 20
+    cooldown: 30000
+    duration: 4000
+    duration-per-level: 0
+    radius: 5
+    radius-increase: 0
+    damage: 15
+    damage-per-level: 0
+  BowMastery:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 15
+    level: 1
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 25
+expmodifier: 1
+exploss: 0
+base-max-health: 180
+max-health-per-level: 3.4
+mana-regen: 5
+mana-regen-per-level: 0
+recipes: [ noncrafter ]
+tier: 2
+item-damage:
+    WOOD_SWORD: 8
+    STONE_AXE: 9
+    IRON_AXE: 10

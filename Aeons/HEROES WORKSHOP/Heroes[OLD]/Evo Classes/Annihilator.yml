@@ -1,0 +1,51 @@
+name: Annihilator
+default: false
+wildcard-permission: false
+primary: true
+secondary: false
+description: The Admin Class Path
+permitted-armor:
+- ALL
+permitted-weapon:
+- ALL
+permitted-skills:
+  ALL: true
+permitted-offhand:
+  ALL: true
+experience-sources:
+- KILLING
+- CRAFTING
+- MINING
+- LOGGING
+- FARMING
+- QUESTING
+- EXTERNAL
+permission-skills:
+base-max-health: 300
+max-health-per-level: 0.1
+base-max-mana: 75
+max-mana-per-level: 2
+mana-regen: 1
+mana-regen-per-level: .05
+expmodifier: 1.0
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+max-mana-per-level: 0 #max mana to gain per level
+base-max-mana: 100
+item-damage:
+  air: 100
+projectile-damage:
+  ARROW: 30
+expLoss: 0
+tier: 0
+recipes: [ default ]
+pve-projectile-damage-multiplier: []
+pve-projectile-damage-multiplier-level: []
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+  Strength: 0 #Increases damage done per point.
+  Constitution: 0 #Increases health per point
+  Endurance: 0 #Increases stamina per point.
+  Dexterity: 0 #Increases speed per point
+  Intellect: 0 #Increases mana per point
+  Wisdom: 0 #Increases mana regen per point.
+  Charisma: 0 

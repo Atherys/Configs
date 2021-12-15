@@ -1,0 +1,73 @@
+Sentinel - (Melee) Sentinel is a heavy armored warrior that is insanely tanky. Sentinel is good for peeling for for his/her allies and soaking up damage. 
+
+Hero Stats
+
+Class Stats
+Health Max - 300
+Mana Regen - 3
+
+Armor
+Helmet - Leather, Chainmail, Iron, Diamond
+Chestplate - Leather, Chainmail, Iron, Diamond
+Leggings - Leather, Chainmail, Iron, Diamond
+Boots - Leather, Chainmail, Iron, Diamond
+
+Weapons
+Sword – Diamond
+
+Trade Skills
+
+Defences
+N/A
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Repair
+You have the ability to repair armor and weapons by targeting an anvil and using the skill.
+
+Main Skills
+
+Level 1 - Shield
+When holding an Iron Door in hand and crouching, you only take .5 percent physical damage and .7 percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 1 - Wound
+Wound your target, dealing 7 physical damage every 5 seconds for 25 seconds total and negating their healing for 10 seconds.
+Damage 0 / Mana 0 / Cooldown 35s
+
+Level 10 - Ram
+Slam into target enemy within 10 blocks, sending them flying and dealing 10 damage.
+Damage 10 / Mana 0 / Cooldown 15s
+
+Level 20 - Kick
+You deal 10 physical damage to your target, knock them into the air, and silence them for 1 seconds.
+Damage 10 / Mana 0 / Cooldown 20s
+
+Level 30 - BattleCry
+You deal 5 magic damage and silence enemies within 5 blocks for 1 seconds while also giving yourself and allies within 10 blocks a melee damage boost of 2 for 6 seconds.
+Damage 5 / Mana 0 / Cooldown 25s
+
+Level 40 – Resolve
+You cannot take more than 25 damage at a time from other entities and are resistant to Kneebreak effects.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 60 - Rescue
+You pick up an ally within 30 blocks, free them from impeding effects, and speedily carry them away for 3 seconds.
+Damage 0 / Mana 0 / Cooldown 15s
+
+Level 70 - InnerLight
+Create a shield that will expire after 150 damage is absorbed or 20 seconds.
+Damage 0 / Mana 0 / Cooldown 60s
+
+Level 80 - GroupTether
+Tether all enemies within 3 blocks to you, keeping them attached to you for 5 seconds.
+Damage 0 / Mana 0 / Cooldown 35s
+
+Level 90 - Guard
+Guard a target ally, granting them .75 percent magic damage resistance and .75 percent physical damage resistance for 10 seconds.
+Damage 0 / Mana 0 / Cooldown 25s
+
+Level 100 - Glimmer
+Place a pillar that will dissipate after 5 seconds, granting allies within 3 blocks .2 percent physical damage resistance for 30 seconds.
+Damage 0 / Mana 0 / Cooldown 90s

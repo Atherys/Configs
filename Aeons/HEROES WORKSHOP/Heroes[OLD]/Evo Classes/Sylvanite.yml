@@ -1,0 +1,357 @@
+name: Sylvanite
+
+description: Dual Priest of Cevolo and Baphus
+
+user-class: true
+
+default: false
+
+primary: true
+
+secondary: false
+
+parents:
+
+    strong:
+
+    - Knave
+
+    weak:
+
+permitted-armor:
+
+- PUMPKIN
+
+- LEATHER
+
+- GOLD_BOOTS
+
+- ELYTRA
+
+permitted-weapon:
+
+- '*'
+
+permitted-offhand:
+
+- '*'
+
+permitted-skills:
+
+  Defences:
+
+    level: 1
+
+    magic-damage-reduction: 0.0
+
+    physical-damage-reduction: 0.0
+
+    projectile-damage-reduction: 0.0
+
+    wither-damage-reduction: 0.0
+
+    anvil-damage-reduction: 0.0
+
+    falling-damage-reduction: 0.33
+
+    lightning-damage-reduction: 0.0
+
+  Potion:
+
+    level: 1
+
+    description: Grants the ability to use potions when out of combat.
+
+  Sneak:
+
+    level: 1
+
+    duration: 300000
+
+    description: Begin to sneak, appearing crouched to other players and hiding your nametag.
+
+#  BowMastery:
+
+#    damage: 15
+
+#    level: 1
+
+#    description: You are skilled with a bow and deal %damage% damage per shot.
+
+  Bloom:
+
+    level: 1
+
+    cooldown: 10
+
+    description: Activates the state of Bloom.
+
+  WildGrowth:
+
+    level: 10
+
+    tick-heal-amount: 16
+
+    heal-duration: 5000
+
+    radius: 10
+
+    root-duration: 5000
+
+    chance-brown-mushroom: 0.5
+
+    chance-red-mushroom: 0.5
+
+    cooldown: 20000
+
+    mana: 90
+
+    description: If Bloom is inactive, root all enemies within %radius% blocks for %root-duration/1000% seconds. If Bloom is active, instead heal party members within %radius% blocks for %tick-heal-amount% health every %heal-duration/1000%. 
+
+  Sprint:
+
+    level: 20
+
+    cooldown: 15000
+
+    duration: 8000
+
+    description: Quicken your pace, gaining speed for %duration/1000% seconds.
+
+  Dodge:
+
+    level: 30
+
+    cooldown: 7500
+
+    description: Launch yourself backwards. 
+
+  EscapeArtist:
+
+    level: 40
+
+    cooldown: 45000
+
+    chance: 1
+
+    description: Use impressive dexterity to escape movement impeding effects.
+
+  SmokeBomb:
+
+    level: 50
+
+    radius: 5
+
+    duration: 5000
+
+    cooldown: 25000
+
+    damage: 10
+
+    description: You launch a bomb, dealing %damage% magic damage, interrupting channeling, and blinding your enemy for %duration/1000% seconds.
+
+  Mend:
+
+    level: 60
+
+    mana: 22
+
+    cooldown: 30000
+
+    amount: 10.0
+
+    period: 1000
+
+    duration: 8000
+
+    radius: 15
+
+    apply-text: You are being mended!
+
+    expire-text: Mend effect expired
+
+    description: Heal the party member with the lowest health within %radius% blocks of you for %amount% health every %period/1000% second for %duration/1000% seconds total.
+
+  SnareShot:
+
+    level: 70
+
+    duration: 5000
+
+    debuff-duration: 5000
+
+    cooldown: 15000
+
+    description: Apply a snare shot to your next arrow. If an enemy is hit, they are Snared for %debuff-duration/1000% seconds.
+
+  Overgrowth:
+
+    level: 80
+
+    instant-heal: 50
+
+    heal-tick: 6
+
+    heal-duration: 3000
+
+    heal-period: 1000
+
+    heal-radius: 10
+
+    debuff-radius: 10
+
+    debuff-duration: 4000
+
+    cooldown: 20000
+
+    mana: 75
+
+    description: If Bloom is inactive, silence and slow all enemies around you within %debuff-radius% blocks for %debuff-duration/1000% seconds. If bloom is active, instantly heal all allies within %heal-radius% blocks for %instant-heal% health and then healing everyone for %heal-tick% health every %heal-period/1000% second for %heal-duration/1000% seconds total.
+
+  Radiance:
+
+    level: 90
+
+    mana: 45
+
+    cooldown: 25000
+
+    radius: 7
+
+    duration: 5000
+
+    period: 1000
+
+    heal: 20
+
+    description: Place a block that heals all allies within %radius% blocks for %heal% health every %period/1000% second for %duration/1000% total.
+
+  Shell:
+
+    level: 100
+
+    shell-size: 150
+
+    shell-duration: 5000
+
+    shell-radius: 10
+
+    debuff-duration: 8000
+
+    debuff-radius: 10
+
+    cooldown: 20000
+
+    mana: 90
+
+    description: If bloom is active, Bulwark all party members within %shell-radius% blocks for %shell-size% health. If bloom is inactive, all enemies within %debuff-radius% blocks are given Kneebreak for %debuff-duration/1000% seconds. 
+
+permission-skills:
+
+experience-sources:
+
+- KILLING
+
+- PVP
+
+max-level: 100
+
+expmodifier: 1
+
+exploss: 0
+
+base-max-health: 400
+
+max-health-per-level: 0
+
+mana-regen: 8
+
+recipes: [ noncrafter ]
+
+tier: 2
+
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+
+max-mana-per-level: 0 #max mana to gain per level
+
+mana-regen-per-level: 0 #mana regen per level
+
+base-max-mana: 300
+
+item-damage:
+
+    WOOD_SWORD: 4
+
+    STONE_SWORD: 6
+
+    GOLD_SWORD: 8
+
+    IRON_SWORD: 10
+
+    WOOD_SPADE: 1
+
+    STONE_SPADE: 1
+
+    GOLD_SPADE: 1
+
+    IRON_SPADE: 1
+
+    DIAMOND_SPADE: 1
+
+    WOOD_PICKAXE: 1
+
+    STONE_PICKAXE: 1
+
+    GOLD_PICKAXE: 1
+
+    IRON_PICKAXE: 1
+
+    DIAMOND_PICKAXE: 1
+
+    WOOD_AXE: 1
+
+    STONE_AXE: 1
+
+    GOLD_AXE: 1
+
+    IRON_AXE: 1
+
+    DIAMOND_AXE: 1
+
+    WOOD_HOE: 1
+
+    STONE_HOE: 4
+
+    GOLD_HOE: 8
+
+    IRON_HOE: 12
+
+    DIAMOND_HOE: 16
+
+projectile-damage:
+
+  ARROW: 15
+
+projectile-damage-level: []
+
+pve-projectile-damage-multiplier: []
+
+pve-projectile-damage-multiplier-level: []
+
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+
+  Strength: 0 #Increases damage done per point.
+
+  Constitution: 0 #Increases health per point
+
+  Endurance: 0 #Increases stamina per point.
+
+  Dexterity: 0 #Increases speed per point
+
+  Intellect: 0 #Increases mana per point
+
+  Wisdom: 0 #Increases mana regen per point.
+
+  Charisma: 0 

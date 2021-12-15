@@ -1,0 +1,76 @@
+Pyromancer - (ranged) pyromancer is a light-medium armored mage with area magic damage. Pyromancer is good for dealing large amounts of area damage from a distance.
+
+Hero Stats
+
+Class Stats
+Health Max - 230
+Mana Regen - 7
+
+Armor
+Helmet - Leather, Gold
+Chestplate – Leather, Gold
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Hoe - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 25 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Enchant
+You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+Disenchant
+Removes the enchantment from the item you are holding.
+
+Main Skills
+
+Level 1 - Fireball
+Launch a fireball that deals 20 magic damage and lights your target on fire.
+Damage 20 / Mana 5 / Cooldown 2s
+
+Level 10 - Meteor
+Fire a meteor in the direction you are facing, dealing 35 magic damage to enemies within 3 blocks.
+Damage 35 / Mana 7.5 / Cooldown 10s
+
+Level 20 - ArcanePulse
+Send a pulse of energy out in a cone extending 7 blocks in front of you. The 3 closest enemies are knocked back further the closer they are to you and are slowed for 5 seconds.
+Damage 0 / Mana 5 / Cooldown 25s
+
+Level 30 - Piggify
+Force the target to ride a pig for 5 seconds. While affected, they are immune to all damage until meleed or the duration expires.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 40 - Inversion
+Deal magic damage based on how much mana your target is missing, capped at 50 magic damage total.
+Damage 50 / Mana 7.5 / Cooldown 75s
+
+Level 50 - BurningPresence
+Toggleable aura that gives you resistance to fire damage and does 8 damage every 5 seconds to all targets within 5 blocks of you.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 60 - LavaStride
+You are able to run across lava for 10 seconds.
+Damage 0 / Mana 0 / Cooldown 15s
+
+Level 70 - Cauterize
+Removes Bleed effect when activated.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 80 - FireVolley
+Fire a volley of fireballs that will do 20 for every second they are in the air and also light the target on fire (Max damage 40). 
+Damage 40 / Mana 10 / Cooldown 25s
+
+Level 90 - BlazingSpeed
+Gain speed 3 and light surrounding enemies on fire. 
+Damage 0 / Mana 10 / Cooldown 25s
+
+Level 100 - Pyroblast 
+After channeling for 5 seconds, fire a Meteor every 1 second for 5 seconds total, each dealing 20 magic damage to all enemies within 3 blocks.
+Damage 20 / Mana 15 / Cooldown 45s

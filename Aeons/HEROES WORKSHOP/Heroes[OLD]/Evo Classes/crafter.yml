@@ -1,0 +1,16 @@
+name: crafter
+default: false
+default-prof: true
+tier: 1
+secondary: true
+primary: false
+description: 'PlaceHolder Prof...'
+permitted-weapon: []
+permitted-skills: []
+permission-skills: []
+experience-sources: []
+expmodifier: 0.0
+item-damage: []
+expLoss: 0.0
+wildcard-permission: true
+max-level: 1

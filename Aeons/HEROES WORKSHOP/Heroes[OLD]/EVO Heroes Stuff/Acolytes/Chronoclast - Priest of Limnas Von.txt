@@ -1,0 +1,73 @@
+Chronoclast - (Ranged) Chronoclast is a light armored caster with good disruption cc and support for allies.
+
+Hero Stats
+
+Class Stats
+Max Health - 250
+Mana regen - 5
+
+Armor
+Helmet - Leather, Gold, Diamond
+Chestplate - Leather
+Leggings - Leather, Gold, Diamond
+Boots - Leather
+
+Weapons
+Hoe - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 15 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Alchemy
+You have the ability to create potions in a brewing stand. 
+
+Main Skills
+
+Level 1 - Shadoworb
+Cast an orb imbued with dark magic that deals 15 magic damage and blinds enemies within 2 blocks for 2 seconds.
+Damage 15 / Mana 5 / Cooldown 2.5s
+
+Level 10 - VoidBlade
+Passive 100 percent chance for melees to silence target for 1 second duration.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 20 - Flicker
+Flash in and out of visibility every .75 second for 6 seconds.
+Damage 0 / Mana 10 / Cooldown 20s
+
+Level 30 - Blink
+Teleport 15 blocks in the direction you are facing.
+Damage 0 / Mana 7.5 / Cooldown 15s
+
+Level 40 - Timewarp
+Warp time within 10 blocks for 7.5 seconds, giving allies speed 2 and opponents slow 2..
+Damage 0 / Mana 15 / Cooldown 30s / Party cooldown 20s
+
+Level 50 - Terrify
+Blind a target enemy for 2 seconds. After 2 seconds, if you are within 5 blocks of the target, stun them for 3 seconds.
+Damage 0 / Mana 5 / Cooldown 30s
+
+Level 60 - Timeturner
+After 5 seconds, you will return to the casting location with the same mana and health you had when you casted
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 70 - Corruption
+Throw a corrupting potion that will invert healing skills of enemies within 2 blocks of the impact into a maximum of 50 damage and negate their healing skills for 5 seconds.
+Damage 5 / Mana 5 / Cooldown 30s
+
+Level 80 - Summon
+Teleport specified party member to the caster.
+Damage 0 / Mana 50 / Cooldown 1200s
+
+Level 90- Shatter
+Destroy all items placed by other skills within 15 blocks.
+Damage 60 / Mana 12.5 / Cooldown 30s 
+
+Level 100 - Stoptime
+Stop time within 8 blocks, making all players invulnerable and stunning enemies for 4 seconds.
+Damage 0 / Mana 30 / Cooldown 45s

@@ -1,0 +1,82 @@
+Mountebank - (Melee) Mountebank is a light armored rogue with great mobility. Mountebank excels at tracking targets, and having fantastic mobility.
+
+Hero Stats
+
+Class Stats
+Health Max - 220
+Mana Regen - 3
+
+Armor
+Helmet - Leather
+Chestplate - Leather
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Sword – Diamond
+
+Trade Skills
+
+Defences
+Reduction of fall damage by 33 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Main Skills
+
+Level 1 - Sneak
+Begin to sneak, appearing crouched to other players and hiding your nametag.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 1 - Bow Mastery
+You are skilled with a bow and deal 15 damage per shot.
+Damage 15 / Mana 0 / Cooldown 0s
+
+Level 1 - Smoke
+Disappear from view completely for 15 seconds. Silent to other players.
+Damage 0 / Mana 0 / Cooldown 20s
+
+Level 10 - Jump
+Launch yourself several blocks forward. Silent to other players.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 20 - Dodge
+Launch yourself backwards.
+Damage 10 / Mana 0 / Cooldown 10s
+
+Level 30 - Sprint
+Quicken your pace, gaining speed for 15 seconds.
+Damage 5 / Mana 0 / Cooldown 25s
+
+Level 40 – EscapeArtist
+Use impressive dexterity to escape movement impeding effects.
+Damage 0 / Mana 0 / Cooldown 45s
+
+Level 50 - Track
+Track a target. If the player is within 3000 blocks, you will obtain their coordinates, current health, class and class level. Compasses in hotbar will point to your target.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 60 - Terrify
+Blind a target enemy for 2 seconds. After 2 seconds, if you are within 5 blocks of the target, stun them for 2.5 seconds.
+Damage 0 / Mana 0 / Cooldown 30s
+
+Level 70 - Trick
+Disarm a target, putting their weapon into their inventory.
+Damage 0 / Mana 0 / Cooldown 45s
+
+Level 80 - Daze
+Imbue, your next successful melee will slow and silence for 5 seconds.
+Damage 0 / Mana 0 / Cooldown 25s
+
+Level 90 - Feign
+Fake your death, gaining invulnerability, invisibility for 5 seconds, and put a fake death message in chat.
+Damage 0 / Mana 0 / Cooldown 45s 
+
+Level 100 - Grapple
+Apply a grappling hook to your next arrow, launching yourself to the location which the arrow lands. Lasts 5 seconds. 
+Damage 0 / Mana 0 / Cooldown 40s
+
+Level 100 - EagleEye
+After 3 seconds, Sense all players within 300 blocks of you, listing their names unless they are invisible.
+Damage 0 / Mana 0 / Cooldown 30s

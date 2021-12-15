@@ -1,0 +1,165 @@
+name: Yolu
+description: CHOOSE GUARDIAN INSTEAD!
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Compassion
+    weak:
+permitted-armor:
+- GOLD
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Alchemy:
+    level: 1
+  Bandage:
+    level: 1
+    cooldown: 5000
+    mana: 10
+    health: 30
+  Smite:
+    level: 1
+    damage: 30
+    cooldown: 3000
+    mana: 10
+  Antidote:
+    level: 1
+    mana: 10
+    reagent: 374
+    reagent-cost: 1
+  Pray:
+    level: 1
+    mana: 15
+    cooldown: 5000
+    health: 35
+  Summonfood:
+    level: 1
+    mana: 0
+    amount: 3
+    food-type: 360
+    reagent: 362
+    reagent-cost: 1
+    cooldown: 3000
+  GroupHeal:
+    level: 1
+    mana: 10
+    heal-amount: 40
+    cooldown: 9000
+    radius: 30
+  Layhands:
+    level: 1
+    mana: 40
+    cooldown: 600000
+  HealBomb:
+    level: 40
+    cooldown: 20000
+    max-distance: 25
+    health: 25
+    health-increase: 0
+    damage: 25
+    damage-increase: 0
+    radius: 15
+    radius-increase: 0
+    max-distance-increase: 0
+    exp-per-damaged-enemy: 0
+  Wisdom:
+    level: 1
+    mana: 0
+    regen-multiplier: 3
+    radius: 30
+    duration: 20000
+    cooldown: 60000
+  Faith:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.25
+    physical-damage-reduction: -0.10
+    amount-increase: 0.0
+  Vitalize:
+    level: 10
+    mana: 10
+    cooldown: 90000
+    duration: 15000
+    radius: 30
+    period: 3000
+    tick-health: 9
+    mana-tick: 10
+  Glassshield:
+    level: 20
+    mana: 15
+    cooldown: 90000
+    min_duration: 20000
+    max_duration: 30000
+  FullHeal:
+    level: 30
+    mana: 15
+    cooldown: 600000
+    duration: 12000
+    period: 3000
+  Invuln:
+    level: 40
+    mana: 15
+    cooldown: 60000
+    duration: 6000
+  GuardianAngel:
+    level: 50
+    mana: 30
+    cooldown: 90000
+    radius: 15
+    duration: 7000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+- SKILL
+max-level: 50
+base-max-health: 230
+max-health-per-level: 1
+mana-regen: 15
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 1
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 2
+    GOLD_HOE: 3
+    IRON_HOE: 4
+    DIAMOND_HOE: 6

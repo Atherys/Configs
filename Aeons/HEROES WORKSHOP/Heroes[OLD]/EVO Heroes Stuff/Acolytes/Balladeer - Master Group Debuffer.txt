@@ -1,0 +1,73 @@
+Balladeer - (melee/ranged) balladeer is a very light armored class with debuffs and team support. Balladeer is good for providing support for their team and dropping fight changing debuffs on the enemies.
+
+Hero Stats
+
+Class Stats
+Health Max - 260
+Mana Regen - 5
+
+Armor
+Helmet - Gold
+Chestplate - N/A
+Leggings - N/A
+Boots - Gold
+
+Weapons
+Hoe - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 15 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Alchemy
+Grants the ability to create potions in a brewing stand.
+
+Main Skills
+
+Level 1 - Smite
+Use holy power to smite the target for 15 magic damage. Deals 300 percent damage to undead creatures.
+Damage 15 / Mana 5 / Cooldown 2s
+
+Level 10 - Nimble
+You can dodge enemy melees, negating the damage.
+Damage 0 / Mana 0 / Cooldown 2.5s
+
+Level 20 - Pray
+Restore 50 health to yourself and a target ally within 10 blocks.
+Damage 0 / Mana 5 / Cooldown 20s
+
+Level 30 - Absolution
+Give 15 mana every 2 seconds for 6 seconds total to 3 party members with the lowest mana within 20 blocks of you.
+Damage 0 / Mana 15 / Cooldown 30s
+
+Level 40 - Seduce
+Remove the armor of a target enemy for 5 seconds, you saucy devil.
+Damage 0 / Mana 10 / Cooldown 25s
+
+Level 50 – Minuet
+Tether two enemies together for 6 seconds.
+Damage 0 / Mana 15 / Cooldown 15s
+
+Level 60 - Invuln
+You become Invulnerable to damage and cannot deal damage for 5 seconds. Can be cast while silenced.
+Damage 0 / Mana 10 / Cooldown 45s
+
+Level 70 - Ballad
+Disarm all enemies within 5 blocks, putting their weapon into their inventory.
+Damage 0 / Mana 15 / Cooldown 15s
+
+Level 80 - Preach
+Channel for 3 seconds, then stun all enemies within 10 blocks for 2.5 seconds.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 90 - PeacefulHymn
+Place a jukebox. Every 4 seconds for 20 seconds total, the melee damage of enemies within 12 blocks is reduced by 5 for 4 seconds. 
+Damage 0 / Mana 15 / Cooldown 45s
+
+Level 100 - Prelude 
+Channel for 10 seconds.  While channeling, reduce the healing spells of enemies within 13 blocks by .8 percent.
+Damage 0 / Mana 10 / Cooldown 30s

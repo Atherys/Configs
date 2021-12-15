@@ -1,0 +1,74 @@
+Warden - (Melee/ranged) warden is a light-medium armored rogue with sustain damage and the ability to control wolves. Warden is a good class for putting out constant damage and being versatile in a fight.
+
+Hero Stats
+
+Class Stats
+Health Max - 260
+Mana Regen - 3
+
+Armor
+Helmet - Leather, Chainmail
+Chestplate - Leather, Chainmail
+Leggings - Leather, Chainmail
+Boots - Leather, Chainmail
+
+Weapons
+Sword - Diamond
+
+Trade Skills
+
+Defences
+Reduction of fall damage by 33 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Main Skills
+
+Level 1 - Bow Mastery
+You are skilled with a bow and deal 15 damage per shot.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 1 - Sneak
+Begin to sneak, appearing crouched to other players and hiding your nametag.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 1 - Smoke
+Disappear from view completely for 13 seconds. Silent to other players.
+Damage 0 / Mana 0 / Cooldown 20s
+
+Level 10 - Companion
+Summon a wolf companion to fight for your side with 150 health. The wolf can do a basic attack, doing 3 damage, and can bite enemies every 8 seconds, slowing the target for 3 seconds and doing 10 damage.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 20 – Jump
+Launch yourself several blocks forward. Silent to other players.
+Damage 0 / Mana 0 / Cooldown 8s
+
+Level 30 - EscapeArtist
+Use impressive dexterity to escape movement impeding effects.
+Damage 5 / Mana 0 / Cooldown 45s
+
+Level 40 – SmokeBomb
+You launch a bomb, dealing 5 magic damage, interrupting channeling, and blinding your enemy for 5 seconds.
+Damage 5 / Mana 0 / Cooldown 25s
+
+Level 50 - FeralFrenzy
+Summon 3 wolves with 35 health for 20 seconds, each dealing 4 damage per attack. Gain haste, speed, and 2 extra melee damage for 12 seconds.
+Damage 0 / Mana 0 / Cooldown 20s
+
+Level 60 - Envenom
+Imbue your weapon and the weapons of allies within 10 blocks with a poison that will deal 7.5 magic damage every 5 seconds, for a total of 25 seconds on your next 1 melee hit.
+Damage 0 / Mana 0 / Cooldown 25s
+
+Level 80 - PoisonArrow
+Imbue your arrows with poison, dealing 2 magic damage every 2 seconds for 10 seconds when arrows hit a target.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 90 - SnareShot
+Apply a snare shot to your next arrow. If an enemy is hit, they are snared for 5 seconds.
+Damage 0 / Mana 0 / Cooldown 15s
+
+Level 100 - BearTrap
+Place a 3x3 of Stone Pressure Plates at your feet. After 3 seconds, they activate and turn into Iron Pressure Plates, triggering when stepped on. When triggered, all enemies within 5 blocks recieve 30 damage and are stunned for 2.5 seconds. Expires after 20 seconds if not triggered.
+Damage 30 / Mana 0 / Cooldown 30s

@@ -1,0 +1,184 @@
+name: Initiate
+tier: 1
+max-level: 25
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: A beginner mage.
+parents: 
+
+    strong:
+
+    weak:
+
+base-attributes:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points-per-level: 0
+
+permitted-armor:
+- PUMPKIN
+- GOLD_HELMET
+- ELYTRA
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICKAXE
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- SHEARS
+- FISHING_ROD
+permitted-offhand:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- NETHERITE_AXE
+- NETHERITE_PICKAXE
+- NETHERITE_SPADE
+- NETHERITE_HOE
+- SHEARS
+- FISHING_ROD
+
+permitted-skills:
+  Defences:
+    level: 1
+    magic-damage-reduction: 0.25
+    physical-damage-reduction: 0.0
+    projectile-damage-reduction: 0.0
+    wither-damage-reduction: 0.0
+    anvil-damage-reduction: 0.0
+    falling-damage-reduction: 0.0
+    lightning-damage-reduction: 0.0
+#PASSIVES
+  Potion:
+    level: 1
+    description: Grants the ability to use potions when out of combat.
+
+  Enchant:
+    level: 15
+    featfallfour: 0.1
+    featfallthree: 0.25
+    featfalltwo: 0.5
+    featfallone: 1.0
+    respthree: 0.25
+    resptwo: 0.5
+    respone: 1.0
+    thorthree: 0.0
+    thortwo: 0.25
+    thorone: 1.0
+    knoctwo: 0.5
+    knocone: 1.0
+    firetwo: 0.5
+    fireone: 1.0
+    effifive: 0.0
+    effifour: 0.1
+    effithree: 0.25
+    effitwo: 0.5
+    effione: 1.0
+    unbrthree: 0.25
+    unbrtwo: 0.5
+    unbrone: 1.0
+    luckthree: 0.25
+    lucktwo: 0.5
+    luckone: 1.0
+    lurethree: 0.25
+    luretwo: 0.5
+    lureone: 1.0
+    description: You have the ability to enchant armor and weapons using Enchanter's Dust.
+#ACTIVES
+  Fireball:
+    level: 1
+    mana: 40
+    damage: 40
+    cooldown: 1500
+    description: Launch a fireball that deals %damage% magic damage and lights your target on fire.
+
+  Inversion:
+    level: 5
+    mana: 60
+    max-damage: 100
+    cooldown: 75000
+    description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
+
+  Piggify:
+    level: 10
+    mana: 80
+    duration: 5000
+    cooldown: 30000
+    description: Force the target to ride a pig for %duration/1000% seconds. While affected, they are immune to all damage until meleed or the duration expires.
+
+  Arcaneblast:
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    level: 20
+    max-distance: 10
+    target-hit-tolerance: 0.4
+    damage: 200
+    damage-increase-per-intellect: 2.5
+
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+
+expmodifier: 1
+expLoss: 0
+
+base-max-health: 100
+max-health-per-level: 2.0
+
+base-max-mana: 200
+max-mana-per-level: 4
+base-mana-regen: 3
+mana-regen-per-level: .2
+
+item-damage:
+    WOOD_SWORD: 1
+    STONE_SWORD: 1
+    GOLD_SWORD: 1
+    IRON_SWORD: 1
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    NETHERITE_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOOD_HOE: 2
+    STONE_HOE: 2
+    GOLD_HOE: 4
+    IRON_HOE: 4
+    DIAMOND_HOE: 6
+    NETHERITE_HOE: 8
+
+item-damage-level:
+projectile-damage:
+projectile-damage-level:

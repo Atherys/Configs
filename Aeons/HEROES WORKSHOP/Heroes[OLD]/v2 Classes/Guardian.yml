@@ -1,0 +1,191 @@
+name: Guardian
+description: The path to protecting others.
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Seneschal
+    weak:
+permitted-armor:
+- IRON
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- STONE_SWORD
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- IRON_SWORD
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- GOLD_SWORD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Piety:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    amount: .3
+  Smite:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    mana: 5
+    max-distance: 15
+    damage: 10
+    cooldown: 1500
+  Prayer:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    mana: 15
+    max-distance: 15
+    cooldown: 45000
+    health: 30
+  Absolution:
+    level: 1
+    use-text: '%hero% used %skill%!'
+    mana: 15
+    amount: 3.0
+    radius: 20
+    duration: 15000
+    cooldown: 60000
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+  Repentance:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    mana: 15
+    cooldown: 30000
+    damage: 55
+  Shield:
+    iron-door: 0.85
+    wooden-door: 0.8
+    trapdoor: 0.5
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+  Might:
+    damage-bonus: 1.25
+    radius: 15
+    duration: 20000
+    level: 1
+    cooldown: 30000
+    use-text: '%hero% used %skill%!'
+    damage-bonus: 1.25
+    apply-text: Your muscles bulge with power!
+    expire-text: You feel strength leave your body!
+  Bleed:
+    level: 1
+    tick-damage: 5
+    period: 3000
+    duration: 15000
+    cooldown: 30000
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage-per-level: 0
+    apply-text: '%target% is bleeding!'
+    expire-text: '%target% has stopped bleeding!'
+  Hamstring:
+    use-text: '%hero% used %skill%!'
+    duration: 20000
+    number-of-attacks: 1
+    slow-multiplier: 2
+    slow-duration: 3000
+    add-slowminning-potion: true
+    bonus-damage: 20
+    level: 1
+    cooldown: 30000
+  Flicker:
+    use-text: '%hero% used %skill%!'
+    on-text: '%hero% used %skill%!'
+    duration: 6000
+    period: 1000
+    level: 1
+    cooldown: 60000
+  GroupHeal:
+    level: 10
+    use-text: '%hero% used %skill%!'
+    heal-amount: 2
+    radius: 5
+    cooldown: 15000
+  Vitalize:
+    level: 30
+    use-text: '%hero% used %skill%!'
+    mana-tick: 5
+    mana-tick-increase: 0
+    radius: 10
+    radius-increase: 0
+    duration: 12000
+    duration-increase: 0
+    tick-health: 5
+    health-tick-increase: 0
+    period: 3000
+    cooldown: 60000
+  Invuln:
+    level: 40
+    use-text: '%hero% used %skill%!'
+    duration: 10000
+    apply-text: '%hero% has become invulnerable!'
+    expire-text: '%hero% is once again vulnerable!'
+    cooldown: 120000
+  Bolster:
+    level: 50
+    use-text: '%hero% used %skill%!'
+    duration: 5000
+    radius: 10
+    amount: 0.5
+    apply-text: '%hero% used %skill% on %target%!'
+    expire-text: '%skill% on %target% expired!'
+    cooldown: 60000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+exploss: 0
+base-max-health: 285
+max-health-per-level:
+mana-regen: 5
+recipes: [ noncrafter ]
+tier: 3
+item-damage:
+    WOOD_SWORD: 9
+    STONE_SWORD: 10
+    GOLD_SWORD: 11
+    IRON_SWORD: 12
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 1
+    GOLD_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1

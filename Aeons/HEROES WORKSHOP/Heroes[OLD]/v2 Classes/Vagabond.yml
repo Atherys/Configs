@@ -1,0 +1,92 @@
+name: Vagabond
+description: Tier 2 Knave - Acrobat
+user-class: false
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Knave
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- BOW
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+    Potion:
+        level: 1
+    Sneak:
+        level: 1
+        duration: 300000
+    Sprint:
+        level: 1
+        cooldown: 25000
+        duration: 15000
+        radius: 5
+    Jump:
+        level: 1
+        cooldown: 5000
+    EscapeArtist:
+        level: 1
+        cooldown: 90000
+        chance: .6
+    Pickpocket:
+        level: 1
+        cooldown: 3000
+        base-chance: 0.4
+        chance-per-level: 0.001
+    Evasiveness:
+        apply-text: '%hero% gained %skill%!'
+        unapply-text: '%hero% lost %skill%!'
+        magic-damage-reduction: 0.00
+        physical-damage-reduction: 0.00
+        amount-increase: 0.0
+    Track:
+        level: 5
+        cooldown: 45000
+        randomness: 20
+    Despair:
+        level: 10
+        radius: 10
+        duration: 10000
+        cooldown: 25000
+    Telekinesis:
+        level: 15
+        mana: 10
+    Smoke:
+        level: 20
+        duration: 3600000
+        cooldown: 6000
+        delay: 3000
+    BowMastery:
+        apply-text: '%hero% gained %skill%!'
+        unapply-text: '%hero% lost %skill%!'
+        damage: 15
+        level: 1
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 25
+expmodifier: 1
+exploss: 0
+base-max-health: 170
+max-health-per-level: 2.5
+mana-regen: 5
+mana-regen-per-level: 0
+recipes: [ noncrafter ]
+tier: 2
+item-damage:
+    WOOD_SWORD: 8
+    STONE_SWORD: 10
+    IRON_SWORD: 12

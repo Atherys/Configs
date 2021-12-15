@@ -1,0 +1,72 @@
+Cryomancer - (Melee-short range projectiles) cryomancer is a medium armored mage with sustain damage, and great cc. Cryomancer is good for locking down targets.
+
+Hero Stats
+
+Class Stats
+Health Max - 240
+Mana Regen - 7
+
+Armor
+Helmet - Leather, Gold
+Chestplate - Leather, Iron
+Leggings - Leather, Iron
+Boots - Leather, Iron
+
+Weapons
+Hoe/Axe - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 25 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Enchant
+You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+Disenchant
+Removes the enchantment from the item you are holding.
+
+Main Skills
+
+Level 1 - FrostBreath
+Spew freezing wind in a cone extending 7 blocks in front of you. Enemies are unable to jump for 1.5 seconds, slowed for 3 seconds, and recieve 15 magic damage.
+Damage 15 / Mana 5 / Cooldown 5s
+
+Level 10 - Piggify
+Force the target to ride a pig for 5 seconds. While affected, they are immune to all damage until meleed or the duration expires.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 20 - Inversion
+Deal magic damage based on how much mana your target is missing, capped at 50 magic damage total.
+Damage 50 / Mana 7.5 / Cooldown 75s
+
+Level 30 - Icebrand
+You have a .2 percent chance to slow enemies for 2 seconds on-hit.
+Damage 0 / Mana 0 / Cooldown 5s
+
+Level 40 - Icicle
+Freeze a target enemy in a block of ice for 5 seconds.
+Damage 0 / Mana 5 / Cooldown 15s
+
+Level 60 - IceBarrier
+Toggleable ability that slows enemies for 2.5 seconds when they hit you.
+Damage 0 / Mana 0 / Cooldown 1s
+
+Level 70 - Web
+Place a web at target location for 3 seconds.
+Damage 0 / Mana 15 / Cooldown 30s
+
+Level 80 - VoidBlade
+Passive .4 percent chance for melees to silence target for 1 second. 
+Damage 0 / Mana 0 / Cooldown 3s
+
+Level 90 - Frostbite
+Deal 10 magic damage to the target, and continue to deal damage every 2 seconds. The less the target moves, the more damage is done. Lasts 10 seconds. 
+Damage 10 / Mana 10 / Cooldown 45s
+
+Level 100 - Blizzard 
+Channel for 5 seconds, then summon a snow storm around you for 20 seconds, periodically slowing enemies and preventing enemies from jumping. Deals 30 magic damage to those struck by snowballs.
+Damage 30 / Mana 15 / Cooldown 60s

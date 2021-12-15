@@ -1,0 +1,357 @@
+name: Sentinel
+
+description: Master Main Tank
+
+user-class: true
+
+default: false
+
+primary: true
+
+secondary: false
+
+parents:
+
+    strong:
+
+    - Squire
+
+    weak:
+
+permitted-armor:
+
+- DIAMOND
+
+- IRON
+
+- CHAINMAIL
+
+- LEATHER
+
+- PUMPKIN
+
+- ELYTRA
+
+permitted-weapon:
+
+- '*'
+
+permitted-offhand:
+
+- '*'
+
+permitted-skills:
+
+  Defences:
+
+    level: 1
+
+    magic-damage-reduction: 0.00
+
+    physical-damage-reduction: 0.0
+
+    projectile-damage-reduction: 0.0
+
+    wither-damage-reduction: 0.0
+
+    anvil-damage-reduction: 0.0
+
+    falling-damage-reduction: 0.0
+
+    lightning-damage-reduction: 0.0
+
+  Potion:
+
+    level: 1
+
+    description: Grants the ability to use potions when out of combat.
+
+  Repair:
+
+    level: 1
+
+    wood : 1
+
+    stone : 1
+
+    leather : 1
+
+    chain : 1
+
+    iron: 1
+
+    gold: 1
+
+    diamond: 1
+
+    unchant-chance: 0.00
+
+    description: You are able to repair armor and weapons by targeting an anvil and using the skill.
+
+  Shield:
+
+    level: 1
+
+    iron-door-physical: 0.30
+
+    wooden-door-physical: 0.50
+
+    trapdoor-physical: 0.70
+
+    iron-door-projectile: 0.30
+
+    wooden-door-projectile: 0.65
+
+    trapdoor-projectile: 0.80
+
+    iron-door-magic: 1.0
+
+    wooden-door-magic: 1.0
+
+    trapdoor-magic: 1.0
+
+    description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
+
+  Wound:
+
+    level: 1
+
+    tick-damage: 7
+
+    cooldown: 35000
+
+    max-distance: 5
+
+    mortalwound-duration: 7000
+
+    bleed-duration: 15000
+
+    period: 3000
+
+    max-distance: 7
+
+    description: Wound your target, dealing %tick-damage% physical damage every %period/1000% seconds for %bleed-duration/1000% seconds total and negating their healing for %mortalwound-duration/1000% seconds.
+
+  Ram:
+
+    level: 10
+
+    max-distance: 10
+
+    damage: 20
+
+    caster-damage: 0.1
+
+    vertical-multiplier: 0.6
+
+    horizontal-multiplier: 3
+
+    cooldown: 15000
+
+    description: Slam into target enemy within %max-distance% blocks, sending them flying and dealing %damage% damage.
+
+  Kick:
+
+    level: 20
+
+    cooldown: 20000
+
+    max_distance: 3
+
+    silence-duration: 1000
+
+    damage: 20
+
+    description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% second.
+
+  BattleCry:
+
+    level: 30
+
+    damage-radius: 5
+
+    buff-radius: 10
+
+    damage: 10
+
+    silence-duration: 2000
+
+    buff-duration: 6000
+
+    bonus-damage: 4
+
+    cooldown: 25000
+
+    description: You deal %damage% magic damage and silence enemies within %damage-radius% blocks for %silence-duration/1000% seconds while also giving yourself and allies within %buff-radius% blocks a melee damage boost of %bonus-damage% for %buff-duration/1000% seconds.
+
+  Resolve:
+
+    level: 40
+
+    max-damage: 50
+
+    description: You cannot take more than %max-damage% damage at a time from other entities and are resistant to Kneebreak effects.
+
+  Rescue:
+
+    level: 60
+
+    max-distance: 30
+
+    speed-multiplier: 1
+
+    duration: 3000
+
+    cooldown: 15000
+
+    description: You pick up an ally within %max-distance% blocks, free them from impeding effects, and speedily carry them away for %duration/1000% seconds.
+
+  InnerLight:
+
+    level: 70
+
+    cooldown: 30000
+
+    block-max: 150
+
+    duration: 10000
+
+    description: Create a Bulwark that will expire after %block-max% damage is absorbed or after %duration/1000% seconds.
+
+  GroupTether:
+
+    level: 80
+
+    radius: 3
+
+    duration: 5000
+
+    duration-increase: 0
+
+    exp-per-creature-tethered: 0
+
+    exp-per-player-tethered: 0
+
+    apply-text: '%target% was tethered!'
+
+    expire-text: '%target% got away!'
+
+    cooldown: 35000
+
+    description: Tether all enemies within %radius% blocks to you, keeping them attached to you for %duration/1000% seconds.
+
+  Guard:
+
+    level: 90
+
+    duration: 10000
+
+    max-distance: 30
+
+    magic-resist: 0.75
+
+    physical-resist: 0.75
+
+    cooldown: 20000
+
+    description: Guard a target ally, granting them %magic-resist*100% percent magic damage resistance and %physical-resist*100% percent physical damage resistance for %duration/1000% seconds.
+
+  Glimmer:
+
+    level: 100
+
+    duration: 5000
+
+    max-distance: 10
+
+    glass-duration: 5000
+
+    buff-duration: 30000
+
+    armor-bonus: 0.2
+
+    radius: 3
+
+    apply-text: '%hero% used %skill%.'
+
+    expire-text: '%hero%''s %skill% expired.'
+
+    buff-text: '%hero%''s armor was buffed by %caster%''s %skill%'
+
+    buff-expire: '%hero%''s armor buff expired'
+
+    cooldown: 90000
+
+    description: Place a pillar that will dissapate after %glass-duration/1000% seconds, granting allies within %radius% blocks %armor-bonus*100% percent physical dmage resistance for %buff-duration/1000% seconds.
+
+permission-skills:
+
+experience-sources:
+
+- KILLING
+
+- PVP
+
+max-level: 100
+
+expmodifier: 1
+
+mana-regen: 3
+
+base-max-health: 600
+
+max-health-per-level: 0
+
+recipes: [ crafter ]
+
+tier: 2
+
+allocation-points-per-level: 0 #how many attribute points to give this class per level gained. max points allowed is allocation-points-per-level * (maxLevel - 1)
+
+expLoss: 0.000 #xp loss per death
+
+wildcard-permission: true #wether to include this class in the permission heroes.classes.*
+
+max-mana-per-level: 0 #max mana to gain per level
+
+mana-regen-per-level: 0 #mana regen per level
+
+base-max-mana: 100
+
+item-damage:
+
+    WOOD_SWORD: 10
+
+    STONE_SWORD: 12
+
+    IRON_SWORD: 14
+
+    DIAMOND_SWORD: 16
+
+    TRAP_DOOR: 6
+
+projectile-damage:
+
+  ARROW: 1
+
+projectile-damage-level: []
+
+pve-projectile-damage-multiplier: []
+
+pve-projectile-damage-multiplier-level: []
+
+base-attributes: #Attribute points that class will start with. General basic description given, see /attributes command for more information.
+
+  Strength: 0 #Increases damage done per point.
+
+  Constitution: 0 #Increases health per point
+
+  Endurance: 0 #Increases stamina per point.
+
+  Dexterity: 0 #Increases speed per point
+
+  Intellect: 0 #Increases mana per point
+
+  Wisdom: 0 #Increases mana regen per point.
+
+  Charisma: 0 

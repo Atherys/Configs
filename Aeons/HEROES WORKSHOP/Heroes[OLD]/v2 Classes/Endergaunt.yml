@@ -1,0 +1,228 @@
+name: Endergaunt
+description: Priest of Astor - Thief/Spy
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Empyr
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- STONE_SWORD
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- IRON_SWORD
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- GOLD_SWORD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+- BOW
+permitted-skills:
+  Potion:
+    level: 1
+  Piety:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    amount: .15
+    amount-increase: 0.0
+    level: 1
+  Smite:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    mana: 5
+    max-distance: 15
+    damage: 10
+    cooldown: 1500
+  Prayer:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    mana: 15
+    max-distance: 15
+    cooldown: 60000
+    health: 25
+  Absolution:
+    level: 1
+    use-text: '%hero% used %skill%!'
+    mana: 15
+    amount: 2.0
+    radius: 20
+    duration: 15000
+    cooldown: 60000
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+  Repentance:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    mana: 15
+    cooldown: 30000
+    damage: 55
+  Shield:
+    iron-door: 0.85
+    wooden-door: 0.8
+    trapdoor: 0.5
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+  Might:
+    damage-bonus: 1.25
+    radius: 15
+    duration: 20000
+    level: 1
+    cooldown: 60000
+    use-text: '%hero% used %skill%!'
+    damage-bonus: 1.25
+    apply-text: Your muscles bulge with power!
+    expire-text: You feel strength leave your body!
+  Bleed:
+    level: 1
+    tick-damage: 10
+    period: 3000
+    duration: 15000
+    cooldown: 30000
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage-per-level: 0
+    apply-text: '%target% is bleeding!'
+    expire-text: '%target% has stopped bleeding!'
+  Hamstring:
+    use-text: '%hero% used %skill%!'
+    duration: 20000
+    number-of-attacks: 1
+    slow-multiplier: 2
+    slow-duration: 3000
+    add-slowminning-potion: true
+    bonus-damage: 30
+    level: 1
+    cooldown: 30000
+  Flicker:
+    use-text: '%hero% used %skill%!'
+    on-text: '%hero% used %skill%!'
+    duration: 6000
+    period: 1000
+    level: 1
+    cooldown: 60000
+  Basher:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    chance: 0.2
+    chance-per-level: 0.0
+    cooldown: 5000
+    duration: 500
+    duration-increase: 0
+    exp-per-stun: 0
+  Sprint:
+    level: 1
+    use-text: '%hero% used %skill%!'
+    speed-multiplier: 2
+    duration: 6000
+    apply-text: '%hero% gained a burst of speed!'
+    expire-text: '%hero% returned to normal speed!'
+    cooldown: 20000
+  Dodge:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    chance: 0.1
+    chance-per-level: 0
+    cooldown: 2000
+  PrecisionStrike:
+    level: 1
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage: 35
+    fake-damage: 0
+    cooldown: 45000
+  Wrestle:
+    level: 1
+    use-text: '%hero% used %skill%!'
+    duration: 1000
+    duration-increase: 0
+    radius: 3
+    radius-increase: 0
+    damage: 0
+    damage-increase: 0
+    cooldown: 15000
+  Grapple:
+    level: 20
+    use-text: '%hero% used %skill%!'
+    duration: 5000
+    cooldown: 30000
+  Meld:
+    level: 10
+    use-text: '%hero% used %skill%!'
+    buff-duration: 50000
+    min-lightlevel: 5
+    cooldown: 60000
+  Vanish:
+    level: 30
+    use-text: '%hero% used %skill%!'
+    allowed-skills: [steal,vanish]
+    duration: 3600000
+    mana: 20
+    cooldown: 60000
+  Steal:
+    level: 40
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 2
+    chance: 1.0	
+    cooldown: 120000
+  Forge: 
+    level: 50
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    cooldown: 15000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+exploss: 0
+base-max-health: 240
+max-health-per-level:
+mana-regen: 5
+recipes: [ noncrafter ]
+tier: 4
+item-damage:
+    WOOD_SWORD: 10
+    STONE_SWORD: 13
+    GOLD_SWORD: 16
+    IRON_SWORD: 17
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 1
+    GOLD_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1

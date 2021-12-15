@@ -1,0 +1,68 @@
+Tempest - (ranged) tempest is a light armored mage with burst magic damage. Tempest is good for bursting down targets and dropping down the back line.
+
+Hero Stats
+
+Class Stats
+Health Max - 240
+Mana Regen - 9
+
+Armor
+Helmet - Leather, Gold
+Chestplate - Leather
+Leggings - Leather
+Boots - Leather
+
+Weapons
+Hoe - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 25 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Enchant
+You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+Disenchant
+Removes the enchantment from the item you are holding.
+
+Main Skills
+
+Level 1 - Spark
+Fire a projectile dealing 20 magic damage, and gain 1 Spark stack. Maximum 3 stacks
+Damage 20 / Mana 5 / Cooldown 2s
+
+Level 10 - ChainLightning
+Strike the target with lightning, dealing 15 magic damage. Deal 15 additional damage per Spark stack. ChainLightning also arcs to nearby enemies equal to the amount of current Spark stacks, but damage decreases by 5 for each consecutive enemy struck.
+Damage 15 / Mana 10 / Cooldown 15s
+
+Level 20 - ArcanePulse
+Send a pulse of energy out in a cone extending 7 blocks in front of you. The 3 closest enemies are knocked back further the closer they are to you and are slowed for 5 seconds.
+Damage 0 / Mana 5 / Cooldown 25s
+
+Level 30 - Piggify
+Force the target to ride a pig for 4 seconds.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 40 - Inversion
+Deal magic damage based on how much mana your target is missing, capped at 50 magic damage total.
+Damage 50 / Mana 7.5 / Cooldown 75s
+
+Level 50 - Grounded
+Receive .5 percent less damage from Lightning skills.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 60 - BoltBlink
+Teleport 10 blocks in the direction you are facing, and strike the closest enemy within 7 blocks with lighting, dealing 25 magic damage.
+Damage 25 / Mana 10 / Cooldown 15s
+
+Level 80 - Tornado
+After channeling for 3 seconds, send up to 5 enemies within 10 blocks swirling upwards in a tornado for 5 seconds.
+Damage 0 / Mana 7.5 / Cooldown 30s
+
+Level 100 - LightningStorm
+After channeling for 4 seconds, summon a storm of lightning, stunning a nearby enemy within 15 blocks for 1 seconds and doing 30 magic damage. Each enemy can only be struck once. The storm strikes every 1 second and subsides after 10 seconds.                                          
+Damage 30 / Mana 20 / Cooldown 60s

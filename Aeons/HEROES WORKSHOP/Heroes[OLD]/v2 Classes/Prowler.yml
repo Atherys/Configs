@@ -1,0 +1,150 @@
+name: Prowler
+description:
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Sapper
+    weak:
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- '*'
+permitted-skills:
+  Potion:
+    level: 1
+  Sneak:
+    level: 1
+    duration: 300000
+  Sprint:
+    level: 1
+    cooldown: 30000
+    duration: 15000
+    radius: 5
+  Jump:
+    level: 1
+    cooldown: 10000
+  EscapeArtist:
+    level: 1
+    cooldown: 90000
+    chance: .5
+  Pickpocket:
+    level: 1
+    cooldown: 5000
+    base-chance: 0.25
+    chance-per-level: 0.001
+  Smoke:
+    level: 1
+    duration: 60000
+    cooldown: 6000
+  Backstab:
+    level: 1
+    attack-bonus: 1.5
+    attack-chance: 0.25
+    sneak-bonus: 2.0
+    sneak-chance: 1.0
+    cooldown: 3000
+  Despair:
+    level: 1
+    radius: 10
+    duration: 6000
+    cooldown: 25000
+    damage: 25
+  AssassinsBlade:
+    level: 1
+    buff-duration: 60000
+    poison-duration: 25000
+    period: 5000
+    tick-damage: 7.5
+    attacks: 1
+    cooldown: 12000
+  Evasiveness:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    magic-damage-reduction: 0.00
+    physical-damage-reduction: 0.10
+    amount-increase: 0.0
+  Bleed:
+    level: 1
+    tick-damage: 10
+    period: 5000
+    duration: 25000
+    cooldown: 40000
+  Critical:
+    level: 1
+    cooldown: 5000
+    chance: 0.2
+  Icebrand:
+    level: 1
+    cooldown: 3000
+  Dodge:
+    level: 1
+    cooldown: 3000
+  VoidBlade:
+    level: 1
+    cooldown: 3000
+  BowMastery:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 15
+    level: 1
+  PrecisionStrike:
+    level: 5
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage: 35
+    fake-damage: 0
+    cooldown: 60000
+  Fillet:
+    level: 10
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    damage: 20
+    chance: 0.25
+    cooldown: 120000
+  ShadowStep:
+    level: 20
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    duration: 10000
+    cooldown: 45000
+  Vendetta:
+    level: 30
+    use-text: '%hero% used %skill%!'
+    critical-multiplier: 2.5
+    duration: 10000
+    speed-mult: 3
+    apply-text: '%hero% used %skill%'
+    expire-text: '%hero% lost %skill%'
+    cooldown: 60000
+  StunStab:
+    level: 40
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 5
+    duration: 2000
+    duration-increase: 0
+    damage: 30
+    damage-increase: 0
+    cooldown: 90000
+  LastResort:
+    level: 50
+    use-text: '%hero% used %skill%!'
+    cooldown: 600000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+base-max-health: 240
+max-health-per-level: 0
+mana-regen: 5
+recipes: [ noncrafter ]
+tier: 4
+item-damage:
+    WOOD_SWORD: 10
+    STONE_SWORD: 12
+    IRON_SWORD: 14
+    DIAMOND_SWORD: 18

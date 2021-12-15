@@ -1,0 +1,18 @@
+name: citizen
+description: A good person, but a sorry adventurer.
+user-class: true
+default: true
+primary: true
+secondary: false
+parents: 
+    strong:
+    weak:
+permitted-armor:
+permitted-weapon:
+permitted-skills:
+permission-skills:
+experience-sources:
+base-max-health: 100
+max-health-per-level: 0
+recipes: [ noncrafter ]
+tier: 0

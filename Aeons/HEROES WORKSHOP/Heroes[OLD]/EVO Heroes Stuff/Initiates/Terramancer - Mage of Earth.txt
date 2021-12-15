@@ -1,0 +1,68 @@
+Terramancer - (Melee-medium range cc abilities) Terramancer is a medium armored mage with great peeling and crowd control. Terramancer is a great disruption cc class, and a great class for peeling for allies.
+
+Hero Stats
+
+Class Stats
+Health Max - 240
+Mana Regen - 7
+
+Armor
+Helmet - Leather, Gold
+Chestplate - Leather, Iron
+Leggings - Leather, Iron
+Boots - Leather, Iron
+
+Weapons
+Hoe - Diamond
+
+Trade Skills
+
+Defences
+Reduction of magic damage by 40 percent.
+
+Potion
+Grants the ability to use potions when out of combat.
+
+Enchant
+You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+Disenchant
+Removes the enchantment from the item you are holding.
+
+Main Skills
+
+Level 1 - Spire
+Summon a spire that launches enemies within 4 blocks away.
+Damage 0 / Mana 5 / Cooldown 5s
+
+Level 10 - EarthWall
+Summon up to 3 stone walls at target locations for 12 seconds.
+Damage 0 / Mana 7.5 / Cooldown 15s
+
+Level 20 - Piggify
+Force the target to ride a pig for 5 seconds. While affected, they are immune to all damage until meleed or the duration expires.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 30 - Inversion
+Deal magic damage based on how much mana your target is missing, capped at 50 magic damage total.
+Damage 50 / Mana 7.5 / Cooldown 75s
+
+Level 40 - Grounded
+Receive .5 percent less damage from Lightning skills.
+Damage 0 / Mana 0 / Cooldown 0s
+
+Level 50 - Web
+Place a web at target location for 3 seconds.
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 60 - EarthShield
+Channel for 2 seconds, then surround yourself in a stone shield for 8 seconds.
+Damage 0 / Mana 12.5 / Cooldown 30s
+
+Level 90 - EarthenArmor
+Increase nearby party members’ magic resistance by .5 percent. 
+Damage 0 / Mana 10 / Cooldown 30s
+
+Level 100 - Earthquake 
+Channel continuously, knocking up surrounding enemies every 1 seconds for 20 seconds.
+Damage 1 / Mana 10 / Cooldown 60s

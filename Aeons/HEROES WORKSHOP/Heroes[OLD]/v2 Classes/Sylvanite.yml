@@ -1,0 +1,242 @@
+name: Sylvanite
+description: Healer/Controller
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    - Hermeticist
+    weak:
+permitted-armor:
+- GOLD_HELMET
+permitted-weapon:
+- WOOD
+- STONE_AXE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_HOE
+- STONE_SWORD
+- IRON_AXE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_HOE
+- IRON_SWORD
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- GOLD_SWORD
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Potion:
+    level: 1
+  Piety:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    amount: .3
+  Smite:
+    level: 1
+    max-distance: 15
+    mana: 5
+    damage: 15
+    cooldown: 1500
+  Pray:
+    level: 1
+    max-distance: 15
+    mana: 15
+    cooldown: 15000
+    health: 30
+  Absolution:
+    level: 1
+    mana: 15
+    amount: 2.0
+    radius: 20
+    duration: 20000
+    cooldown: 60000
+    use-text: '%hero% used %skill%!'
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+  Repentance:
+    level: 1
+    mana: 15
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    cooldown: 30000
+    damage: 50
+  GroupHeal:
+    level: 1   
+    mana: 15
+    use-text: '%hero% used %skill%!'
+    cooldown: 25000
+    heal-amount: 30
+    radius: 20
+  Kharma:
+    level: 1
+    mana: 10
+    cooldown: 45000
+    max-distance: 15
+    amount: 2.0
+    radius: 20
+    duration: 15000
+    use-text: '%hero% used %skill% on %target%!'
+    apply-text: ''
+    expire-text: Kharma effect expired
+  Mend:
+    level: 1
+    mana: 10
+    cooldown: 15000
+    amount: 7.0
+    period: 1000
+    duration: 9000
+    use-text: '%hero% used %skill%!'
+    apply-text: You was picked as weakest member of party.
+    expire-text: Mend effect expired
+  Zeal:
+    level: 1
+    mana: 10
+    cooldown: 45000
+    max-distance: 15
+    amount: 0.1
+    duration: 20000
+    use-text: '%hero% used %skill% on %target%!'
+    apply-text: You feel stronger
+    expire-text: Zeal effect expired
+  Summonfood:
+    use-text: '%hero% used %skill%!'
+    food-type: BREAD
+    amount: 5
+    mana: 20
+    level: 1
+  FullHeal:
+    duration: 10000
+    duration-increase: 0
+    period: 1000
+    level: 1
+    cooldown: 300000
+    mana: 25
+  BlessedPresence:
+    tick-heal: 5
+    period: 5000
+    radius: 15
+    mana: 20
+    level: 1
+    cooldown: 5000
+  RayOfLight:
+    use-text: '%hero% used %skill%!'
+    duration: 10000
+    period: 1000
+    heal: 7
+    max-distance: 15
+    radius: 10
+    cooldown: 30000
+    mana: 15
+    level: 1
+  Bloom:
+    level: 1
+    use-text: '%hero% used %skill%!'
+  WildGrowth:
+    level: 10
+    use-text: '%hero% used %skill%!'
+    heal-amount: 20
+    radius: 10
+    chance-brown-mushroom: 0.5
+    chance-red-mushroom: 0.5
+    cooldown: 30000
+    mana: 20
+  Overgrowth:
+    level: 20
+    use-text: '%hero% used %skill% on %target%!'
+    max-distance: 15
+    stun-duration: 2000
+    instant-heal: 20
+    heal-tick: 10
+    heal-duration: 10000
+    heal-period: 1000
+    radius: 10
+    cooldown: 45000
+    mana: 25
+  Merge:
+    level: 30
+    use-text: '%hero% used %skill%!'
+    leaves: 30
+    wood-blocks: 10
+    duration: 60000
+    radius: 15
+    cooldown: 90000
+    mana: 25
+  Seek:
+    level: 30
+    use-text: '%hero% used %skill%!'
+    leaves: 20
+    wood-blocks: 5
+    radius: 8
+    cooldown: 120000
+    mana: 25
+  PrettyPoison:
+    level: 40
+    use-text: '%hero% used %skill%!'
+    radius: 10
+    attacks: 5
+    buff-duration: 20000
+    damage-period: 3000
+    poison-duration: 12000
+    poison-damage: 6
+    cooldown: 30000
+    mana: 15
+  Shell:
+    level: 50
+    use-text: '%hero% used %skill%!'
+    bubble-size: 100
+    bubble-duration: 10000
+    invuln-duration: 10000
+    radius: 10
+    cooldown: 60000
+    mana: 30
+  Selflessness:
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    multiplier: 0.5
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+exploss: 0
+base-max-health: 250
+max-health-per-level: 0
+mana-regen: 15
+recipes: [ noncrafter ]
+tier: 4
+item-damage:
+    WOOD_SWORD: 2
+    STONE_SWORD: 3
+    GOLD_SWORD: 4
+    IRON_SWORD: 5
+    WOOD_SPADE: 1
+    STONE_SPADE: 1
+    GOLD_SPADE: 1
+    IRON_SPADE: 1
+    DIAMOND_SPADE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLD_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    WOOD_AXE: 1
+    STONE_AXE: 1
+    GOLD_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    WOOD_HOE: 8
+    STONE_HOE: 9
+    GOLD_HOE: 10
+    IRON_HOE: 11
+    DIAMOND_HOE: 12

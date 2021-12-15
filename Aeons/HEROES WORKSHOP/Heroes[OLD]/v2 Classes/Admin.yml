@@ -1,0 +1,57 @@
+name: Admin
+description: Admin Class
+user-class: true
+default: false
+primary: true
+secondary: false
+parents: 
+    strong:
+    weak:
+permitted-armor:
+- '*'
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD_AXE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- GOLD_HOE
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_HOE
+- BOW
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+  Smoke:
+    level: 1
+    duration: 360000000
+    cooldown: 1
+  Megabolt:
+    level: 1
+    radius: 30
+    radius-increase: 0
+    damage: 20
+    damage-increase: 0
+    exp-per-target-struck: 0
+    mana: 20
+    cooldown: 45000
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+max-level: 50
+expmodifier: 1
+mana-regen: 5
+base-max-health: 150
+max-health-per-level: 1
+recipes: [ noncrafter ]
+tier: 1
+item-damage:
+    WOOD_SWORD: 4
+    STONE_SWORD: 6
+    IRON_SWORD: 1000
+    GOLD_SWORD: 10
+    TRAP_DOOR: 3
