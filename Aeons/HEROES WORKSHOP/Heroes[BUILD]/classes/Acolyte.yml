@@ -24,49 +24,40 @@ allocation-points-per-level: 0
 
 permitted-armor:
 - PUMPKIN
-- GOLD_HELMET
+- GOLDEN_HELMET
 - ELYTRA
 permitted-weapon:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
-- DIAMOND_SPADE
-- DIAMOND_HOE
-- NETHERITE_AXE
-- NETHERITE_PICKAXE
-- NETHERITE_SPADE
-- NETHERITE_HOE
-- SHEARS
-- FISHING_ROD
+- minecraft:diamond_axe
+- minecraft:diamond_pickaxe
+- minecraft:diamond_shovel
+- minecraft:diamond_hoe
+- minecraft:netherite_axe
+- minecraft:netherite_pickaxe
+- minecraft:netherite_shovel
+- minecraft:netherite_hoe
+- minecraft:shears
+- minecraft:fishing_rod
 permitted-offhand:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
-- DIAMOND_SPADE
-- DIAMOND_HOE
-- NETHERITE_AXE
-- NETHERITE_PICKAXE
-- NETHERITE_SPADE
-- NETHERITE_HOE
-- SHEARS
-- FISHING_ROD
+- minecraft:diamond_axe
+- minecraft:diamond_pickaxe
+- minecraft:diamond_shovel
+- minecraft:diamond_hoe
+- minecraft:netherite_axe
+- minecraft:netherite_pickaxe
+- minecraft:netherite_shovel
+- minecraft:netherite_hoe
+- minecraft:shears
+- minecraft:fishing_rod
 
 permitted-skills:
-  Defences:
-    level: 1
-    magic-damage-reduction: 0.15
-    physical-damage-reduction: 0.0
-    projectile-damage-reduction: 0.10
-    wither-damage-reduction: 0.0
-    anvil-damage-reduction: 0.0
-    falling-damage-reduction: 0.0
-    lightning-damage-reduction: 0.0
 #PASSIVES
   Potion:
     level: 1
@@ -137,34 +128,34 @@ base-mana-regen: 3
 mana-regen-per-level: .2
 
 item-damage:
-    WOOD_SWORD: 2
-    STONE_SWORD: 3
-    GOLD_SWORD: 4
-    IRON_SWORD: 5
-    WOOD_SPADE: 1
-    STONE_SPADE: 1
-    GOLD_SPADE: 1
-    IRON_SPADE: 1
-    DIAMOND_SPADE: 1
-    NETHERITE_SPADE: 1
-    WOOD_PICKAXE: 1
-    STONE_PICKAXE: 1
-    GOLD_PICKAXE: 1
-    IRON_PICKAXE: 1
-    DIAMOND_PICKAXE: 1
-    NETHERITE_PICKAXE: 1
-    WOOD_AXE: 1
-    STONE_AXE: 1
-    GOLD_AXE: 1
-    IRON_AXE: 1
-    DIAMOND_AXE: 1
-    NETHERITE_AXE: 1
-    WOOD_HOE: 2
-    STONE_HOE: 4
-    GOLD_HOE: 6
-    IRON_HOE: 8
-    DIAMOND_HOE: 10
-    NETHERITE_HOE: 12
+    minecraft:wooden_sword: 1
+    minecraft:STONE_SWORD: 1
+    minecraft:GOLD_SWORD: 1
+    minecraft:IRON_SWORD: 1
+    minecraft:WOOD_SPADE: 1
+    minecraft:STONE_SPADE: 1
+    minecraft:GOLD_SPADE: 1
+    minecraft:IRON_SPADE: 1
+    minecraft:DIAMOND_SPADE: 1
+    minecraft:NETHERITE_SPADE: 1
+    minecraft:WOOD_PICKAXE: 1
+    minecraft:STONE_PICKAXE: 1
+    minecraft:GOLD_PICKAXE: 1
+    minecraft:IRON_PICKAXE: 1
+    minecraft:DIAMOND_PICKAXE: 1
+    minecraft:NETHERITE_PICKAXE: 1
+    minecraft:WOOD_AXE: 1
+    minecraft:STONE_AXE: 1
+    minecraft:GOLD_AXE: 1
+    minecraft:IRON_AXE: 1
+    minecraft:DIAMOND_AXE: 1
+    minecraft:NETHERITE_AXE: 1
+    minecraft:WOOD_HOE: 2
+    minecraft:STONE_HOE: 4
+    minecraft:GOLD_HOE: 6
+    minecraft:IRON_HOE: 8
+    minecraft:DIAMOND_HOE: 10
+    minecraft:NETHERITE_HOE: 12
 
 item-damage-level:
 projectile-damage:

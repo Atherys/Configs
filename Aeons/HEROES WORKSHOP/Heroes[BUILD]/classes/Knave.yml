@@ -62,15 +62,6 @@ permitted-offhand:
 - FISHING_ROD
 
 permitted-skills:
-  Defences:
-    level: 1
-    magic-damage-reduction: 0.0
-    physical-damage-reduction: 0.0
-    projectile-damage-reduction: 0.0
-    wither-damage-reduction: 0.0
-    anvil-damage-reduction: 0.0
-    falling-damage-reduction: 0.33
-    lightning-damage-reduction: 0.0
 #PASSIVES
   Potion:
     level: 1
