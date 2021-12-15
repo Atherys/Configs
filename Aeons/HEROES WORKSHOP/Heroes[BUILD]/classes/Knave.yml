@@ -135,3 +135,6 @@ projectile-damage:
   ARROW: 6
 projectile-damage-level:
   ARROW: .5
+
+pvp-item-damage-multiplier:
+pvp-item-damage-multiplier-level:

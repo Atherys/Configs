@@ -149,9 +149,9 @@ item-damage:
     IRON_AXE: 1
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
-    WOOD_HOE: 2
+    WOODEN_HOE: 2
     STONE_HOE: 2
-    GOLD_HOE: 4
+    GOLDEN_HOE: 4
     IRON_HOE: 4
     DIAMOND_HOE: 6
     NETHERITE_HOE: 8
@@ -159,3 +159,6 @@ item-damage:
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
+
+pvp-item-damage-multiplier:
+pvp-item-damage-multiplier-level:

@@ -36,6 +36,8 @@ base-shield-per-level: 10
 base-shield-regen: 25
 expmodifier: 1.0
 item-damage:
+pvp-item-damage-multiplier:
+pvp-item-damage-multiplier-level:
 item-damage-level:
 projectile-damage:
 projectile-damage-level:

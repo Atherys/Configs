@@ -146,3 +146,6 @@ item-damage:
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
+
+pvp-item-damage-multiplier:
+pvp-item-damage-multiplier-level:
