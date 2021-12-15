@@ -25,56 +25,32 @@ allocation-points-per-level: 0
 permitted-armor:
 - PUMPKIN
 - LEATHER
-- IRON_HELMET
-- IRON_CHESTPLATE
+- IRON
 - ELYTRA
 permitted-weapon:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
-- DIAMOND_SPADE
-- DIAMOND_HOE
-- NETHERITE_AXE
-- NETHERITE_PICKAXE
-- NETHERITE_SPADE
-- NETHERITE_HOE
+- DIAMOND
+- NETHERITE
 - BOW
 - SHIELD
-- SHEARS
-- FISHING_ROD
 permitted-offhand:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
-- DIAMOND_SPADE
-- DIAMOND_HOE
-- NETHERITE_AXE
-- NETHERITE_PICKAXE
-- NETHERITE_SPADE
-- NETHERITE_HOE
+- DIAMOND
+- NETHERITE
 - BOW
 - SHIELD
-- SHEARS
-- FISHING_ROD
 
 permitted-skills:
 #PASSIVES
   Potion:
     level: 1
     description: Grants the ability to use potions when out of combat.
-
-  BowMastery:
-    level: 1
-    apply-text: '%hero% gained %skill%!'
-    unapply-text: '%hero% lost %skill%!'
-    damage: 5
-    description: You are skilled with a bow and deal %damage% damage per shot.
 
   Shield:
     level: 1
@@ -103,7 +79,7 @@ permitted-skills:
 #ACTIVES
   Taunt:
     level: 5
-    cooldown: 20000
+    cooldown: 2000
     use-text: §7[§2Skill§7] %hero% used %skill%!
 
   Kick:
@@ -144,36 +120,39 @@ base-mana-regen: 1
 mana-regen-per-level: .2
 
 item-damage:
-    WOOD_SWORD: 8
+    WOODEN_SWORD: 8
     STONE_SWORD: 10
-    GOLD_SWORD: 15
+    GOLDEN_SWORD: 15
     IRON_SWORD: 15
-    WOOD_SPADE: 1
-    STONE_SPADE: 1
-    GOLD_SPADE: 1
-    IRON_SPADE: 1
-    DIAMOND_SPADE: 1
-    NETHERITE_SPADE: 1
-    WOOD_PICKAXE: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
     STONE_PICKAXE: 1
-    GOLD_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
     IRON_PICKAXE: 1
     DIAMOND_PICKAXE: 1
     NETHERITE_PICKAXE: 1
-    WOOD_AXE: 1
+    WOODEN_AXE: 1
     STONE_AXE: 1
-    GOLD_AXE: 1
+    GOLDEN_AXE: 1
     IRON_AXE: 1
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
-    WOOD_HOE: 1
+    WOODEN_HOE: 1
     STONE_HOE: 1
-    GOLD_HOE: 1
+    GOLDEN_HOE: 1
     IRON_HOE: 1
     DIAMOND_HOE: 1
     NETHERITE_HOE: 1
 
 item-damage-level:
 projectile-damage:
-  ARROW: 1
+  ARROW: 4
 projectile-damage-level:
+  ARROW: .2
