@@ -85,7 +85,7 @@ permitted-skills:
     expire-text: $1 is no longer Blessed.
 
   Pray:
-    level: 15
+    level: 20
     mana: 25
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 25

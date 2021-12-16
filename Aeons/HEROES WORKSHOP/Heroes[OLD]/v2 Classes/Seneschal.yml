@@ -153,3 +153,5 @@ item-damage:
     GOLD_HOE: 1
     IRON_HOE: 1
     DIAMOND_HOE: 1
+
+    shield, might, bleed, hamstring, flicker

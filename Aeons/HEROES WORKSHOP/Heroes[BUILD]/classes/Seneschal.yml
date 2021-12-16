@@ -1,11 +1,11 @@
-name: Apostle
+name: Seneschal
 tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: The path to healing, buffing and debuffing.
+description: The path of swords.
 parents: 
 
     strong:
@@ -33,6 +33,7 @@ permitted-weapon:
 - GOLD
 - DIAMOND
 - NETHERITE
+- SHIELD
 permitted-offhand:
 - WOOD
 - STONE
@@ -40,6 +41,7 @@ permitted-offhand:
 - GOLD
 - DIAMOND
 - NETHERITE
+- SHIELD
 
 permitted-skills:
 #PASSIVES
@@ -50,6 +52,19 @@ permitted-skills:
   Alchemy:
     level: 1
     description: Grants the ability to create potions in a brewing stand.
+
+  Shield:
+    level: 1
+    iron-door-physical: 0.30
+    wooden-door-physical: 0.50
+    trapdoor-physical: 0.70
+    iron-door-projectile: 0.30
+    wooden-door-projectile: 0.65
+    trapdoor-projectile: 0.80
+    iron-door-magic: 1.0
+    wooden-door-magic: 1.0
+    trapdoor-magic: 1.0
+    description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
 #ACTIVES
   Smite:
     level: 1
@@ -95,44 +110,57 @@ permitted-skills:
     healing: 15
     description: Heal yourself, or an ally within %radius% blocks for %health% health.
 
-  GroupHeal:
+  Might:
     level: 5
-    mana: 50
-    cooldown: 25000
+    cooldown: 60000
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    heal-amount: 30
-    radius: 15
+    damage-bonus: 1.25
+    radius: 10
+    apply-text: Your muscles bulge with power!
+    expire-text: You feel strength leave your body!
+    duration: 200000
 
-  CleanseSpirit:
+  Bleed:
     level: 10
-    mana: 75
-    cooldown: 25000
+    mana: 40
+    cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 10
+    max-distance: 16
     target-hit-tolerance: 0.4
-    is-scaled-healing: false
-    healing-scale-expression: '1'
-    healing: 150
-    max-effect-removals: 1
+    duration: 15000
+    period: 1000
+    tick-damage: 5
+    damage-per-level: 0
+    apply-text: '%target% is bleeding!'
+    expire-text: '%target% has stopped bleeding!'
 
-  Summonfood:
+  Cripple:
     level: 15
-    mana: 10
-    cooldown: 100000
-    use-text: §7[§2Skill§7] %hero% used %skill%!
-    food-type: BREAD
-    amount: 13
-
-  ManaFreeze:
-    level: 20
-    mana: 150
-    cooldown: 12000
+    cooldown: 20000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 7
+    max-distance: 15
     target-hit-tolerance: 0.4
+    duration: 10000
+    duration-increase: 0
+    period: 1000
+    tick-damage: 20
+    tick-damage-increase: 0
+    damage: 60
+    damage-incrase: 0
+    max-distance-increase: 0
+    apply-text: '%target% has been Crippled by %hero%!'
+    remove-text: '%target% has recovered from %hero%s Crippling blow!'
+
+  Flicker:
+    level: 20
+    mana: 60
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
     duration: 6000
-    apply-text: §7[§2Skill§7] %target% has stopped regenerating mana!
-    expire-text: §7[§2Skill§7] %target% is once again regenerating mana!
+    period: 1000
+    invis-duration: 500
+    apply-text: §7[§2Skill§7] %hero% begins to flicker!
+    expire-text: §7[§2Skill§7] %hero% is no longer flickering.
 
 
 permission-skills:
@@ -152,12 +180,12 @@ base-mana-regen: 10
 mana-regen-per-level: .4
 
 item-damage:
-    WOODEN_SWORD: 1
-    STONE_SWORD: 1
-    GOLDEN_SWORD: 1
-    IRON_SWORD: 1
-    DIAMOND_SWORD: 1
-    NETHERITE_SWORD: 1
+    WOODEN_SWORD: 6
+    STONE_SWORD: 8
+    GOLDEN_SWORD: 10
+    IRON_SWORD: 10
+    DIAMOND_SWORD: 12
+    NETHERITE_SWORD: 13
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
     GOLDEN_SHOVEL: 1
@@ -176,12 +204,12 @@ item-damage:
     IRON_AXE: 1
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
-    WOODEN_HOE: 3
-    STONE_HOE: 5
-    GOLDEN_HOE: 7
-    IRON_HOE: 9
-    DIAMOND_HOE: 11
-    NETHERITE_HOE: 13
+    WOODEN_HOE: 1
+    STONE_HOE: 1
+    GOLDEN_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
 
 item-damage-level:
 projectile-damage:

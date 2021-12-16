@@ -1,11 +1,11 @@
-name: Apostle
+name: Zealot
 tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: The path to healing, buffing and debuffing.
+description: The path to offensive magics.
 parents: 
 
     strong:
@@ -75,6 +75,7 @@ permitted-skills:
   Blessing:
     level: 1
     mana: 50
+    cooldown: 50000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 10
     target-hit-tolerance: 0.4
@@ -95,44 +96,60 @@ permitted-skills:
     healing: 15
     description: Heal yourself, or an ally within %radius% blocks for %health% health.
 
-  GroupHeal:
+  Poison:
     level: 5
-    mana: 50
-    cooldown: 25000
-    use-text: §7[§2Skill§7] %hero% used %skill%!
-    heal-amount: 30
-    radius: 15
+    mana: 30
+    cooldown: 20000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
+    duration: 10000
+    period: 2000
+    tick-damage: 1
+    expire-text: '%target% has recovered from the poison!'
 
-  CleanseSpirit:
+  Harmtouch:
     level: 10
-    mana: 75
-    cooldown: 25000
+    mana: 15
+    cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 10
+    max-distance: 5
     target-hit-tolerance: 0.4
-    is-scaled-healing: false
-    healing-scale-expression: '1'
-    healing: 150
-    max-effect-removals: 1
+    damage: 75
+    health-cost: 10
+    duration: 15000
+    heal-multiplier: 0.5
+    slow-level: 2
+    apply-text: '%target% has been harmfully touched by %hero%!'
+    expire-text: '%target% has recovered from their harmful touch!'
 
-  Summonfood:
+  Plague:
     level: 15
-    mana: 10
-    cooldown: 100000
-    use-text: §7[§2Skill§7] %hero% used %skill%!
-    food-type: BREAD
-    amount: 13
-
-  ManaFreeze:
-    level: 20
-    mana: 150
-    cooldown: 12000
+    mana: 50
+    cooldown: 50000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 7
+    max-distance: 25
     target-hit-tolerance: 0.4
-    duration: 6000
-    apply-text: §7[§2Skill§7] %target% has stopped regenerating mana!
-    expire-text: §7[§2Skill§7] %target% is once again regenerating mana!
+    duration: 15000
+    period: 1000
+    tick-damage: 10.0
+    radius: 10
+    apply-text: §7[§2Skill§7] %target% is infected with the plague!
+    expire-text: §7[§2Skill§7] %target% is no longer infected with the plague!
+  
+  Despair:
+    level: 20
+    mana: 75
+    cooldown: 35000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    damage: 55
+    radius: 4
+    duration: 4000
+    apply-text: §7[§2Skill§7] %hero% has blinded %target% with %skill%!
+    expire-text: §7[§2Skill§7] %hero% has recovered their sight!
+    reagent: ROTTEN_FLESH
+    reagent-cost: 1
+
 
 
 permission-skills:
