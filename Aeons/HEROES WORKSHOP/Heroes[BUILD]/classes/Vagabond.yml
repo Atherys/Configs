@@ -1,15 +1,15 @@
-name: Knave
-tier: 1
+name: Vagabond
+tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: A beginner rogue.
+description: An acrobatic rogue.
 parents: 
 
     strong:
-
+    - KNAVE
     weak:
 
 base-attributes:
@@ -56,7 +56,7 @@ permitted-skills:
     description: Begin to sneak, appearing crouched to other players and hiding your nametag.
   
   One:
-    level: 5
+    level: 1
     cooldown: 30000
     mana: 20
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -66,26 +66,68 @@ permitted-skills:
     expire-text: '%hero% returned to normal speed!'
   
   Smoke:
-    level: 10
+    level: 1
     mana: 10
     duration: 12000
     cooldown: 20000
     description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
 
   EscapeArtist:
-    level: 15
+    level: 1
     cooldown: 45000
     chance: 1
     description: Use impressive dexterity to escape movement impeding effects.
 
   SmokeBomb:
-    level: 20
+    level: 1
     mana: 40
     radius: 5
     duration: 5000
     cooldown: 25000
     damage: 10
     description: You launch a bomb, dealing %damage% magic damage, interrupting channeling, and blinding your enemy for %duration/1000% seconds.
+
+  Jump:
+    level: 5
+    mana: 10
+    cooldown: 1500
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    no-air-jump: true
+    horizontal-power: 1.0
+    vertical-power: 1.0
+    ncp-exemption-duration: 2000
+
+  PickPocket:
+    level: 10
+    cooldown: 5000
+    use-text: ''
+    max-distance: 6
+    target-hit-tolerance: 0.4
+    base-chance: 0.1
+    chance-per-level: 0.003
+    failure-message: '%hero% failed to steal from %target%!'
+    noisy-success-message: '%hero% stole %target%s %item%!'
+    disallowed-items:
+    - ''
+    always-steal-all: false
+    max-stolen: 6
+
+  Backflip:
+    level: 15
+    cooldown: 5000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    no-air-backflip: false
+    horizontal-power: 0.5
+    vertical-power: 0.5
+    ncp-exemption-duration: 2000
+
+  Safefall:
+    level: 20
+    cooldown: 12000
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 6000
+
 
 permission-skills:
 experience-sources:
@@ -95,21 +137,21 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 100
+base-max-health: 150
 max-health-per-level: 2.0
 
-base-max-mana: 200
+base-max-mana: 300
 max-mana-per-level: 4
-base-mana-regen: 1
-mana-regen-per-level: .2
+base-mana-regen: 10
+mana-regen-per-level: .4
 
 item-damage:
     WOODEN_SWORD: 8
     STONE_SWORD: 10
     GOLDEN_SWORD: 12
     IRON_SWORD: 12
-    DIAMOND_SWORD: 1
-    NETHERITE_SWORD: 1
+    DIAMOND_SWORD: 14
+    NETHERITE_SWORD: 16
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
     GOLDEN_SHOVEL: 1
@@ -134,12 +176,10 @@ item-damage:
     IRON_HOE: 1
     DIAMOND_HOE: 1
     NETHERITE_HOE: 1
-item-damage-level:
 
+item-damage-level:
 projectile-damage:
-  ARROW: 6
 projectile-damage-level:
-  ARROW: .5
 
 pvp-item-damage-multiplier:
     WOODEN_SWORD: 1
