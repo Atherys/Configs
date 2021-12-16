@@ -1,15 +1,15 @@
-name: Squire
-tier: 1
+name: Gladiator
+tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: A beginner warrior.
+description: A damage focused swordsman.
 parents: 
 
     strong:
-
+    - SQUIRE
     weak:
 
 base-attributes:
@@ -25,7 +25,8 @@ allocation-points-per-level: 0
 permitted-armor:
 - PUMPKIN
 - LEATHER
-- IRON
+- IRON_CHESTPLATE
+- IRON_LEGGINGS
 - ELYTRA
 permitted-weapon:
 - WOOD
@@ -36,6 +37,7 @@ permitted-weapon:
 - NETHERITE
 - BOW
 - SHIELD
+- TRIDENT
 permitted-offhand:
 - WOOD
 - STONE
@@ -45,6 +47,7 @@ permitted-offhand:
 - NETHERITE
 - BOW
 - SHIELD
+- TRIDENT
 
 permitted-skills:
 #PASSIVES
@@ -66,7 +69,7 @@ permitted-skills:
     description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
 
   Repair:
-    level: 10
+    level: 1
     wood : 1
     stone : 1
     leather : 1
@@ -78,12 +81,12 @@ permitted-skills:
 
 #ACTIVES
   Taunt:
-    level: 5
+    level: 1
     cooldown: 2000
     use-text: §7[§2Skill§7] %hero% used %skill%!
 
   Kick:
-    level: 10
+    level: 1
     cooldown: 10000
     max_distance: 3
     silence-duration: 1000
@@ -91,7 +94,7 @@ permitted-skills:
     description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
 
   Charge:
-    level: 20
+    level: 1
     cooldown: 35000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 16
@@ -103,6 +106,71 @@ permitted-skills:
     damage: 60
     radius: 2
 
+  Headbutt:
+    level: 5
+    mana: 10
+    cooldown: 15000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 4
+    target-hit-tolerance: 0.4
+    duration: 1500
+    damage: 30
+    health-cost: 5
+
+  MortalWound:
+    level: 10
+    mana: 20
+    cooldown: 45000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 5
+    target-hit-tolerance: 0.4
+    weapons:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
+    - NETHERITE_SWORD
+    duration: 7500
+    period: 2000
+    heal-multiplier: 0.5
+    tick-damage: 10
+    apply-text: '%target% has been mortally wounded by %hero%!'
+    expire-text: '%target% has recovered from their mortal wound!'
+
+  Maim:
+    level: 15
+    cooldown: 50000
+    mana: 30
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 6
+    target-hit-tolerance: 0.4
+    weapons:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
+    - NETHERITE_SWORD
+    - TRIDENT
+    amplitude: 3
+    damage: 60
+    duration: 2500
+    apply-text: §7[§2Skill§7] %target% has been maimed by %hero%!
+    expire-text: §7[§2Skill§7] %target% is no longer slowed!
+
+  SonicBoom:
+    level: 20
+    cooldown: 30000
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 4000
+    duration-per-level: 0
+    radius: 5
+    radius-increase: 0
+    damage: 20
+    damage-per-level: 0
+
 permission-skills:
 experience-sources:
 - KILLING
@@ -111,7 +179,7 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 150
+base-max-health: 200
 max-health-per-level: 2.0
 
 base-max-mana: 200
@@ -124,8 +192,8 @@ item-damage:
     STONE_SWORD: 10
     GOLDEN_SWORD: 15
     IRON_SWORD: 15
-    DIAMOND_SWORD: 1
-    NETHERITE_SWORD: 1
+    DIAMOND_SWORD: 17
+    NETHERITE_SWORD: 19
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
     GOLDEN_SHOVEL: 1
@@ -150,10 +218,11 @@ item-damage:
     IRON_HOE: 1
     DIAMOND_HOE: 1
     NETHERITE_HOE: 1
+    TRIDENT: 15
 
 item-damage-level:
 projectile-damage:
-  ARROW: 4
+  ARROW: 8
 projectile-damage-level:
   ARROW: .2
 

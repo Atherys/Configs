@@ -1,15 +1,15 @@
-name: Squire
-tier: 1
+name: Knight
+tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: A beginner warrior.
+description: A defense focused swordsman.
 parents: 
 
     strong:
-
+    - SQUIRE
     weak:
 
 base-attributes:
@@ -24,7 +24,6 @@ allocation-points-per-level: 0
 
 permitted-armor:
 - PUMPKIN
-- LEATHER
 - IRON
 - ELYTRA
 permitted-weapon:
@@ -66,7 +65,7 @@ permitted-skills:
     description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
 
   Repair:
-    level: 10
+    level: 1
     wood : 1
     stone : 1
     leather : 1
@@ -78,12 +77,12 @@ permitted-skills:
 
 #ACTIVES
   Taunt:
-    level: 5
+    level: 1
     cooldown: 2000
     use-text: §7[§2Skill§7] %hero% used %skill%!
 
   Kick:
-    level: 10
+    level: 1
     cooldown: 10000
     max_distance: 3
     silence-duration: 1000
@@ -91,7 +90,7 @@ permitted-skills:
     description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
 
   Charge:
-    level: 20
+    level: 1
     cooldown: 35000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 16
@@ -103,6 +102,50 @@ permitted-skills:
     damage: 60
     radius: 2
 
+  Bleed:
+    level: 5
+    cooldown: 20000
+    mana: 20
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
+    duration: 10000
+    period: 2000
+    tick-damage: 5
+    apply-text: '%target% is bleeding!'
+    expire-text: '%target% has stopped bleeding!'
+
+  Stun:
+    level: 10
+    cooldown: 3000
+    mana: 30
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 15
+    target-hit-tolerance: 0.4
+    duration: 1500
+    damage: 10
+    delay: 500
+
+  Invuln:
+    level: 15
+    cooldown: 60000
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 6000
+    apply-text: §7[§2Skill§7] %hero% has become invulnerable!
+    expire-text: §7[§2Skill§7] %hero% is once again vulnerable!
+
+  Pray:
+    level: 20
+    mana: 20
+    cooldown: 10000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 25
+    target-hit-tolerance: 0.4
+    is-scaled-healing: false
+    healing-scale-expression: '1'
+    healing: 50
+
 permission-skills:
 experience-sources:
 - KILLING
@@ -111,7 +154,7 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 150
+base-max-health: 200
 max-health-per-level: 2.0
 
 base-max-mana: 200
@@ -124,8 +167,8 @@ item-damage:
     STONE_SWORD: 10
     GOLDEN_SWORD: 15
     IRON_SWORD: 15
-    DIAMOND_SWORD: 1
-    NETHERITE_SWORD: 1
+    DIAMOND_SWORD: 17
+    NETHERITE_SWORD: 19
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
     GOLDEN_SHOVEL: 1
@@ -153,7 +196,7 @@ item-damage:
 
 item-damage-level:
 projectile-damage:
-  ARROW: 4
+  ARROW: 8
 projectile-damage-level:
   ARROW: .2
 
