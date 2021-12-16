@@ -1,0 +1,330 @@
+name: Guardian
+tier: 3
+max-level: 50
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: An advanced defense priest.
+parents: 
+
+    strong:
+    - SENESCHAL
+    weak:
+
+base-attributes:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points-per-level: 0
+
+permitted-armor:
+- PUMPKIN
+- LEATHER
+- IRON
+- ELYTRA
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+- NETHERITE
+- SHIELD
+permitted-offhand:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+- NETHERITE
+- SHIELD
+
+permitted-skills:
+#PASSIVES
+  Potion:
+    level: 1
+    description: Grants the ability to use potions when out of combat.
+
+  Alchemy:
+    level: 1
+    description: Grants the ability to create potions in a brewing stand.
+
+  Shield:
+    level: 1
+    iron-door-physical: 0.30
+    wooden-door-physical: 0.50
+    trapdoor-physical: 0.70
+    iron-door-projectile: 0.30
+    wooden-door-projectile: 0.65
+    trapdoor-projectile: 0.80
+    iron-door-magic: 1.0
+    wooden-door-magic: 1.0
+    trapdoor-magic: 1.0
+    description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
+#ACTIVES
+  Smite:
+    level: 1
+    max-distance: 10
+    mana: 40
+    damage: 50
+    cooldown: 1500
+    multiplier: 3.0
+    description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
+
+  Absolution:
+    level: 1
+    mana: 120
+    amount: 30
+    radius: 20
+    duration: 6000
+    period: 2000
+    cooldown: 45000
+    apply-text: Your mana is regenerating faster
+    expire-text: Absolution effect expired
+    description: Give %amount% mana every %period/1000% seconds for %duration/1000% seconds total to 3 party members with the lowest mana within %radius% blocks of you.
+
+  Blessing:
+    level: 1
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 10
+    target-hit-tolerance: 0.4
+    duration: 300000
+    duration-increase-per-level: 10000
+    attribute-increase: 5
+    apply-text: $1 is Blessed!
+    expire-text: $1 is no longer Blessed.
+
+  Pray:
+    level: 1
+    mana: 25
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 25
+    target-hit-tolerance: 0.4
+    is-scaled-healing: false
+    healing-scale-expression: '1'
+    healing: 15
+    description: Heal yourself, or an ally within %radius% blocks for %health% health.
+
+  Might:
+    level: 1
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    damage-bonus: 1.25
+    radius: 10
+    apply-text: Your muscles bulge with power!
+    expire-text: You feel strength leave your body!
+    duration: 200000
+
+  Bleed:
+    level: 1
+    mana: 40
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
+    duration: 15000
+    period: 1000
+    tick-damage: 5
+    damage-per-level: 0
+    apply-text: '%target% is bleeding!'
+    expire-text: '%target% has stopped bleeding!'
+
+  Cripple:
+    level: 1
+    cooldown: 20000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 15
+    target-hit-tolerance: 0.4
+    duration: 10000
+    duration-increase: 0
+    period: 1000
+    tick-damage: 20
+    tick-damage-increase: 0
+    damage: 60
+    damage-incrase: 0
+    max-distance-increase: 0
+    apply-text: '%target% has been Crippled by %hero%!'
+    remove-text: '%target% has recovered from %hero%s Crippling blow!'
+
+  Flicker:
+    level: 1
+    mana: 60
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 6000
+    period: 1000
+    invis-duration: 500
+    apply-text: §7[§2Skill§7] %hero% begins to flicker!
+    expire-text: §7[§2Skill§7] %hero% is no longer flickering.
+
+  GroupHeal:
+    level: 10
+    mana: 100
+    cooldown: 50000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    heal-amount: 50
+    radius: 10
+
+  Intervene:
+    level: 20
+    mana: 30
+    cooldown: 16000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 14
+    target-hit-tolerance: 0.4
+    duration: 8000
+    damage-split-percent: 0.5
+    distance-required-for-intervene: 7
+    apply-text: §7[§2Skill§7] %hero% is intervening attacks against %target%
+    expire-text: §7[§2Skill§7] %hero% is no longer intervening attacks against %target%.
+
+ Safefall:
+    level: 30
+    mana: 50
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 6000
+
+  DevourMagic:
+    level: 40
+    mana: 60
+    cooldown: 20000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 5000
+    resist-value: 0.25
+    mana-per-damage: 0.5
+    apply-text: §7[§2Skill§7] %hero% is devouring incoming magic!
+    expire-text: §7[§2Skill§7] %hero% is no longer devouring magic.
+
+  Invuln:
+    level: 50
+    mana: 150
+    cooldown: 100000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 8000
+    apply-text: §7[§2Skill§7] %hero% has become invulnerable!
+    expire-text: §7[§2Skill§7] %hero% is once again vulnerable!
+    reagent: GLASS
+    reagent-cost: 1
+
+#groupheal, vitalize, invuln, bolster, intervene
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+
+expmodifier: 1
+expLoss: 0
+
+base-max-health: 150
+max-health-per-level: 2.0
+
+base-max-mana: 300
+max-mana-per-level: 4
+base-mana-regen: 10
+mana-regen-per-level: .4
+
+item-damage:
+    WOODEN_SWORD: 10
+    STONE_SWORD: 12
+    GOLDEN_SWORD: 14
+    IRON_SWORD: 14
+    DIAMOND_SWORD: 16
+    NETHERITE_SWORD: 18
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 1
+    STONE_HOE: 1
+    GOLDEN_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
+
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+
+pvp-item-damage-multiplier:
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 1
+    STONE_HOE: 1
+    GOLDEN_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
+pvp-item-damage-multiplier-level:
+    WOODEN_SWORD: 0
+    STONE_SWORD: 0
+    GOLDEN_SWORD: 0
+    IRON_SWORD: 0
+    DIAMOND_SWORD: 0
+    NETHERITE_SWORD: 0
+    WOODEN_SHOVEL: 0
+    STONE_SHOVEL: 0
+    GOLDEN_SHOVEL: 0
+    IRON_SHOVEL: 0
+    DIAMOND_SHOVEL: 0
+    NETHERITE_SHOVEL: 0
+    WOODEN_PICKAXE: 0
+    STONE_PICKAXE: 0
+    GOLDEN_PICKAXE: 0
+    IRON_PICKAXE: 0
+    DIAMOND_PICKAXE: 0
+    NETHERITE_PICKAXE: 0
+    WOODEN_AXE: 0
+    STONE_AXE: 0
+    GOLDEN_AXE: 0
+    IRON_AXE: 0
+    DIAMOND_AXE: 0
+    NETHERITE_AXE: 0
+    WOODEN_HOE: 0
+    STONE_HOE: 0
+    GOLDEN_HOE: 0
+    IRON_HOE: 0
+    DIAMOND_HOE: 0
+    NETHERITE_HOE: 0
