@@ -1,11 +1,11 @@
-name: Spellthief
+name: Magus
 tier: 3
 max-level: 50
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: An advanced, stealth focused Mage.
+description: An advanced, utility focused mage.
 parents: 
 
     strong:
@@ -158,50 +158,49 @@ permitted-skills:
     use-text: §7[§2Skill§7] %hero% used %skill%!
     duration: 6000
 
-  Smoke:
+  HarmShield:
     level: 20
-    mana: 60
-    duration: 12000
-    cooldown: 20000
-    description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
-
-  Backstab:
-    level: 30
-    cooldown: 3000
+    mana: 70
+    cooldown: 25000
     use-text: ''
-    backstab-text: ''
-    weapons:
-    - WOODEN_SWORD
-    - STONE_SWORD
-    - IRON_SWORD
-    - GOLDEN_SWORD
-    - DIAMOND_SWORD
-    - NETHERITE_SWORD
-    backstab-chance: -1.0
-    backstab-bonus: 0.5
-    ambush-chance: -1.0
-    ambush-bonus: 0.25
-    allow-vanilla-sneaking: true
+    damage-multiplier: 0.2
+    duration: 10000
+    apply-text: §7[§2Skill§7] %hero% is shielded from harm!
+    expire-text: §7[§2Skill§7] %hero% lost his harm shield!
 
-  Shadowstep:
+  Replenish:
+    level: 30
+    mana: 1
+    cooldown: 100000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    mana-gain-percent: 0.75
+    reagent: DIAMOND
+    reagent-cost: 1
+
+  Light:
     level: 40
-    mana: 60
-    cooldown: 30000
-    use-text: §7[§2Skill§7] %hero% ShadowStepped behind %target%!
-    max-distance: 9
-    target-hit-tolerance: 0.4
-    teleport-blocks-behind-target: 1
+    mana: 10
+    cooldown: 35000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 30000
+    period: 200
+    apply-text: §7[§2Skill§7] %hero% is lighting the way.
+    expire-text: §7[§2Skill§7] %hero% is no longer lighting the way
 
-  DevourMagic:
+  GroupTeleport:
     level: 50
     mana: 100
-    cooldown: 60000
+    cooldown: 900000
+    delay: 15000
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    duration: 15000
-    resist-value: 0.25
-    mana-per-damage: 0.5
-    apply-text: §7[§2Skill§7] %hero% is devouring incoming magic!
-    expire-text: §7[§2Skill§7] %hero% is no longer devouring magic.
+    vrovona: ''
+    ithero: ''
+    arselukk: ''
+    aloreh: ''
+    roreg: ''
+    monas: ''
+    zemya: ''
+
 
 permission-skills:
 experience-sources:
@@ -220,12 +219,12 @@ base-mana-regen: 15
 mana-regen-per-level: .4
 
 item-damage:
-    WOODEN_SWORD: 9
-    STONE_SWORD: 10
-    GOLDEN_SWORD: 13
-    IRON_SWORD: 13
-    DIAMOND_SWORD: 15
-    NETHERITE_SWORD: 17
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
     GOLDEN_SHOVEL: 1
@@ -244,12 +243,12 @@ item-damage:
     IRON_AXE: 1
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
-    WOODEN_HOE: 1
-    STONE_HOE: 1
-    GOLDEN_HOE: 1
-    IRON_HOE: 1
-    DIAMOND_HOE: 1
-    NETHERITE_HOE: 1
+    WOODEN_HOE: 3
+    STONE_HOE: 5
+    GOLDEN_HOE: 7
+    IRON_HOE: 9
+    DIAMOND_HOE: 11
+    NETHERITE_HOE: 13
 
 item-damage-level:
 projectile-damage:
