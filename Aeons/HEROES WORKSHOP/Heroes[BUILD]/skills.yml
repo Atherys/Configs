@@ -797,7 +797,7 @@ DevourMagic:
   mana-per-damage: 0.8
   apply-text: §7[§2Skill§7] %hero% is devouring incoming magic!
   expire-text: §7[§2Skill§7] %hero% is no longer devouring magic.
-Stun:
+DivineStun:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
   max-distance: 6
   target-hit-tolerance: 0.4

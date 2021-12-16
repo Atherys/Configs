@@ -115,7 +115,7 @@ permitted-skills:
     apply-text: '%target% is bleeding!'
     expire-text: '%target% has stopped bleeding!'
 
-  Stun:
+  DivineStun:
     level: 10
     cooldown: 3000
     mana: 30
