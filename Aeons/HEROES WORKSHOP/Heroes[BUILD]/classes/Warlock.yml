@@ -1,0 +1,269 @@
+name: Warlock
+tier: 2
+max-level: 25
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: An agressive mage.
+parents: 
+
+    strong:
+    - INITIATE
+    weak:
+
+base-attributes:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points-per-level: 0
+
+permitted-armor:
+- PUMPKIN
+- LEATHER
+- ELYTRA
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+- NETHERITE
+permitted-offhand:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+- NETHERITE
+
+permitted-skills:
+#PASSIVES
+  Potion:
+    level: 1
+    description: Grants the ability to use potions when out of combat.
+
+  Enchant:
+    level: 1
+    featfallfour: 0.1
+    featfallthree: 0.25
+    featfalltwo: 0.5
+    featfallone: 1.0
+    respthree: 0.25
+    resptwo: 0.5
+    respone: 1.0
+    thorthree: 0.0
+    thortwo: 0.25
+    thorone: 1.0
+    knoctwo: 0.5
+    knocone: 1.0
+    firetwo: 0.5
+    fireone: 1.0
+    effifive: 0.0
+    effifour: 0.1
+    effithree: 0.25
+    effitwo: 0.5
+    effione: 1.0
+    unbrthree: 0.25
+    unbrtwo: 0.5
+    unbrone: 1.0
+    luckthree: 0.25
+    lucktwo: 0.5
+    luckone: 1.0
+    lurethree: 0.25
+    luretwo: 0.5
+    lureone: 1.0
+    description: You have the ability to enchant armor and weapons using Enchanter's Dust.
+#ACTIVES
+  Fireball:
+    level: 1
+    mana: 40
+    damage: 40
+    cooldown: 1500
+    description: Launch a fireball that deals %damage% magic damage and lights your target on fire.
+
+  Inversion:
+    level: 1
+    mana: 60
+    max-damage: 100
+    cooldown: 75000
+    description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
+
+  Piggify:
+    level: 1
+    mana: 80
+    duration: 5000
+    cooldown: 30000
+    description: Force the target to ride a pig for %duration/1000% seconds. While affected, they are immune to all damage until meleed or the duration expires.
+
+  Arcaneblast:
+    level: 1
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 10
+    target-hit-tolerance: 0.4
+    damage: 200
+    damage-increase-per-intellect: 2.5
+
+  Web:
+    level: 5
+    mana: 15
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    reagent: STRING
+    target-hit-tolerance: 0.4
+    duration: 6000
+    apply-text: '%hero% conjured a web at %target%''s feet!'
+
+  Bolt:
+    level: 10
+    mana: 10
+    cooldown: 6000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 20
+    target-hit-tolerance: 0.4
+    damage: 30
+    lightning-volume: 0.0
+
+  Root:
+    level: 15
+    mana: 30
+    cooldown: 10000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
+    duration: 5000
+
+  Harmtouch:
+    level: 20
+    mana: 60
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 4
+    target-hit-tolerance: 0.4
+    damage: 100
+    health-cost: 10
+    duration: 12000
+    heal-multiplier: 0.5
+    slow-level: 2
+    apply-text: '%target% has been harmfully touched by %hero%!'
+    expire-text: '%target% has recovered from their harmful touch!'
+
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+
+expmodifier: 1
+expLoss: 0
+
+base-max-health: 150
+max-health-per-level: 2.0
+
+base-max-mana: 300
+max-mana-per-level: 4
+base-mana-regen: 10
+mana-regen-per-level: .4
+
+item-damage:
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 4
+    STONE_HOE: 6
+    GOLDEN_HOE: 8
+    IRON_HOE: 10
+    DIAMOND_HOE: 12
+    NETHERITE_HOE: 13
+
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+
+pvp-item-damage-multiplier:
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 1
+    STONE_HOE: 1
+    GOLDEN_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
+pvp-item-damage-multiplier-level:
+    WOODEN_SWORD: 0
+    STONE_SWORD: 0
+    GOLDEN_SWORD: 0
+    IRON_SWORD: 0
+    DIAMOND_SWORD: 0
+    NETHERITE_SWORD: 0
+    WOODEN_SHOVEL: 0
+    STONE_SHOVEL: 0
+    GOLDEN_SHOVEL: 0
+    IRON_SHOVEL: 0
+    DIAMOND_SHOVEL: 0
+    NETHERITE_SHOVEL: 0
+    WOODEN_PICKAXE: 0
+    STONE_PICKAXE: 0
+    GOLDEN_PICKAXE: 0
+    IRON_PICKAXE: 0
+    DIAMOND_PICKAXE: 0
+    NETHERITE_PICKAXE: 0
+    WOODEN_AXE: 0
+    STONE_AXE: 0
+    GOLDEN_AXE: 0
+    IRON_AXE: 0
+    DIAMOND_AXE: 0
+    NETHERITE_AXE: 0
+    WOODEN_HOE: 0
+    STONE_HOE: 0
+    GOLDEN_HOE: 0
+    IRON_HOE: 0
+    DIAMOND_HOE: 0
+    NETHERITE_HOE: 0
