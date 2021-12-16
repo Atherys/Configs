@@ -184,7 +184,7 @@ permitted-skills:
     apply-text: §7[§2Skill§7] %hero% is intervening attacks against %target%
     expire-text: §7[§2Skill§7] %hero% is no longer intervening attacks against %target%.
 
- Safefall:
+  Safefall:
     level: 30
     mana: 50
     cooldown: 30000
