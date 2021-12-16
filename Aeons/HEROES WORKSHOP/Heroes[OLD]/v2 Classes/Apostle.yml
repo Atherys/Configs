@@ -34,37 +34,13 @@ permitted-weapon:
 - SHEARS
 - FISHING_ROD
 permitted-skills:
-  Potion:
-    level: 1
+
   Piety:
     level: 1
     apply-text: '%hero% gained %skill%!'
     unapply-text: '%hero% lost %skill%!'
     amount: .3
-  Smite:
-    level: 1
-    use-text: '%hero% used %skill% on %target%!'
-    max-distance: 15
-    mana: 5
-    damage: 15
-    cooldown: 1500
-  Pray:
-    level: 1
-    use-text: '%hero% used %skill% on %target%!'
-    max-distance: 25
-    mana: 15
-    cooldown: 5000
-    health: 30
-  Absolution:
-    level: 1
-    mana: 15
-    amount: 2.0
-    radius: 20
-    duration: 20000
-    cooldown: 60000
-    use-text: '%hero% used %skill%!'
-    apply-text: Your mana is regenerating faster
-    expire-text: Absolution effect expired
+
   Repentance:
     level: 1
     use-text: '%hero% used %skill% on %target%!'
@@ -72,13 +48,7 @@ permitted-skills:
     mana: 15
     cooldown: 30000
     damage: 50
-  GroupHeal:
-    level: 5   
-    use-text: '%hero% used %skill%!'
-    mana: 15
-    cooldown: 25000
-    heal-amount: 20
-    radius: 15
+
   Kharma:
     level: 10
     mana: 10

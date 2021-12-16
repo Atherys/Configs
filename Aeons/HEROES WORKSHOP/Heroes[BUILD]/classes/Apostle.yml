@@ -1,15 +1,15 @@
-name: Acolyte
-tier: 1
+name: Apostle
+tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: A beginner priest.
+description: The path to healing, buffing and debuffing.
 parents: 
 
     strong:
-
+    - ACOLYTE
     weak:
 
 base-attributes:
@@ -55,13 +55,13 @@ permitted-skills:
     level: 1
     max-distance: 10
     mana: 40
-    damage: 30
-    cooldown: 2000
+    damage: 50
+    cooldown: 1500
     multiplier: 3.0
     description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
 
   Absolution:
-    level: 5
+    level: 1
     mana: 120
     amount: 30
     radius: 20
@@ -73,7 +73,7 @@ permitted-skills:
     description: Give %amount% mana every %period/1000% seconds for %duration/1000% seconds total to 3 party members with the lowest mana within %radius% blocks of you.
 
   Blessing:
-    level: 10
+    level: 1
     mana: 50
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 10
@@ -85,15 +85,55 @@ permitted-skills:
     expire-text: $1 is no longer Blessed.
 
   Pray:
-    level: 15
+    level: 1
     mana: 25
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 25
     target-hit-tolerance: 0.4
     is-scaled-healing: false
     healing-scale-expression: '1'
-    healing: 10
+    healing: 15
     description: Heal yourself, or an ally within %radius% blocks for %health% health.
+
+  GroupHeal:
+    level: 5
+    mana: 50
+    cooldown: 25000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    heal-amount: 30
+    radius: 15
+
+  CleanseSpirit:
+    level: 10
+    mana: 75
+    cooldown: 25000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 10
+    target-hit-tolerance: 0.4
+    is-scaled-healing: false
+    healing-scale-expression: '1'
+    healing: 150
+    max-effect-removals: 1
+
+  Summonfood:
+    level: 15
+    mana: 10
+    cooldown: 100000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    food-type: BREAD
+    amount: 13
+
+  ManaFreeze:
+    level: 20
+    mana: 150
+    cooldown: 12000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 7
+    target-hit-tolerance: 0.4
+    duration: 6000
+    apply-text: §7[§2Skill§7] %target% has stopped regenerating mana!
+    expire-text: §7[§2Skill§7] %target% is once again regenerating mana!
+
 
 permission-skills:
 experience-sources:
@@ -103,13 +143,13 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 100
+base-max-health: 150
 max-health-per-level: 2.0
 
-base-max-mana: 200
+base-max-mana: 300
 max-mana-per-level: 4
-base-mana-regen: 3
-mana-regen-per-level: .2
+base-mana-regen: 10
+mana-regen-per-level: .4
 
 item-damage:
     WOODEN_SWORD: 1
@@ -136,12 +176,12 @@ item-damage:
     IRON_AXE: 1
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
-    WOODEN_HOE: 2
-    STONE_HOE: 4
-    GOLDEN_HOE: 6
-    IRON_HOE: 8
-    DIAMOND_HOE: 10
-    NETHERITE_HOE: 12
+    WOODEN_HOE: 3
+    STONE_HOE: 5
+    GOLDEN_HOE: 7
+    IRON_HOE: 9
+    DIAMOND_HOE: 11
+    NETHERITE_HOE: 13
 
 item-damage-level:
 projectile-damage:
