@@ -48,45 +48,42 @@ permitted-skills:
     description: Grants the ability to use potions when out of combat.
 
   Alchemy:
-    level: 15
+    level: 1
     description: Grants the ability to create potions in a brewing stand.
 #ACTIVES
   Smite:
     level: 1
-    max-distance: 10
-    mana: 40
-    damage: 30
+    max-distance: 7
+    mana: 20
+    damage: 20
     cooldown: 3000
     multiplier: 3.0
     description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
 
   Absolution:
     level: 5
-    mana: 120
+    mana: 50
     amount: 30
-    radius: 20
+    radius: 5
     duration: 6000
     period: 2000
-    cooldown: 45000
+    cooldown: 40000
     apply-text: Your mana is regenerating faster
     expire-text: Absolution effect expired
     description: Give %amount% mana every %period/1000% seconds for %duration/1000% seconds total to 3 party members with the lowest mana within %radius% blocks of you.
 
-  Blessing:
+  Dispel:
     level: 10
-    mana: 50
+    mana: 30
+    cooldown: 20000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 10
+    max-distance: 16
     target-hit-tolerance: 0.4
-    duration: 300000
-    duration-increase-per-level: 10000
-    attribute-increase: 5
-    apply-text: $1 is Blessed!
-    expire-text: $1 is no longer Blessed.
+    max-removals: 3
 
   Pray:
     level: 20
-    mana: 25
+    mana: 10
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 25
     target-hit-tolerance: 0.4
@@ -104,12 +101,12 @@ expmodifier: 1
 expLoss: 0
 
 base-max-health: 100
-max-health-per-level: 2.0
+max-health-per-level: 0
 
 base-max-mana: 200
-max-mana-per-level: 4
-base-mana-regen: 3
-mana-regen-per-level: .2
+max-mana-per-level: 0
+base-mana-regen: 5
+mana-regen-per-level: 0
 
 item-damage:
     WOODEN_SWORD: 1
@@ -138,8 +135,8 @@ item-damage:
     NETHERITE_AXE: 1
     WOODEN_HOE: 2
     STONE_HOE: 4
-    GOLDEN_HOE: 6
     IRON_HOE: 6
+    GOLDEN_HOE: 8
     DIAMOND_HOE: 8
     NETHERITE_HOE: 10
 

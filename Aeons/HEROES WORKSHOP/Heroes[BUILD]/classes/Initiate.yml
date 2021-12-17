@@ -48,7 +48,7 @@ permitted-skills:
     description: Grants the ability to use potions when out of combat.
 
   Enchant:
-    level: 15
+    level: 1
     featfallfour: 0.1
     featfallthree: 0.25
     featfalltwo: 0.5
@@ -81,22 +81,22 @@ permitted-skills:
 #ACTIVES
   Fireball:
     level: 1
-    mana: 40
-    damage: 40
+    mana: 10
+    damage: 20
     cooldown: 1500
     description: Launch a fireball that deals %damage% magic damage and lights your target on fire.
 
   Inversion:
     level: 5
-    mana: 60
-    max-damage: 100
-    cooldown: 75000
+    mana: 50
+    max-damage: 150
+    cooldown: 60000
     description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
 
   Piggify:
     level: 10
-    mana: 80
-    duration: 5000
+    mana: 35
+    duration: 8000
     cooldown: 30000
     description: Force the target to ride a pig for %duration/1000% seconds. While affected, they are immune to all damage until meleed or the duration expires.
 
@@ -119,12 +119,12 @@ expmodifier: 1
 expLoss: 0
 
 base-max-health: 100
-max-health-per-level: 2.0
+max-health-per-level: 0
 
 base-max-mana: 200
-max-mana-per-level: 4
-base-mana-regen: 3
-mana-regen-per-level: .2
+max-mana-per-level: 0
+base-mana-regen: 5
+mana-regen-per-level: 0
 
 item-damage:
     WOODEN_SWORD: 1

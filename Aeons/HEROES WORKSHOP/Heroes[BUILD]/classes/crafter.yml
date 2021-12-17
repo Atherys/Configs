@@ -16,13 +16,6 @@ permitted-offhand:
 - ALL
 
 permitted-skills:
-    Mark:
-        level: 1
-        mana: 100
-    Recall:
-        level: 1
-        mana: 150
-        cooldown: 900000
 
 permission-skills: []
 

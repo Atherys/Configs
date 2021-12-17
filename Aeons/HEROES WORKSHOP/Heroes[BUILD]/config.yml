@@ -63,8 +63,8 @@ classes:
   prof-change-cooldown: 60000
   race-change-cooldown: 600000
 attributes:
-  allocation-points-per-level: 3
-  attack-damage-per-strength: 1.0
+  allocation-points-per-level: 0
+  attack-damage-per-strength: 0.2
   health-per-constitution: 20.0
   magic-resist-per-constitution: 0.003
   stamina-regeneration-per-endurance: 1
