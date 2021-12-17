@@ -179,7 +179,7 @@ global-mitigation:
 durability:
   armor-durability-damage-reduction: 1
   armor-is-damaged-by-skills: true
-  weapons-are-damaged-by-skill-usage: true
+  weapons-are-damaged-by-skill-usage: false
   custom-system:
     enabled: true
     default-maximum-durability: 250
@@ -220,7 +220,7 @@ features:
   - WATER_BUCKET
   - LAVA_BUCKET
   - FLINT_AND_STEEL
-  consider-weapon-swing-cooldown-for-damage: true
+  consider-weapon-swing-cooldown-for-damage: false
   use-tools-in-permitted-weapons: false
   fireworks:
     protect-allies-for-firework-duration: true
