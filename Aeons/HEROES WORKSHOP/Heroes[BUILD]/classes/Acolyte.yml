@@ -56,7 +56,7 @@ permitted-skills:
     max-distance: 10
     mana: 40
     damage: 30
-    cooldown: 2000
+    cooldown: 3000
     multiplier: 3.0
     description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
 
@@ -139,9 +139,9 @@ item-damage:
     WOODEN_HOE: 2
     STONE_HOE: 4
     GOLDEN_HOE: 6
-    IRON_HOE: 8
-    DIAMOND_HOE: 10
-    NETHERITE_HOE: 12
+    IRON_HOE: 6
+    DIAMOND_HOE: 8
+    NETHERITE_HOE: 10
 
 item-damage-level:
 projectile-damage:

@@ -102,13 +102,23 @@ permitted-skills:
 
   Arcaneblast:
     level: 20
-    cooldown: 30000
-    mana: 100
+    cooldown: 300000
+    mana: 50
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 10
     target-hit-tolerance: 0.4
-    damage: 200
+    damage: 75
     damage-increase-per-intellect: 2.5
+
+  ArcaneStorm:
+    level: 20
+    cooldown: 40000
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    radius: 5.0
+    duration: 5000
+    period: 1000
+    tick-damage: 15.0
 
 permission-skills:
 experience-sources:
@@ -152,11 +162,11 @@ item-damage:
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
     WOODEN_HOE: 2
-    STONE_HOE: 2
-    GOLDEN_HOE: 4
-    IRON_HOE: 4
-    DIAMOND_HOE: 6
-    NETHERITE_HOE: 8
+    STONE_HOE: 4
+    GOLDEN_HOE: 6
+    IRON_HOE: 6
+    DIAMOND_HOE: 8
+    NETHERITE_HOE: 10
 
 item-damage-level:
 projectile-damage:
