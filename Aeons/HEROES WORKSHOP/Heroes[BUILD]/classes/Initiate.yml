@@ -100,16 +100,6 @@ permitted-skills:
     cooldown: 30000
     description: Force the target to ride a pig for %duration/1000% seconds. While affected, they are immune to all damage until meleed or the duration expires.
 
-  Arcaneblast:
-    level: 20
-    cooldown: 300000
-    mana: 50
-    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 10
-    target-hit-tolerance: 0.4
-    damage: 75
-    damage-increase-per-intellect: 2.5
-
   ArcaneStorm:
     level: 20
     cooldown: 40000

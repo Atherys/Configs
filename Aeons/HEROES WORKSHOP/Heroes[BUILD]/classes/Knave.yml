@@ -134,6 +134,7 @@ item-damage:
     IRON_HOE: 1
     DIAMOND_HOE: 1
     NETHERITE_HOE: 1
+    TRIDENT: 1
 item-damage-level:
 
 projectile-damage:
