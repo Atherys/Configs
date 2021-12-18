@@ -104,7 +104,7 @@ permitted-skills:
     mana: 60
     cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    damage-bonus: 1.25
+    damage-bonus: 1.5
     radius: 0
     apply-text: Your muscles bulge with power!
     expire-text: You feel strength leave your body!
