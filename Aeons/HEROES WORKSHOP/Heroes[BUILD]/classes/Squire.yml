@@ -54,7 +54,7 @@ permitted-skills:
 
   Shield:
     level: 1
-    iron-door-physical: 0.30
+    iron-door-physical: .30
     wooden-door-physical: 0.50
     trapdoor-physical: 0.70
     iron-door-projectile: 0.30
@@ -111,13 +111,13 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 150
-max-health-per-level: 2.0
+base-max-health: 100
+max-health-per-level: 0
 
 base-max-mana: 200
-max-mana-per-level: 4
-base-mana-regen: 1
-mana-regen-per-level: .2
+max-mana-per-level: 0
+base-mana-regen: 5
+mana-regen-per-level: 0
 
 item-damage:
     WOODEN_SWORD: 8
@@ -155,7 +155,7 @@ item-damage-level:
 projectile-damage:
   ARROW: 4
 projectile-damage-level:
-  ARROW: .2
+  ARROW: 0
 
 pvp-item-damage-multiplier:
     WOODEN_SWORD: 1
