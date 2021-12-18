@@ -54,7 +54,7 @@ permitted-skills:
     level: 1
     duration: 300000
     description: Begin to sneak, appearing crouched to other players and hiding your nametag.
-  
+
   One:
     level: 5
     cooldown: 30000
@@ -64,13 +64,18 @@ permitted-skills:
     duration: 15000
     apply-text: '%hero% gained a burst of speed!'
     expire-text: '%hero% returned to normal speed!'
-  
-  Smoke:
+
+  Jump:
     level: 10
     mana: 10
-    duration: 12000
-    cooldown: 20000
-    description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
+    cooldown: 
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    no-air-jump: false
+    horizontal-power: 0.5
+    horizontal-power-increase-per-dexterity: 0.0125
+    vertical-power: 0.5
+    vertical-power-increase-per-dexterity: 0.00625
+    ncp-exemption-duration: 2000
 
   EscapeArtist:
     level: 15
@@ -96,12 +101,12 @@ expmodifier: 1
 expLoss: 0
 
 base-max-health: 100
-max-health-per-level: 2.0
+max-health-per-level: 0
 
 base-max-mana: 200
-max-mana-per-level: 4
-base-mana-regen: 1
-mana-regen-per-level: .2
+max-mana-per-level: 0
+base-mana-regen: 5
+mana-regen-per-level: 0
 
 item-damage:
     WOODEN_SWORD: 8

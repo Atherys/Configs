@@ -105,9 +105,9 @@ permitted-skills:
     cooldown: 40000
     mana: 50
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    radius: 5.0
-    duration: 5000
-    period: 1000
+    radius: 10.0
+    duration: 4000
+    period: 2000
     tick-damage: 15.0
 
 permission-skills:
@@ -153,8 +153,8 @@ item-damage:
     NETHERITE_AXE: 1
     WOODEN_HOE: 2
     STONE_HOE: 4
-    GOLDEN_HOE: 6
     IRON_HOE: 6
+    GOLDEN_HOE: 8
     DIAMOND_HOE: 8
     NETHERITE_HOE: 10
 
