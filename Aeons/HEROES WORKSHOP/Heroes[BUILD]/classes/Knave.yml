@@ -25,7 +25,6 @@ allocation-points-per-level: 0
 permitted-armor:
 - PUMPKIN
 - LEATHER
-- ELYTRA
 permitted-weapon:
 - WOOD
 - STONE
@@ -49,22 +48,21 @@ permitted-skills:
     level: 1
     description: Grants the ability to use potions when out of combat.
 
-  BowMastery:
-    level: 1
-    apply-text: '%hero% gained %skill%!'
-    unapply-text: '%hero% lost %skill%!'
-    damage: 15
-
+#  BowMastery:
+#    level: 1
+#    apply-text: '%hero% gained %skill%!'
+#    unapply-text: '%hero% lost %skill%!'
+#    damage: 15
 #ACTIVES
   Sneak:
     level: 1
     duration: 300000
     description: Begin to sneak, appearing crouched to other players and hiding your nametag.
 
-  One:
+  One: #sprint btw
     level: 5
     cooldown: 30000
-    mana: 20
+    mana: 30
     use-text: §7[§2Skill§7] %hero% used %skill%!
     speed-multiplier: 2
     duration: 15000
@@ -74,29 +72,33 @@ permitted-skills:
   Jump:
     level: 10
     mana: 10
-    cooldown: 
+    cooldown: 10000
     use-text: §7[§2Skill§7] %hero% used %skill%!
     no-air-jump: false
-    horizontal-power: 0.5
-    horizontal-power-increase-per-dexterity: 0.0125
+    horizontal-power: 1
     vertical-power: 0.5
-    vertical-power-increase-per-dexterity: 0.00625
     ncp-exemption-duration: 2000
 
   EscapeArtist:
     level: 15
+    mana: 45
     cooldown: 45000
     chance: 1
     description: Use impressive dexterity to escape movement impeding effects.
 
-  SmokeBomb:
+  Bleed:
     level: 20
-    mana: 40
-    radius: 5
+    mana: 15
+    cooldown: 15000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 5
+    target-hit-tolerance: 0.4
     duration: 5000
-    cooldown: 25000
-    damage: 10
-    description: You launch a bomb, dealing %damage% magic damage, interrupting channeling, and blinding your enemy for %duration/1000% seconds.
+    period: 1000
+    tick-damage: 5
+    damage-per-level: 0
+    apply-text: '%target% is bleeding!'
+    expire-text: '%target% has stopped bleeding!'
 
 permission-skills:
 experience-sources:
@@ -115,10 +117,10 @@ base-mana-regen: 5
 mana-regen-per-level: 0
 
 item-damage:
-    WOODEN_SWORD: 8
-    STONE_SWORD: 10
-    GOLDEN_SWORD: 12
-    IRON_SWORD: 12
+    WOODEN_SWORD: 5
+    STONE_SWORD: 7
+    IRON_SWORD: 9
+    GOLDEN_SWORD: 11
     DIAMOND_SWORD: 1
     NETHERITE_SWORD: 1
     WOODEN_SHOVEL: 1
@@ -149,9 +151,9 @@ item-damage:
 item-damage-level:
 
 projectile-damage:
-  ARROW: 6
+  ARROW: 13
 projectile-damage-level:
-  ARROW: .5
+  ARROW: 0
 
 pvp-item-damage-multiplier:
     WOODEN_SWORD: 1

@@ -25,8 +25,8 @@ allocation-points-per-level: 0
 permitted-armor:
 - PUMPKIN
 - LEATHER
-- IRON
-- ELYTRA
+- IRON_LEGGINGS
+- IRON_BOOTS
 permitted-weapon:
 - WOOD
 - STONE

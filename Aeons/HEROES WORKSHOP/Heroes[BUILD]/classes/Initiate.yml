@@ -25,7 +25,6 @@ allocation-points-per-level: 0
 permitted-armor:
 - PUMPKIN
 - GOLDEN_HELMET
-- ELYTRA
 permitted-weapon:
 - WOOD
 - STONE
@@ -155,8 +154,8 @@ item-damage:
     STONE_HOE: 4
     IRON_HOE: 6
     GOLDEN_HOE: 8
-    DIAMOND_HOE: 8
-    NETHERITE_HOE: 10
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
 
 item-damage-level:
 projectile-damage:
