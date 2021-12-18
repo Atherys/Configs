@@ -87,7 +87,7 @@ permitted-skills:
     damage: 10
     description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
 
-  Might:
+  Might: #test
     level: 10
     mana: 60
     cooldown: 30000
