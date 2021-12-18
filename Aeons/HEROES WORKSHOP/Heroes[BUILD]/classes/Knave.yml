@@ -49,6 +49,12 @@ permitted-skills:
     level: 1
     description: Grants the ability to use potions when out of combat.
 
+  BowMastery:
+    level: 1
+    apply-text: '%hero% gained %skill%!'
+    unapply-text: '%hero% lost %skill%!'
+    damage: 15
+
 #ACTIVES
   Sneak:
     level: 1
