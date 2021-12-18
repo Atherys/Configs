@@ -48,11 +48,6 @@ permitted-skills:
     level: 1
     description: Grants the ability to use potions when out of combat.
 
-#  BowMastery:
-#    level: 1
-#    apply-text: '%hero% gained %skill%!'
-#    unapply-text: '%hero% lost %skill%!'
-#    damage: 15
 #ACTIVES
   Sneak:
     level: 1
@@ -60,7 +55,7 @@ permitted-skills:
     description: Begin to sneak, appearing crouched to other players and hiding your nametag.
 
   One: #sprint btw
-    level: 5
+    level: 1
     cooldown: 30000
     mana: 30
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -70,7 +65,7 @@ permitted-skills:
     expire-text: '%hero% returned to normal speed!'
 
   Jump:
-    level: 10
+    level: 5
     mana: 10
     cooldown: 10000
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -80,7 +75,7 @@ permitted-skills:
     ncp-exemption-duration: 2000
 
   EscapeArtist:
-    level: 15
+    level: 10
     mana: 45
     cooldown: 45000
     chance: 1

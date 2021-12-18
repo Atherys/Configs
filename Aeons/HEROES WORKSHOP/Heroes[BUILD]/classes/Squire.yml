@@ -35,7 +35,6 @@ permitted-weapon:
 - DIAMOND
 - NETHERITE
 - BOW
-- SHIELD
 permitted-offhand:
 - WOOD
 - STONE
@@ -44,7 +43,6 @@ permitted-offhand:
 - DIAMOND
 - NETHERITE
 - BOW
-- SHIELD
 
 permitted-skills:
 #PASSIVES
@@ -52,6 +50,18 @@ permitted-skills:
     level: 1
     description: Grants the ability to use potions when out of combat.
 
+  Repair:
+    level: 1
+    wood : 1
+    stone : 1
+    leather : 1
+    chain : 1
+    iron: 1
+    gold: 1
+    diamond: 1
+    description: You are able to repair armor and weapons by targeting an anvil and using the skill.
+
+#ACTIVES
   Shield:
     level: 1
     iron-door-physical: .30
@@ -65,42 +75,41 @@ permitted-skills:
     trapdoor-magic: 1.0
     description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
 
-  Repair:
-    level: 10
-    wood : 1
-    stone : 1
-    leather : 1
-    chain : 1
-    iron: 1
-    gold: 1
-    diamond: 1
-    description: You are able to repair armor and weapons by targeting an anvil and using the skill.
-
-#ACTIVES
-  Taunt:
-    level: 5
-    cooldown: 2000
-    use-text: §7[§2Skill§7] %hero% used %skill%!
-
   Kick:
-    level: 10
+    level: 5
+    mana: 20
     cooldown: 10000
     max_distance: 3
-    silence-duration: 1000
-    damage: 30
+    silence-duration: 0
+    knockup: true
+    knockup-velocity: 1.0
+    knockup-multiplier: 2.0
+    damage: 10
     description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
+
+  Might:
+    level: 10
+    mana: 60
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    damage-bonus: 1.25
+    radius: 0
+    apply-text: Your muscles bulge with power!
+    expire-text: You feel strength leave your body!
+    duration: 6000
 
   Charge:
     level: 20
-    cooldown: 35000
+    mana: 60
+    cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 16
+    max-distance: 
     target-hit-tolerance: 0.4
-    stun-duration: 5000
+    stun-duration: 0
     slow-duration: 0
     root-duration: 0
     silence-duration: 0
-    damage: 60
+    damage: 30
     radius: 2
 
 permission-skills:
@@ -120,10 +129,10 @@ base-mana-regen: 5
 mana-regen-per-level: 0
 
 item-damage:
-    WOODEN_SWORD: 8
-    STONE_SWORD: 10
-    GOLDEN_SWORD: 15
-    IRON_SWORD: 15
+    WOODEN_SWORD: 3
+    STONE_SWORD: 5
+    IRON_SWORD: 7
+    GOLDEN_SWORD: 9
     DIAMOND_SWORD: 1
     NETHERITE_SWORD: 1
     WOODEN_SHOVEL: 1
