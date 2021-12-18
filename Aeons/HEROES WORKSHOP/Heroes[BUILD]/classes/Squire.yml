@@ -81,11 +81,23 @@ permitted-skills:
     cooldown: 10000
     max_distance: 3
     silence-duration: 0
-    knockup: true
-    knockup-velocity: 1.0
-    knockup-multiplier: 2.0
+    does-knockup: true
+    horizontal-power: 2.0
+    vertical-power: 2.0
     damage: 10
     description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
+
+  Toss:
+    level: 5
+    mana: 20
+    cooldown: 10000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 5
+    target-hit-tolerance: 0.4
+    horizontal-power: 2.0
+    vertical-power: 2.0
+    ncp-exemption-duration: 1500
+    toss-delay: 0.0
 
   Might: #test
     level: 10
