@@ -50,35 +50,32 @@ permitted-skills:
 
   Enchant:
     level: 1
-    featfallfour: 0.1
-    featfallthree: 0.25
-    featfalltwo: 0.5
-    featfallone: 1.0
-    respthree: 0.25
-    resptwo: 0.5
-    respone: 1.0
-    thorthree: 0.0
-    thortwo: 0.25
-    thorone: 1.0
-    knoctwo: 0.5
-    knocone: 1.0
-    firetwo: 0.5
-    fireone: 1.0
-    effifive: 0.0
-    effifour: 0.1
-    effithree: 0.25
-    effitwo: 0.5
-    effione: 1.0
-    unbrthree: 0.25
-    unbrtwo: 0.5
-    unbrone: 1.0
-    luckthree: 0.25
-    lucktwo: 0.5
-    luckone: 1.0
-    lurethree: 0.25
-    luretwo: 0.5
-    lureone: 1.0
-    description: You have the ability to enchant armor and weapons using Enchanter's Dust.
+    apply-text: ''
+    unapply-text: ''
+    PROTECTION_ENVIRONMENTAL: 200
+    PROTECTION_FIRE: 1
+    PROTECTION_FALL: 1
+    PROTECTION_EXPLOSIONS: 200
+    PROTECTION_PROJECTILE: 200
+    OXYGEN: 1
+    WATER_WORKER: 1
+    DAMAGE_ALL: 200
+    DAMAGE_UNDEAD: 200
+    DAMAGE_ARTHROPODS: 200
+    KNOCKBACK: 1
+    FIRE_ASPECT: 1
+    LOOT_BONUS_MOBS: 1
+    DIG_SPEED: 1
+    SILK_TOUCH: 200
+    DURABILITY: 1
+    LOOT_BONUS_BLOCKS: 1
+    ARROW_DAMAGE: 200
+    ARROW_KNOCKBACK: 1
+    ARROW_FIRE: 1
+    ARROW_INFINITE: 1
+    FROST_WALKER: 200
+    MENDING: 200
+
 #ACTIVES
   Fireball:
     level: 1
