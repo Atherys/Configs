@@ -54,24 +54,25 @@ permitted-skills:
 #ACTIVES
   Smite:
     level: 1
-    max-distance: 7
+    max-distance: 5
     mana: 20
-    damage: 20
+    damage: 10
     cooldown: 3000
     multiplier: 3.0
     description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
 
-  Absolution:
+  Manasong:
     level: 5
     mana: 50
-    amount: 30
-    radius: 5
-    duration: 6000
-    period: 2000
     cooldown: 40000
-    apply-text: Your mana is regenerating faster
-    expire-text: Absolution effect expired
-    description: Give %amount% mana every %period/1000% seconds for %duration/1000% seconds total to 3 party members with the lowest mana within %radius% blocks of you.
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    radius: 6
+    mana-restore-tick: 30
+    period: 2000
+    duration: 6000
+    apply-text: §7[§2Skill§7] You are gifted with a song of mana!
+    expire-text: §7[§2Skill§7] The manasong has ended.
+    delay: 1000
 
   Dispel:
     level: 10
