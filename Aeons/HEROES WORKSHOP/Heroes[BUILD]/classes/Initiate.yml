@@ -66,7 +66,7 @@ permitted-skills:
   Inversion:
     level: 5
     mana: 50
-    max-damage: 150
+    max-damage: 50
     cooldown: 60000
     description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
 

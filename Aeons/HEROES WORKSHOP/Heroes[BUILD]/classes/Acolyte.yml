@@ -58,7 +58,7 @@ permitted-skills:
     mana: 20
     damage: 10
     cooldown: 3000
-    multiplier: 3.0
+    multiplier: 1.5
     description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
 
   Manasong:
@@ -86,12 +86,13 @@ permitted-skills:
   Pray:
     level: 20
     mana: 10
+    cooldown: 3000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
     max-distance: 25
     target-hit-tolerance: 0.4
     is-scaled-healing: false
     healing-scale-expression: '1'
-    healing: 10
+    healing: 15
     description: Heal yourself, or an ally within %radius% blocks for %health% health.
 
 permission-skills:
