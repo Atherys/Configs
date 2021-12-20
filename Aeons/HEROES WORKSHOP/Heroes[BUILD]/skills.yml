@@ -1057,8 +1057,8 @@ Potion:
     instant: 0.5
     duration: 0.25
   allow:
-    SPEED: false
-    SPLASH-SPEED: false
+    SPEED: true
+    SPLASH-SPEED: true
     LINGERING-SPEED: false
     SPEED-II: false
     SPLASH-SPEED-II: false
@@ -1372,8 +1372,7 @@ Potion:
     LINGERING-HERO_OF_THE_VILLAGE: 180000
   apply-text: ''
   unapply-text: ''
-  level: 1
-  no-combat-use: false
+  no-combat-use: true
 ShockingStrike:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
   max-distance: 3
@@ -2514,8 +2513,8 @@ Repair:
   fishing-rod: 1
   shears: 1
   flint-steel: 1
-  unchant-chance: 0.5
-  unchant-chance-reduce: 0.005
+  unchant-chance: 0.0
+  unchant-chance-reduce: 0.0
 Accelerando:
   use-text: §7[§2Skill§7] %hero% used %skill%!
   radius: 12

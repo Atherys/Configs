@@ -54,15 +54,7 @@ permitted-skills:
 
   Repair:
     level: 1
-    wood : 1
-    stone : 1
-    leather : 1
-    chain : 1
-    iron: 1
-    gold: 1
-    diamond: 1
     description: You are able to repair armor and weapons by targeting an anvil and using the skill.
-
 #ACTIVES
   Shield:
     level: 1

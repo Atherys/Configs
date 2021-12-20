@@ -49,7 +49,6 @@ permitted-skills:
   Potion:
     level: 1
     description: Grants the ability to use potions when out of combat.
-
 #ACTIVES
   Sneak:
     level: 1
