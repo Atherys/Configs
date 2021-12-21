@@ -94,10 +94,17 @@ permitted-skills:
     apply-text: '%target% is bleeding!'
     expire-text: '%target% has stopped bleeding!'
 
-#track
+  Ultravision:
+    level: 5
+    mana: 150
+    cooldown: 5000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 300000
+    apply-text: §7[§2Skill§7] %hero% gains Ultravision!
+    expire-text: §7[§2Skill§7] %hero% lost Ultravision!
 
   Despair:
-    level: 15
+    level: 10
     mana: 30
     cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -107,13 +114,31 @@ permitted-skills:
     apply-text: §7[§2Skill§7] %hero% has blinded %target% with %skill%!
     expire-text: §7[§2Skill§7] %hero% has recovered their sight!
 
+  GrapplingShot:
+    level: 15
+    mana: 60
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    num-shots: 1
+    max-distance: -1
+    safe-fall-duration: 5000
+    duration: 4500
+    horizontal-divider: 3
+    vertical-divider: 4
+    multiplier: 1.0
+    grapple-delay: 0.25
+    ncp-exemption-duration: 3000
+    apply-text: §7[§2Skill§7] %hero% readies his grappling shot!
+    expire-text: §7[§2Skill§7] %hero% drops his grappling shot.
+    reagent: STRING
+    reagent-cost: 1
+
   Smoke:
     level: 20
     mana: 60
     cooldown: 60000
     duration: 45000
     description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
-#track,despair,telekenisis,smoke
 
 permission-skills:
 experience-sources:
