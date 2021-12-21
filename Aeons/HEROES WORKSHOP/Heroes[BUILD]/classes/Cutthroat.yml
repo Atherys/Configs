@@ -1,15 +1,15 @@
-name: Knave
-tier: 1
+name: Cutthroat
+tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: A beginner rogue.
+description: An intermediate rogue focused on aggression.
 parents: 
 
     strong:
-
+    - KNAVE
     weak:
 
 base-attributes:
@@ -30,18 +30,14 @@ permitted-weapon:
 - STONE
 - IRON
 - GOLD
-- DIAMOND_SHOVEL
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
+- DIAMOND
 - BOW
 permitted-offhand:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_SHOVEL
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
+- DIAMOND
 - BOW
 
 permitted-skills:
@@ -56,7 +52,7 @@ permitted-skills:
     description: Begin to sneak, appearing crouched to other players and hiding your nametag.
 
 #ACTIVES
-  One: #sprint btw
+  One:
     level: 1
     cooldown: 30000
     mana: 30
@@ -67,24 +63,24 @@ permitted-skills:
     expire-text: '%hero% returned to normal speed!'
 
   Jump:
-    level: 5
+    level: 1
     mana: 10
     cooldown: 10000
     use-text: §7[§2Skill§7] %hero% used %skill%!
     no-air-jump: false
-    horizontal-power: 0.75
-    vertical-power: 0.75
+    horizontal-power: 1
+    vertical-power: 0.5
     ncp-exemption-duration: 2000
 
   EscapeArtist:
-    level: 10
+    level: 1
     mana: 45
     cooldown: 45000
     chance: 1
     description: Use impressive dexterity to escape movement impeding effects.
 
   Bleed:
-    level: 20
+    level: 1
     mana: 15
     cooldown: 15000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
@@ -97,6 +93,61 @@ permitted-skills:
     apply-text: '%target% is bleeding!'
     expire-text: '%target% has stopped bleeding!'
 
+  Smoke:
+    level: 5
+    mana: 20
+    cooldown: 20000
+    duration: 12000
+    description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
+
+  Backstab:
+    level: 10
+    cooldown: 0
+    use-text: ''
+    backstab-text: ''
+    weapons:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
+    backstab-chance: -1.0
+    backstab-bonus: 0.5
+    ambush-chance: -1.0
+    ambush-bonus: 0.25
+    allow-vanilla-sneaking: false
+
+  Despair:
+    level: 15
+    mana: 30
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    damage: 20
+    radius: 5
+    duration: 5000
+    apply-text: §7[§2Skill§7] %hero% has blinded %target% with %skill%!
+    expire-text: §7[§2Skill§7] %hero% has recovered their sight!
+
+  AssassinsBlade:
+    level: 20
+    cooldown: 10000
+    mana: 30
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    weapons:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
+    buff-duration: 60000
+    poison-duration: 25000
+    period: 2000
+    tick-damage: 8
+    damage-per-level: 0
+    attacks: 1
+    apply-text: '%target% is poisoned!'
+    expire-text: '%target% has recovered from the poison!'
+
 permission-skills:
 experience-sources:
 - KILLING
@@ -105,7 +156,7 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 100
+base-max-health: 150
 max-health-per-level: 0
 
 base-max-mana: 200
@@ -118,7 +169,7 @@ item-damage:
     STONE_SWORD: 7
     IRON_SWORD: 9
     GOLDEN_SWORD: 11
-    DIAMOND_SWORD: 1
+    DIAMOND_SWORD: 13
     NETHERITE_SWORD: 1
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
@@ -178,7 +229,7 @@ item-damage-level:
     NETHERITE_HOE: 0
 
 projectile-damage:
-  ARROW: 13
+  ARROW: 16
 projectile-damage-level:
   ARROW: 0
 
