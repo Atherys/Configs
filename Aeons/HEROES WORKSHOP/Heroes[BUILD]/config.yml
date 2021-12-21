@@ -149,7 +149,7 @@ stamina:
       enabled: false
       duration: 3000
 food:
-  enabled: false
+  enabled: true
   time-multiplier: 5000
   food-heal-percent: 0.05
   consumable-in-combat: false
