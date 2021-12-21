@@ -70,12 +70,14 @@ permitted-skills:
     cooldown: 60000
     description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
 
-  Piggify:
+  Root:
     level: 10
     mana: 35
-    duration: 8000
-    cooldown: 30000
-    description: Force the target to ride a pig for %duration/1000% seconds. While affected, they are immune to all damage until meleed or the duration expires.
+    cooldown: 25000
+    duration: 4000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
 
   ArcaneStorm:
     level: 20
