@@ -1,15 +1,15 @@
-name: Squire
-tier: 1
+name: Knight
+tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: A beginner warrior.
+description: An intermediate, defense focused warrior.
 parents: 
 
     strong:
-
+    - SQUIRE
     weak:
 
 base-attributes:
@@ -25,25 +25,20 @@ allocation-points-per-level: 0
 permitted-armor:
 - PUMPKIN
 - LEATHER
-- IRON_LEGGINGS
-- IRON_BOOTS
+- IRON
 permitted-weapon:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_SHOVEL
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
+- DIAMOND
 - BOW
 permitted-offhand:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND_SHOVEL
-- DIAMOND_AXE
-- DIAMOND_PICKAXE
+- DIAMOND
 - BOW
 
 permitted-skills:
@@ -70,7 +65,7 @@ permitted-skills:
     description: When holding an Iron Door in hand and crouching, you only take %iron-door-physical*100% percent physical damage and %iron-door-projectile*100% percent projectile damage. Wooden Doors and Trapdoors also provide lesser resistances.
 
   Kick:
-    level: 5
+    level: 1
     mana: 20
     cooldown: 10000
     max_distance: 3
@@ -79,7 +74,7 @@ permitted-skills:
     description: You deal %damage% physical damage to your target, knock them into the air, and silence them for %silence-duration/1000% seconds.
 
   Might:
-    level: 10
+    level: 1
     mana: 60
     cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -90,7 +85,7 @@ permitted-skills:
     duration: 6000
 
   Charge:
-    level: 20
+    level: 1
     mana: 60
     cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
@@ -103,6 +98,51 @@ permitted-skills:
     damage: 30
     radius: 2
 
+  Slow:
+    level: 5
+    mana: 30
+    cooldown: 15000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 8
+    target-hit-tolerance: 0.4
+    speed-multiplier: 2
+    duration: 3000
+    apply-text: '%target% has been slowed by %hero%!'
+    expire-text: '%target% is no longer slowed!'
+
+  SonicBoom:
+    level: 10
+    mana: 60
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 3000
+    duration-per-level: 0
+    radius: 3
+    radius-increase: 0
+    damage: 20
+    damage-per-level: 0
+
+  Invuln:
+    level: 15
+    mana: 120
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 6000
+    apply-text: §7[§2Skill§7] %hero% has become invulnerable!
+    expire-text: §7[§2Skill§7] %hero% is once again vulnerable!
+
+  Pray:
+    level: 20
+    mana: 10
+    cooldown: 3000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 25
+    target-hit-tolerance: 0.4
+    is-scaled-healing: false
+    healing-scale-expression: '1'
+    healing: 15
+    description: Heal yourself, or an ally within %radius% blocks for %health% health.
+
 permission-skills:
 experience-sources:
 - KILLING
@@ -111,7 +151,7 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 100
+base-max-health: 200
 max-health-per-level: 0
 
 base-max-mana: 200
@@ -124,7 +164,7 @@ item-damage:
     STONE_SWORD: 5
     IRON_SWORD: 7
     GOLDEN_SWORD: 9
-    DIAMOND_SWORD: 1
+    DIAMOND_SWORD: 11
     NETHERITE_SWORD: 1
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
@@ -184,7 +224,7 @@ item-damage-level:
     NETHERITE_HOE: 0
 
 projectile-damage:
-  ARROW: 4
+  ARROW: 7
 projectile-damage-level:
   ARROW: 0
 
