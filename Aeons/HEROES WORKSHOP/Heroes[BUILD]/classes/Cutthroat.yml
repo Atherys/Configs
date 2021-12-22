@@ -130,7 +130,7 @@ permitted-skills:
 
   AssassinsBlade:
     level: 20
-    cooldown: 10000
+    cooldown: 45000
     mana: 30
     use-text: §7[§2Skill§7] %hero% used %skill%!
     weapons:
@@ -139,10 +139,10 @@ permitted-skills:
     - IRON_SWORD
     - GOLDEN_SWORD
     - DIAMOND_SWORD
-    buff-duration: 60000
-    poison-duration: 25000
-    period: 2000
-    tick-damage: 8
+    buff-duration: 20000
+    poison-duration: 5000
+    period: 1000
+    tick-damage: 5
     damage-per-level: 0
     attacks: 1
     apply-text: '%target% is poisoned!'
