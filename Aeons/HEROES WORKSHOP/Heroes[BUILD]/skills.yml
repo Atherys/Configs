@@ -931,8 +931,8 @@ Bolt:
   damage: 180
   damage-increase-per-intellect: 1.4
   max-distance-increase-per-intellect: 0.2
-  reagent: 289
-  reagent-cost: 1
+  reagent: ''
+  reagent-cost: 0
   lightning-volume: 0.0
 Icebolt:
   use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -997,8 +997,8 @@ Blink:
   use-text: §7[§2Skill§7] %hero% used %skill%!
   max-distance: 6
   max-distance-increase-per-intellect: 0.15
-  reagent: REDSTONE
-  reagent-cost: 3
+  reagent: ''
+  reagent-cost: 0
 Telekinesis:
   use-text: §7[§2Skill§7] %hero% used %skill%!
   max-distance: 15

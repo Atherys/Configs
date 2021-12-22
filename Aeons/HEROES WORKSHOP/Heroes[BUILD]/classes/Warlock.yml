@@ -1,0 +1,276 @@
+name: Warlock
+tier: 2
+max-level: 25
+default: false
+wildcard-permission: true
+primary: true
+secondary: false
+description: An intermediate, damage focused mage.
+parents: 
+
+    strong:
+    - INITIATE
+    weak:
+
+base-attributes:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points-per-level: 0
+
+permitted-armor:
+- PUMPKIN
+- GOLDEN_HELMET
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+permitted-offhand:
+- WOOD
+- STONE
+- IRON
+- GOLD
+- DIAMOND
+
+permitted-skills:
+#PASSIVES
+  Potion:
+    level: 1
+    description: Grants the ability to use potions when out of combat.
+
+  Enchant:
+    level: 1
+    description: You have the ability to enchant armor and weapons using Enchanter's Dust.
+
+  Disenchant:
+    level: 1
+    description: You have the ability to disenchant armor and weapons.
+#ACTIVES
+  Fireball:
+    level: 1
+    mana: 10
+    damage: 20
+    cooldown: 1500
+    description: Launch a fireball that deals %damage% magic damage and lights your target on fire.
+
+  Inversion:
+    level: 1
+    mana: 50
+    max-damage: 50
+    cooldown: 60000
+    description: Deal magic damage based on how much mana your target is missing, capped at %max-damage% magic damage total.
+
+  Root:
+    level: 1
+    mana: 35
+    cooldown: 25000
+    duration: 4000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
+
+  ArcaneStorm:
+    level: 1
+    cooldown: 40000
+    mana: 50
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    radius: 10.0
+    duration: 4000
+    period: 2000
+    tick-damage: 15.0
+
+  Bolt:
+    level: 5
+    mana: 30
+    cooldown: 20000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 15
+    target-hit-tolerance: 0.4
+    damage: 40
+    lightning-volume: 0.1
+
+  Icebolt:
+    level: 10
+    mana: 25
+    cooldown: 10000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    damage: 20
+    duration: 4000
+    slow-multiplier: 2
+    velocity-multiplier: 2.0
+    apply-text: §7[§2Skill§7] %target% has been slowed by %hero%!
+    expire-text: §7[§2Skill§7] %target% is no longer slowed!
+
+  Replenish:
+    level: 15
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    mana-gain-percent: 0.75
+
+  Forcepush:
+    level: 20
+    mana: 35
+    cooldown: 15000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 5
+    target-hit-tolerance: 0.4
+    damage: 20
+    horizontal-power: 1.5
+    vertical-power: 0.25
+    ncp-exemption-duration: 1500
+    push-delay: 0.2
+
+#
+permission-skills:
+experience-sources:
+- KILLING
+- PVP
+- ENCHANTING
+expmodifier: 1
+expLoss: 0
+
+base-max-health: 130
+max-health-per-level: 0
+
+base-max-mana: 200
+max-mana-per-level: 0
+base-mana-regen: 5
+mana-regen-per-level: 0
+
+item-damage:
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    IRON_SWORD: 1
+    GOLDEN_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 2
+    STONE_HOE: 4
+    IRON_HOE: 6
+    GOLDEN_HOE: 8
+    DIAMOND_HOE: 10
+    NETHERITE_HOE: 1
+    TRIDENT: 1
+item-damage-level:
+    WOODEN_SWORD: 0
+    STONE_SWORD: 0
+    GOLDEN_SWORD: 0
+    IRON_SWORD: 0
+    DIAMOND_SWORD: 0
+    NETHERITE_SWORD: 0
+    WOODEN_SHOVEL: 0
+    STONE_SHOVEL: 0
+    GOLDEN_SHOVEL: 0
+    IRON_SHOVEL: 0
+    DIAMOND_SHOVEL: 0
+    NETHERITE_SHOVEL: 0
+    WOODEN_PICKAXE: 0
+    STONE_PICKAXE: 0
+    GOLDEN_PICKAXE: 0
+    IRON_PICKAXE: 0
+    DIAMOND_PICKAXE: 0
+    NETHERITE_PICKAXE: 0
+    WOODEN_AXE: 0
+    STONE_AXE: 0
+    GOLDEN_AXE: 0
+    IRON_AXE: 0
+    DIAMOND_AXE: 0
+    NETHERITE_AXE: 0
+    WOODEN_HOE: 0
+    STONE_HOE: 0
+    GOLDEN_HOE: 0
+    IRON_HOE: 0
+    DIAMOND_HOE: 0
+    NETHERITE_HOE: 0
+
+projectile-damage:
+  ARROW: 0
+projectile-damage-level:
+  ARROW: 0
+
+pvp-item-damage-multiplier:
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    GOLDEN_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    NETHERITE_SWORD: 1
+    WOODEN_SHOVEL: 1
+    STONE_SHOVEL: 1
+    GOLDEN_SHOVEL: 1
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 1
+    NETHERITE_SHOVEL: 1
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 1
+    GOLDEN_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    NETHERITE_PICKAXE: 1
+    WOODEN_AXE: 1
+    STONE_AXE: 1
+    GOLDEN_AXE: 1
+    IRON_AXE: 1
+    DIAMOND_AXE: 1
+    NETHERITE_AXE: 1
+    WOODEN_HOE: 1
+    STONE_HOE: 1
+    GOLDEN_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+    NETHERITE_HOE: 1
+pvp-item-damage-multiplier-level:
+    WOODEN_SWORD: 0
+    STONE_SWORD: 0
+    GOLDEN_SWORD: 0
+    IRON_SWORD: 0
+    DIAMOND_SWORD: 0
+    NETHERITE_SWORD: 0
+    WOODEN_SHOVEL: 0
+    STONE_SHOVEL: 0
+    GOLDEN_SHOVEL: 0
+    IRON_SHOVEL: 0
+    DIAMOND_SHOVEL: 0
+    NETHERITE_SHOVEL: 0
+    WOODEN_PICKAXE: 0
+    STONE_PICKAXE: 0
+    GOLDEN_PICKAXE: 0
+    IRON_PICKAXE: 0
+    DIAMOND_PICKAXE: 0
+    NETHERITE_PICKAXE: 0
+    WOODEN_AXE: 0
+    STONE_AXE: 0
+    GOLDEN_AXE: 0
+    IRON_AXE: 0
+    DIAMOND_AXE: 0
+    NETHERITE_AXE: 0
+    WOODEN_HOE: 0
+    STONE_HOE: 0
+    GOLDEN_HOE: 0
+    IRON_HOE: 0
+    DIAMOND_HOE: 0
+    NETHERITE_HOE: 0
