@@ -1773,8 +1773,8 @@ Despair:
   duration-increase-per-charisma: 50
   apply-text: §7[§2Skill§7] %hero% has blinded %target% with %skill%!
   expire-text: §7[§2Skill§7] %hero% has recovered their sight!
-  reagent: ROTTEN_FLESH
-  reagent-cost: 1
+  reagent: ''
+  reagent-cost: 0
 Blessing:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
   max-distance: 10

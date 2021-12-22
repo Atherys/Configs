@@ -130,8 +130,8 @@ permitted-skills:
     ncp-exemption-duration: 3000
     apply-text: §7[§2Skill§7] %hero% readies his grappling shot!
     expire-text: §7[§2Skill§7] %hero% drops his grappling shot.
-    reagent: STRING
-    reagent-cost: 1
+    reagent: ''
+    reagent-cost: 0
 
   Smoke:
     level: 20
