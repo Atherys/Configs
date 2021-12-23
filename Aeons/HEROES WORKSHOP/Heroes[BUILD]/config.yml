@@ -21,15 +21,15 @@ leveling:
   dump-exp-file: false
   mob-health-distance-modified: false
   mob-health-modifier: 10
-  mob-health-modified-use-max: false
+  mob-health-modified-use-max: true
   mob-health-modified-max: 10000
   mob-experience-distance-modified: false
   mob-exp-modifier: 10
-  mob-exp-modified-use-max: false
+  mob-exp-modified-use-max: true
   mob-exp-modified-max: 10000
   mob-damage-distance-modified: false
   mob-damage-modifier: 10
-  mob-damage-modified-use-max: false
+  mob-damage-modified-use-max: true
   mob-damage-modified-max: 10000
   on-level-up-restore-health: true
   on-level-up-restore-shield: true
