@@ -1,15 +1,15 @@
-name: Vagabond
+name: Apostle
 tier: 2
 max-level: 25
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: An intermediate rogue focused on utility.
+description: An intermediate, buff focused priest.
 parents: 
 
     strong:
-    - KNAVE
+    - ACOLYTE
     weak:
 
 base-attributes:
@@ -24,22 +24,23 @@ allocation-points-per-level: 0
 
 permitted-armor:
 - PUMPKIN
-- LEATHER
+- GOLDEN_HELMET
 permitted-weapon:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND
-- BOW
-- CROSSBOW
+- DIAMOND_SHOVEL
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
 permitted-offhand:
 - WOOD
 - STONE
 - IRON
 - GOLD
-- DIAMOND
-- BOW
+- DIAMOND_SHOVEL
+- DIAMOND_AXE
+- DIAMOND_PICKAXE
 
 permitted-skills:
 #PASSIVES
@@ -47,93 +48,86 @@ permitted-skills:
     level: 1
     description: Grants the ability to use potions when out of combat.
 
-  Sneak:
+  Alchemy:
     level: 1
-    duration: 300000
-    description: Begin to sneak, appearing crouched to other players and hiding your nametag.
-
+    description: Grants the ability to create potions in a brewing stand.
 #ACTIVES
-  One:
+  Smite:
     level: 1
-    cooldown: 30000
-    mana: 30
-    use-text: §7[§2Skill§7] %hero% used %skill%!
-    speed-multiplier: 2
-    duration: 15000
-    apply-text: '%hero% gained a burst of speed!'
-    expire-text: '%hero% returned to normal speed!'
+    max-distance: 5
+    mana: 20
+    damage: 10
+    cooldown: 3000
+    multiplier: 1.5
+    description: Use holy power to smite the target for %damage% magic damage. Deals %multiplier*100% percent damage to undead creatures.
 
-  Jump:
+  Manasong:
+    level: 1
+    mana: 50
+    cooldown: 40000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    radius: 6
+    mana-restore-tick: 30
+    period: 2000
+    duration: 6000
+    apply-text: §7[§2Skill§7] You are gifted with a song of mana!
+    expire-text: §7[§2Skill§7] The manasong has ended.
+    delay: 1000
+
+  Dispel:
+    level: 1
+    mana: 30
+    cooldown: 20000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 16
+    target-hit-tolerance: 0.4
+    max-removals: 3
+
+  Pray:
     level: 1
     mana: 10
-    cooldown: 10000
-    use-text: §7[§2Skill§7] %hero% used %skill%!
-    no-air-jump: false
-    horizontal-power: 1
-    vertical-power: 0.5
-    ncp-exemption-duration: 2000
-
-  EscapeArtist:
-    level: 1
-    mana: 45
-    cooldown: 45000
-    chance: 1
-    description: Use impressive dexterity to escape movement impeding effects.
-
-  Bleed:
-    level: 1
-    mana: 15
-    cooldown: 15000
+    cooldown: 3000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
-    max-distance: 5
+    max-distance: 25
     target-hit-tolerance: 0.4
-    duration: 5000
-    period: 1000
-    tick-damage: 5
-    damage-per-level: 0
-    apply-text: '%target% is bleeding!'
-    expire-text: '%target% has stopped bleeding!'
+    is-scaled-healing: false
+    healing-scale-expression: '1'
+    healing: 15
+    description: Heal yourself, or an ally within %radius% blocks for %health% health.
 
-  SummonArrow:
+  Transfuse:
+    level: 5
+    cooldown: 60000
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    amount: 2
+    health-cost: 75
+    mana-gain: 200
 
-  Despair:
+  GroupHeal:
     level: 10
-    mana: 30
-    cooldown: 30000
+    mana: 40
+    cooldown: 45000
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    damage: 20
+    heal-amount: 50
     radius: 5
-    duration: 5000
-    apply-text: §7[§2Skill§7] %hero% has blinded %target% with %skill%!
-    expire-text: §7[§2Skill§7] %hero% has recovered their sight!
 
-  GrapplingShot:
+  Warsong:
     level: 15
-    mana: 60
+    mana: 50
     cooldown: 60000
     use-text: §7[§2Skill§7] %hero% used %skill%!
-    num-shots: 1
-    max-distance: -1
-    safe-fall-duration: 5000
-    duration: 4500
-    horizontal-divider: 3
-    vertical-divider: 4
-    multiplier: 1.0
-    grapple-delay: 0.25
-    ncp-exemption-duration: 3000
-    apply-text: §7[§2Skill§7] %hero% readies his grappling shot!
-    expire-text: §7[§2Skill§7] %hero% drops his grappling shot.
-    reagent: ''
-    reagent-cost: 0
+    radius: 12
+    damage-bonus: 1.25
+    duration: 10000
+    apply-text: §7[§2Skill§7] You ready yourself for battle!
+    expire-text: §7[§2Skill§7] You feel strength leave your body!
+    delay: 1000
 
-  Smoke:
+  Balance:
     level: 20
-    mana: 60
-    cooldown: 60000
-    duration: 45000
-    description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
+    mana: 30
+    cooldown: 25000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    radius: 5
 
 permission-skills:
 experience-sources:
@@ -143,7 +137,7 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 150
+base-max-health: 125
 max-health-per-level: 0
 
 base-max-mana: 200
@@ -152,11 +146,11 @@ base-mana-regen: 5
 mana-regen-per-level: 0
 
 item-damage:
-    WOODEN_SWORD: 5
-    STONE_SWORD: 7
-    IRON_SWORD: 9
-    GOLDEN_SWORD: 11
-    DIAMOND_SWORD: 13
+    WOODEN_SWORD: 1
+    STONE_SWORD: 1
+    IRON_SWORD: 1
+    GOLDEN_SWORD: 1
+    DIAMOND_SWORD: 1
     NETHERITE_SWORD: 1
     WOODEN_SHOVEL: 1
     STONE_SHOVEL: 1
@@ -176,10 +170,10 @@ item-damage:
     IRON_AXE: 1
     DIAMOND_AXE: 1
     NETHERITE_AXE: 1
-    WOODEN_HOE: 1
-    STONE_HOE: 1
-    GOLDEN_HOE: 1
-    IRON_HOE: 1
+    WOODEN_HOE: 2
+    STONE_HOE: 4
+    IRON_HOE: 6
+    GOLDEN_HOE: 8
     DIAMOND_HOE: 1
     NETHERITE_HOE: 1
     TRIDENT: 1
@@ -216,7 +210,7 @@ item-damage-level:
     NETHERITE_HOE: 0
 
 projectile-damage:
-  ARROW: 16
+  ARROW: 0
 projectile-damage-level:
   ARROW: 0
 

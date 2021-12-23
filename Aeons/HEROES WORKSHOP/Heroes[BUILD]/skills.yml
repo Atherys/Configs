@@ -1462,7 +1462,7 @@ Warsong:
   use-text: §7[§2Skill§7] %hero% used %skill%!
   radius: 12
   damage-bonus: 1.1
-  damage-bonus-increase-per-charisma: 0.00375
+  damage-bonus-increase-per-charisma: 0
   duration: 3000
   apply-text: §7[§2Skill§7] Your muscles bulge with power!
   expire-text: §7[§2Skill§7] You feel strength leave your body!
@@ -1568,7 +1568,7 @@ CombustBlood:
 Balance:
   use-text: §7[§2Skill§7] %hero% used %skill%!
   radius: 7
-  radius-increase-per-wisdom: 0.005
+  radius-increase-per-wisdom: 0
 Wrath:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
   max-distance: 6
