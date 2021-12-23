@@ -5,29 +5,29 @@ leveling:
   max-exp: 100000
   max-level: 50
   pad-max-level: true
-  exp-loss: 0.1
-  pvp-exp-loss: 1.0
-  max-party-size: 6
-  party-exp-bonus: 1.0
+  exp-loss: 0
+  pvp-exp-loss: 0
+  max-party-size: 16
+  party-exp-bonus: 1.25
   level-loss: false
   mastery-loss: false
-  spawner-checks: false
+  spawner-checks: true
   spawner-exp-mult: 0.5
   reset-on-death: false
   pvp-range: 50
   min-pvp-level: 1
-  pvp-exp-range: 10
+  pvp-exp-range: 25
   pvp-max-exp-range: 40
   dump-exp-file: true
-  mob-health-distance-modified: true
+  mob-health-distance-modified: false
   mob-health-modifier: 3
   mob-health-modified-use-max: false
   mob-health-modified-max: 10000
-  mob-experience-distance-modified: true
+  mob-experience-distance-modified: false
   mob-exp-modifier: 3
   mob-exp-modified-use-max: false
   mob-exp-modified-max: 10000
-  mob-damage-distance-modified: true
+  mob-damage-distance-modified: false
   mob-damage-modifier: 3
   mob-damage-modified-use-max: false
   mob-damage-modified-max: 10000
@@ -52,7 +52,7 @@ classes:
   swap-with-masteries-has-full-cost: false
   number-of-masteries-for-full-cost: 1
   use-prefix: false
-  reset-exp-on-change: true
+  reset-exp-on-change: false
   reset-master-on-change: false
   reset-prof-master-on-change: false
   reset-prof-on-pri-change: false
@@ -86,7 +86,7 @@ properties:
   storage-type: yml
   economy: true
   debug: false
-  enchant-exp-mult: 3
+  enchant-exp-mult: 0 #check me
   global-cooldown: 500
   block-tracking-duration: 900000
   max-tracked-blocks: 2000
@@ -161,27 +161,17 @@ hats:
   level: 1
   enabled: false
 global-mitigation:
-  enabled: false
-  maximum-damage-reduction: 0.8
+  enabled: true
+  maximum-damage-reduction: 0.3
   per-armor-damage-reduction-percent: 0.04
   mitigation-damage-causes:
-  - BLOCK_EXPLOSION
-  - CONTACT
-  - ENTITY_ATTACK
   - ENTITY_EXPLOSION
-  - ENTITY_SWEEP_ATTACK
-  - FALLING_BLOCK
-  - FIRE
-  - HOT_FLOOR
-  - LAVA
-  - LIGHTNING
-  - PROJECTILE
 durability:
   armor-durability-damage-reduction: 1
   armor-is-damaged-by-skills: true
   weapons-are-damaged-by-skill-usage: false
   custom-system:
-    enabled: true
+    enabled: false
     default-maximum-durability: 250
     show-custom-durability-text: true
     sync-with-minecraft-durability: true
@@ -214,13 +204,13 @@ durability:
       type-match: WOOD
       max-durability: 100
 features:
-  no-damage-ticks: 10
+  no-damage-ticks: 4
   no-combat-materials:
   - MILK_BUCKET
   - WATER_BUCKET
   - LAVA_BUCKET
   - FLINT_AND_STEEL
-  consider-weapon-swing-cooldown-for-damage: false
+  consider-weapon-swing-cooldown-for-damage: true
   use-tools-in-permitted-weapons: false
   fireworks:
     protect-allies-for-firework-duration: true
