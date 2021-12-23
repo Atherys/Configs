@@ -108,8 +108,22 @@ permitted-skills:
     tick-damage: 5
     expire-text: '%target% has recovered from the poison!'
 
-  Cripple:
+  DevouringDarkness:
     level: 10
+    mana: 25
+    cooldown: 25000
+    darkness-buff-duration: 3000
+    darkness-buff-period: 1000
+    radius: 6
+    darkness-slow-duration: 1500
+    slow-amplifier: 0.5
+    apply-text: §7[§2Skill§7] %hero% emits a devouring darkness!
+    expire-text: §7[§2Skill§7] %hero% is no longer emitting darkness.
+    delay: 500
+    max-targets: 99
+
+  Cripple:
+    level: 15
     mana: 60
     cooldown: 60000
     use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
@@ -125,6 +139,17 @@ permitted-skills:
     max-distance-increase: 0
     apply-text: '%target% has been Crippled by %hero%!'
     remove-text: '%target% has recovered from %hero%s Crippling blow!'
+
+  DevourMagic:
+    level: 20
+    mana: 30
+    cooldown: 25000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 5000
+    resist-value: 0.3
+    mana-per-damage: 0.8
+    apply-text: §7[§2Skill§7] %hero% is devouring incoming magic!
+    expire-text: §7[§2Skill§7] %hero% is no longer devouring magic.
 
 permission-skills:
 experience-sources:

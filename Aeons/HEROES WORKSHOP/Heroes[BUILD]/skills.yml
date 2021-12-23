@@ -308,7 +308,7 @@ Drainsoul:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
   max-distance: 6
   target-hit-tolerance: 0.4
-  max-distance-increase-per-intellect: 0.15
+  max-distance-iencrease-per-intellect: 0.15
   damage: 98
   damage-increase-per-intellect: 1.0
   heal-mult: 0.77
@@ -802,9 +802,9 @@ DivineStun:
   max-distance: 6
   target-hit-tolerance: 0.4
   duration: 1500
-  duration-increase-per-charisma: 30
+  duration-increase-per-charisma: 0
   damage: 31
-  damage-increase-per-strength: 0.7
+  damage-increase-per-strength: 0
   delay: 500
 SacredHymn:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
@@ -2624,11 +2624,10 @@ DevouringDarkness:
   radius: 6
   darkness-slow-duration: 1500
   slow-amplifier: 0
-  slow-amplifier-increase-per-intellect: 0.075
+  slow-amplifier-increase-per-intellect: 0
   apply-text: §7[§2Skill§7] %hero% emits a devouring darkness!
   expire-text: §7[§2Skill§7] %hero% is no longer emitting darkness.
   delay: 1000
-  cooldown: 1000
   max-targets: 5
 Inversion:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!

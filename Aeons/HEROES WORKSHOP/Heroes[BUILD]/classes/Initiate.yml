@@ -87,7 +87,7 @@ permitted-skills:
     radius: 10.0
     duration: 4000
     period: 2000
-    tick-damage: 15.0
+    tick-damage: 25.0
 
 permission-skills:
 experience-sources:
