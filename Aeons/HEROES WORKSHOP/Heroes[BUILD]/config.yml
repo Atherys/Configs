@@ -20,15 +20,15 @@ leveling:
   pvp-max-exp-range: 40
   dump-exp-file: true
   mob-health-distance-modified: false
-  mob-health-modifier: 3
+  mob-health-modifier: 6
   mob-health-modified-use-max: false
   mob-health-modified-max: 10000
   mob-experience-distance-modified: false
-  mob-exp-modifier: 3
+  mob-exp-modifier: 6
   mob-exp-modified-use-max: false
   mob-exp-modified-max: 10000
   mob-damage-distance-modified: false
-  mob-damage-modifier: 3
+  mob-damage-modifier: 6
   mob-damage-modified-use-max: false
   mob-damage-modified-max: 10000
   on-level-up-restore-health: true
@@ -86,7 +86,7 @@ properties:
   storage-type: yml
   economy: true
   debug: false
-  enchant-exp-mult: 0 #check me
+  enchant-exp-mult: 0
   global-cooldown: 500
   block-tracking-duration: 900000
   max-tracked-blocks: 2000
