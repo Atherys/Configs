@@ -236,28 +236,28 @@ features:
     ally-only-positive-effects: false
   scoreboard:
     enabled: true
-    title: §a§l⚠ Character ⚠
+    title: §b§l§m--§a§l§m[-§e§l Character §a§l§m-]§b§l§m--
     component:
       info:
         enabled: true
-        title: §3✪  Hero Info  ✪
+        title: §a§l    「 Hero Info 」
         class:
           enabled: true
           show-primary: true
-          show-secondary: false
+          show-secondary: true
           show-race: false
           format:
-            short: ' §4{0}§d L§f: §a{1}§f - {2}%'
-            long: ' §4{0}§d Lvl§f: §a{1}§f - {2}%'
+            short: ' §b {0}§b L§f: §a{1}§f - {2}%'
+            long: ' §b {0}§b Lvl§f: §a{1}§f - {2}%'
             long-length: 11
         health:
           enabled: true
-          format: §4 ❤  §c{0}§f / §c{1}
+          format: §4      ❤  §c{0}§f / §c{1}
           merge-mana: true
           merge-mana-threshold: 100
         mana:
           enabled: true
-          format: §9 ⦿  {0}§f / §9{1}
+          format: §9       ⦿  {0}§f / §9{1}
         stamina:
           enabled: false
           format: §3 ✳  {0}§f / §3{1}
@@ -268,7 +268,7 @@ features:
           format: §6 ❤  {0}§f / §6{1}
       party:
         enabled: true
-        title: §6✰  Party  ✰
+        title: §b&l   「  Party  」
         member-format: ' {2}{0}§f: {2}{3}%'
 equipment-weight:
   LEATHER_HELMET: 5
