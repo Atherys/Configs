@@ -1,15 +1,15 @@
-name: Vagabond
-tier: 2
-max-level: 25
+name: Troubadour
+tier: 3
+max-level: 50
 default: false
 wildcard-permission: true
 primary: true
 secondary: false
-description: An intermediate rogue focused on utility.
+description: An expert rogue, focused on stealthily locating targets.
 parents: 
 
     strong:
-    - KNAVE
+    - VAGABOND
     weak:
 
 base-attributes:
@@ -32,7 +32,6 @@ permitted-weapon:
 - GOLD
 - DIAMOND
 - BOW
-- CROSSBOW
 permitted-offhand:
 - WOOD
 - STONE
@@ -102,7 +101,7 @@ permitted-skills:
     amount: 2
 
   Despair:
-    level: 10
+    level: 1
     mana: 30
     cooldown: 30000
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -113,7 +112,7 @@ permitted-skills:
     expire-text: §7[§2Skill§7] %hero% has recovered their sight!
 
   GrapplingShot:
-    level: 15
+    level: 1
     mana: 60
     cooldown: 60000
     use-text: §7[§2Skill§7] %hero% used %skill%!
@@ -132,11 +131,55 @@ permitted-skills:
     reagent-cost: 0
 
   Smoke:
-    level: 20
+    level: 1
     mana: 60
     cooldown: 60000
     duration: 45000
     description: Disappear from view completely for %duration/1000% seconds. Silent to other players.
+
+  #Track:
+
+  #SixthSense:
+
+  SuperJump:
+    level: 30
+    mana: 20
+    cooldown: 30000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    duration: 5000
+    jump-force: 3.0
+
+  Envenom:
+    level: 40
+    mana: 15
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill%!
+    weapons:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
+    duration: 5000
+    damage: 5
+    apply-text: §7[§2Skill§7] %hero% has coated his weapons with a deadly poison.
+    expire-text: §7[§2Skill§7] %hero%'s weapons are no longer poisoned.
+
+  Eviscerate:
+    level: 50
+    mana: 45
+    cooldown: 60000
+    use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+    max-distance: 4
+    target-hit-tolerance: 0.4
+    damage: 50
+
+    weapons:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
 
 permission-skills:
 experience-sources:
@@ -146,7 +189,7 @@ experience-sources:
 expmodifier: 1
 expLoss: 0
 
-base-max-health: 150
+base-max-health: 175
 max-health-per-level: 0
 
 base-max-mana: 200

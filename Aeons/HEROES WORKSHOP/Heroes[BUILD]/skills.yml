@@ -2168,7 +2168,7 @@ Envenom:
   - NETHERITE_SWORD
   duration: 10000
   damage: 5
-  damage-increase-per-intellect: 2.0
+  damage-increase-per-intellect: 0
   apply-text: §7[§2Skill§7] %hero% has coated his weapons with a deadly poison.
   expire-text: §7[§2Skill§7] %hero%'s weapons are no longer poisoned.
 Pray:
@@ -2271,7 +2271,7 @@ Eviscerate:
   max-distance: 4
   target-hit-tolerance: 0.4
   damage: 100
-  damage-increase-per-strength: 3.75
+  damage-increase-per-strength: 0
   weapons:
   - WOODEN_SWORD
   - STONE_SWORD
