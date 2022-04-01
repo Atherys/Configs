@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:sand_full_1:7"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:sand:1"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

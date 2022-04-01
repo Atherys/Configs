@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:stone_full_14:7"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:mossy_cobblestone:0"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

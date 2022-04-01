@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:gravel_full_1:3"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:gravel:0"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:leaves_fullbiome_3:0",
+            "conquest:leaves_fullbiome_3:4",
+            "conquest:leaves_fullbiome_3:8",
+            "conquest:leaves_fullbiome_3:12"
+          ] 
+        }
+      },
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "min": 0,
+        "max": 2
+      },
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 900
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:sapling:4"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:stick"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

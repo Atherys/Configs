@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:0",
+            "minecraft:leaves:4",
+            "minecraft:leaves:8",
+            "minecraft:leaves:12"
+          ] 
+        }
+      },
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "min": 0,
+        "max": 2
+      },
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 900
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:sapling:0"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:stick"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

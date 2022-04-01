@@ -1,0 +1,31 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:melon_stem:7",
+            "minecraft:melon_stem:6",
+            "minecraft:melon_stem:5",
+            "minecraft:melon_stem:4",
+            "minecraft:melon_stem:3",
+            "minecraft:melon_stem:2",
+            "minecraft:melon_stem:1",
+            "minecraft:melon_stem:0"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:melon_seeds"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

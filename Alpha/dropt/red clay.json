@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:stone_full_19:8"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:stained_hardened_clay:14"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:beetroots:3"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "atherys:hoe_t3:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "min": 0,
+        "max": 2
+      },
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:beetroot"
+            ]
+          }
+        },
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 800
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 200
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

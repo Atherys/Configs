@@ -1,0 +1,179 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:lit_redstone_ore:0"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 667
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 333
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 500
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 250
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 250
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 6,
+              "max": 12
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 400
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 200
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 200
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 6,
+              "max": 12
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 200
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 8,
+              "max": 16
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

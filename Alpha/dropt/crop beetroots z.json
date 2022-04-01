@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:beetroots:3"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:beetroot"
+            ]
+          }
+        },
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

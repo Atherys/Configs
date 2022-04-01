@@ -1,0 +1,63 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:crop_tobacco:7"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "atherys:hoe_t2:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "min": 0,
+        "max": 1
+      },
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "conquest:hemp_harvest:0#{display:{Name:\"§r§6Raw Hemp\"}}"
+            ]
+          }
+        },
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "conquest:tobacco_seeds:0#{display:{Name:\"§r§6Hemp Seeds\"}}"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 950
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "conquest:tobacco_seeds:0#{display:{Name:\"§r§6Hemp Seeds\"}}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

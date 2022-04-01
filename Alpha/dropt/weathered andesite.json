@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:stone_full_hard4:6"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "conquest:stone_full_hard4:5"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

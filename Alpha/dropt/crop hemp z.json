@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:crop_tobacco:7"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "conquest:tobacco_seeds:0#{display:{Name:\"§r§6Hemp Seeds\"}}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

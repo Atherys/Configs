@@ -1,0 +1,79 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:potatoes:7"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "atherys:hoe_t0:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "min": 0,
+        "max": 2
+      },
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:potato"
+            ]
+          }
+        },
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:potato"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 750
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 200
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:potato"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:potato"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:leaves_full_3:0",
+            "conquest:leaves_full_3:4",
+            "conquest:leaves_full_3:8",
+            "conquest:leaves_full_3:12"
+          ] 
+        }
+      },
+      "dropStrategy": "REPEAT",
+      "dropCount": {
+        "min": 0,
+        "max": 2
+      },
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 900
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "conquest:sapling_3:6"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          },
+          "item": {
+            "items" : [
+              "minecraft:stick"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

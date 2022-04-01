@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "atherys:crop_cotton_4"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "atherys:cotton:0#{display:{Name:\"§r§fRaw Cotton\"}}"
+            ]
+          }
+        },
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "atherys:cotton_seeds"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:melon_block"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "minecraft:melon"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
