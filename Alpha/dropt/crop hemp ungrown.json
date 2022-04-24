@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:crop_tobacco:0",
+            "conquest:crop_tobacco:1",
+            "conquest:crop_tobacco:2",
+            "conquest:crop_tobacco:3",
+            "conquest:crop_tobacco:4",
+            "conquest:crop_tobacco:5",
+            "conquest:crop_tobacco:6"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "conquest:tobacco_seeds:0#{display:{Name:\"§r§6Hemp Seeds\"}}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

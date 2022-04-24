@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "conquest:crop_flax:0",
+            "conquest:crop_flax:1",
+            "conquest:crop_flax:2",
+            "conquest:crop_flax:3",
+            "conquest:crop_flax:4",
+            "conquest:crop_flax:5",
+            "conquest:crop_flax:6"
+          ] 
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "conquest:flax_seeds:0#{display:{Name:\"§r§9Flax Seeds\"}}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
