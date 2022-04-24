@@ -4,7 +4,7 @@
       "match": {
         "blocks": {
           "blocks": [
-            "atherys:crop_cotton_4"
+            "atherys:crop_cotton:7"
           ] 
         },
         "harvester": {
