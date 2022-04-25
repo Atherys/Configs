@@ -8,5 +8,11 @@
       "perplayer": true
     },
     "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mob": ["minecraft:zombie_pigman", "minecraft:ghast", "minecraft:magma_cube"],
+    "onjoin": true,
+    "result": "deny"
   }
 ]
