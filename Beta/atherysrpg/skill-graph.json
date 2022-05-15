@@ -14,7 +14,7 @@
       "cost": "25",
       "cooldown": "20000*(100/(100+SOURCE_CDR))",
       "properties": {
-        "amplifier": "3",
+        "amplifier": "45",
         "time": "5000+(150*SOURCE_DEX)"
       }
     },
