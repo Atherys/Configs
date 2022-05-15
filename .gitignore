@@ -10,5 +10,6 @@
 !*.groovy
 !*.js
 !*.lang
+!*.zs
 
 !*/
