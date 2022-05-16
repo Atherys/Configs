@@ -12,7 +12,7 @@
         {
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 1,
@@ -29,7 +29,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 1,
@@ -46,7 +46,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -63,7 +63,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 1,
@@ -80,7 +80,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -97,7 +97,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 3,
@@ -114,7 +114,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 1,
@@ -131,7 +131,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -148,7 +148,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 3,
@@ -165,7 +165,7 @@
           },
           "item": {
             "items": [
-              "minecraft:quartz"
+              "minecraft:quartz#{display:{Name:\"§rQuartz Shard\"}}"
             ],
             "quantity": {
               "min": 4,

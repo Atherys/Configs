@@ -12,7 +12,7 @@
         {
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -29,7 +29,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -46,7 +46,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 4,
@@ -63,7 +63,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -80,7 +80,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 4,
@@ -97,7 +97,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 6,
@@ -114,7 +114,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 2,
@@ -131,7 +131,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 4,
@@ -148,7 +148,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 6,
@@ -165,7 +165,7 @@
           },
           "item": {
             "items": [
-              "minecraft:dye:4"
+              "minecraft:dye:4#{display:{Name:\"§r§9Lapis Lazuli\"}}"
             ],
             "quantity": {
               "min": 8,
