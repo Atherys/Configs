@@ -4,7 +4,8 @@
       "match": {
         "blocks": {
           "blocks": [
-            "minecraft:redstone_ore:0"
+            "minecraft:redstone_ore:0",
+            "minecraft:lit_redstone_ore:0"
           ]
         }
       },

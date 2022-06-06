@@ -1,3 +1,6 @@
+// REMOVE BY MOD
+recipes.removeByMod("ironchest");
+recipes.removeByMod("improvedbackpacks");
 
 // Swords
 recipes.removeByRecipeName("conquest:tools/flint/flint_sword");
@@ -169,3 +172,6 @@ furnace.remove(<minecraft:coal:1>, <conquest:wood_full_2:15>);
 
 recipes.removeByRecipeName("minecraft:tnt");
 recipes.removeByRecipeName("minecraft:golden_apple");
+recipes.removeByRecipeName("conquest:campfire");
+
+
