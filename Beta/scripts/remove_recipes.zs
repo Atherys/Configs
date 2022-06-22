@@ -1,6 +1,23 @@
+#priority 999
+
 // REMOVE BY MOD
 recipes.removeByMod("ironchest");
 recipes.removeByMod("improvedbackpacks");
+recipes.removeByMod("futuremc");
+
+// Blocks
+recipes.removeByRecipeName("minecraft:tnt");
+recipes.removeByRecipeName("conquest:campfire");
+recipes.removeByRecipeName("conquest:campfire");
+
+recipes.remove(<minecraft:iron_block>);
+recipes.remove(<minecraft:gold_block>);
+recipes.remove(<minecraft:diamond_block>);
+recipes.remove(<minecraft:emerald_block>);
+recipes.remove(<minecraft:redstone_block>);
+recipes.remove(<minecraft:coal_block>);
+recipes.remove(<minecraft:lapis_block>);
+recipes.remove(<minecraft:quartz_block>);
 
 // Swords
 recipes.removeByRecipeName("conquest:tools/flint/flint_sword");
@@ -101,7 +118,6 @@ recipes.removeByRecipeName("minecraft:golden_hoe");
 recipes.removeByRecipeName("minecraft:bow");
 recipes.removeByRecipeName("minecraft:shield");
 
-
 // Armor
 recipes.removeByRecipeName("conquest:chainmail_helmet");
 recipes.removeByRecipeName("conquest:chainmail_chestplate");
@@ -147,9 +163,25 @@ brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <m
 // Materials
 recipes.removeByRecipeName("conquest:ore_combinations/copper_and_tin_ore");
 recipes.removeByRecipeName("conquest:ore_combinations/iron_and_coal");
+recipes.removeByRecipeName("minecraft:pumpkins_seeds");
+recipes.removeByRecipeName("minecraft:bone_meal_from_bone");
+recipes.remove(<minecraft:iron_ingot>);
+recipes.remove(<minecraft:gold_ingot>);
+recipes.remove(<minecraft:emerald>);
+recipes.remove(<minecraft:redstone>);
+recipes.remove(<minecraft:coal>);
+recipes.remove(<minecraft:dye:4>);
+recipes.remove(<minecraft:diamond>);
 
 furnace.remove(<conquest:steel_ingot>);
 furnace.remove(<conquest:bronze_ingot>);
+furnace.remove(<minecraft:iron_ingot>);
+furnace.remove(<minecraft:gold_ingot>);
+furnace.remove(<minecraft:emerald>);
+furnace.remove(<minecraft:redstone>);
+furnace.remove(<minecraft:coal>);
+furnace.remove(<minecraft:dye:4>);
+furnace.remove(<minecraft:diamond>);
 
 furnace.remove(<minecraft:coal:1>, <minecraft:planks:0>);
 furnace.remove(<minecraft:coal:1>, <conquest:wood_full_2:12>);
@@ -168,10 +200,7 @@ furnace.remove(<minecraft:coal:1>, <conquest:wood_full_7:14>);
 furnace.remove(<minecraft:coal:1>, <conquest:wood_full_6:9>);
 furnace.remove(<minecraft:coal:1>, <conquest:wood_full_2:15>);
 
-// MISC
-
-recipes.removeByRecipeName("minecraft:tnt");
+// Food
 recipes.removeByRecipeName("minecraft:golden_apple");
-recipes.removeByRecipeName("conquest:campfire");
 
 

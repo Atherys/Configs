@@ -1,1 +1,26 @@
-[]
+[
+    {
+      "mob": [
+        "minecraft:creeper",
+        "minecraft:skeleton",
+        "minecraft:zombie",
+        "minecraft:enderman",
+        "minecraft:spider",
+        "minecraft:pig",
+        "minecraft:chicken",
+        "minecraft:cow",
+        "minecraft:llama",
+        "minecraft:rabbit",
+        "minecraft:mooshroom",
+        "minecraft:polar_bear",
+        "minecraft:wolf"
+      ],
+      "removeall": true
+    },
+    {
+      "mob": [
+        "minecraft:sheep"
+      ],
+      "remove": ["conquest:cloth_nocollision_1", "minecraft:mutton"]
+    }
+  ]

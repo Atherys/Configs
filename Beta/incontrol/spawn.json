@@ -1,17 +1,68 @@
 [
   {
-    "dimension": 6,
+    "dimension": 3,
     "mob": "minecraft:cow",
     "onjoin": true,
     "mincount": {
-      "amount": 5,
+      "amount": 20,
       "perplayer": true
     },
     "result": "deny"
   },
   {
     "dimension": 3,
-    "mob": ["minecraft:zombie_pigman", "minecraft:ghast", "minecraft:magma_cube"],
+    "mob": "minecraft:sheep",
+    "onjoin": true,
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mob": "minecraft:pig",
+    "onjoin": true,
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mob": "minecraft:chicken",
+    "onjoin": true,
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mob": "minecraft:cow",
+    "onjoin": true,
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mob": [
+      "minecraft:zombie_pigman",
+      "minecraft:ghast",
+      "minecraft:magma_cube",
+      "minecraft:slime",
+      "minecraft:witch",
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:zombie_villager",
+      "minecraft:bat"
+    ],
     "onjoin": true,
     "result": "deny"
   }
