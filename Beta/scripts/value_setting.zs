@@ -4,6 +4,8 @@ import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemStack;
 import foodtweaker.FoodInfo;
 import mods.foodtweaker.Tweaker;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
 
 //=========================================================================================//
 //==================================== FOOD ===============================================//

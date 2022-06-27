@@ -1,14 +1,19 @@
 #priority 999
 
+import mods.futuremc.SmithingTable;
+
 // REMOVE BY MOD
 recipes.removeByMod("ironchest");
 recipes.removeByMod("improvedbackpacks");
 recipes.removeByMod("futuremc");
+SmithingTable.clearDefaults();
+mods.futuremc.Campfire.clearRecipes();
 
 // Blocks
 recipes.removeByRecipeName("minecraft:tnt");
 recipes.removeByRecipeName("conquest:campfire");
 recipes.removeByRecipeName("conquest:campfire");
+recipes.remove(<minecraft:anvil>);
 
 recipes.remove(<minecraft:iron_block>);
 recipes.remove(<minecraft:gold_block>);
@@ -19,7 +24,42 @@ recipes.remove(<minecraft:coal_block>);
 recipes.remove(<minecraft:lapis_block>);
 recipes.remove(<minecraft:quartz_block>);
 
+recipes.remove(<conquest:stone_full_13:8>);
+recipes.remove(<conquest:stone_full_18:12>);
+recipes.remove(<conquest:iron_full_1>);
+
+recipes.remove(<futuremc:smooth_stone>);
+furnace.remove(<minecraft:stone>, <minecraft:cobblestone>);
+furnace.remove(<minecraft:silver_glazed_terracotta>, <minecraft:stained_hardened_clay:8>);
+furnace.remove(<minecraft:magenta_glazed_terracotta>, <minecraft:stained_hardened_clay:2>);
+furnace.remove(<conquest:sand_layer_2:1>, <minecraft:coal:1>);
+furnace.remove(<minecraft:purple_glazed_terracotta>, <minecraft:stained_hardened_clay:10>);
+furnace.remove(<minecraft:light_blue_glazed_terracotta>, <minecraft:stained_hardened_clay:3>);
+furnace.remove(<futuremc:smooth_red_sandstone>, <minecraft:red_sandstone>);
+furnace.remove(<minecraft:black_glazed_terracotta>, <minecraft:stained_hardened_clay:15>);
+furnace.remove(<conquest:leaves_full_3:2>, <minecraft:leaves:1>);
+furnace.remove(<minecraft:glass>, <minecraft:sand:*>);
+furnace.remove(<minecraft:brown_glazed_terracotta>, <minecraft:stained_hardened_clay:12>);
+furnace.remove(<minecraft:green_glazed_terracotta>, <minecraft:stained_hardened_clay:13>);
+furnace.remove(<minecraft:lime_glazed_terracotta>, <minecraft:stained_hardened_clay:5>);
+furnace.remove(<conquest:gravel_full_1:5>, <minecraft:gravel>);
+furnace.remove(<minecraft:yellow_glazed_terracotta>, <minecraft:stained_hardened_clay:4>);
+furnace.remove(<minecraft:stonebrick>, <minecraft:stonebrick:2>);
+furnace.remove(<minecraft:stonebrick:2>, <minecraft:stonebrick>);
+furnace.remove(<minecraft:white_glazed_terracotta>, <minecraft:stained_hardened_clay>);
+furnace.remove(<minecraft:orange_glazed_terracotta>, <minecraft:stained_hardened_clay:1>);
+furnace.remove(<futuremc:smooth_sandstone>, <minecraft:sandstone>);
+furnace.remove(<minecraft:gray_glazed_terracotta>, <minecraft:stained_hardened_clay:7>);
+furnace.remove(<minecraft:red_glazed_terracotta>, <minecraft:stained_hardened_clay:14>);
+furnace.remove(<minecraft:hardened_clay>, <minecraft:clay:*>);
+furnace.remove(<minecraft:cyan_glazed_terracotta>, <minecraft:stained_hardened_clay:9>);
+furnace.remove(<minecraft:pink_glazed_terracotta>, <minecraft:stained_hardened_clay:6>);
+furnace.remove(<minecraft:blue_glazed_terracotta>, <minecraft:stained_hardened_clay:11>);
+furnace.remove(<minecraft:sponge>, <minecraft:sponge:1>);
+furnace.remove(<futuremc:smooth_quartz>, <minecraft:quartz_block>);
+
 // Swords
+
 recipes.removeByRecipeName("conquest:tools/flint/flint_sword");
 recipes.removeByRecipeName("conquest:tools/stone/stone_sword_mudstone");
 recipes.removeByRecipeName("conquest:tools/stone/stone_sword_cliffstone");
@@ -39,6 +79,7 @@ recipes.removeByRecipeName("minecraft:diamond_sword");
 recipes.removeByRecipeName("minecraft:golden_sword");
 
 // Pickaxes
+
 recipes.removeByRecipeName("conquest:tools/flint/flint_hoe");
 recipes.removeByRecipeName("conquest:tools/stone/stone_pickaxe_mudstone");
 recipes.removeByRecipeName("conquest:tools/stone/stone_pickaxe_cliffstone");
@@ -58,6 +99,7 @@ recipes.removeByRecipeName("minecraft:diamond_pickaxe");
 recipes.removeByRecipeName("minecraft:golden_pickaxe");
 
 // Shovels
+
 recipes.removeByRecipeName("conquest:tools/flint/flint_shovel");
 recipes.removeByRecipeName("conquest:tools/stone/stone_spade_mudstone");
 recipes.removeByRecipeName("conquest:tools/stone/stone_spade_cliffstone");
@@ -77,6 +119,7 @@ recipes.removeByRecipeName("minecraft:diamond_shovel");
 recipes.removeByRecipeName("minecraft:golden_shovel");
 
 // Axes
+
 recipes.removeByRecipeName("conquest:tools/flint/flint_axe");
 recipes.removeByRecipeName("conquest:tools/stone/stone_axe_mudstone");
 recipes.removeByRecipeName("conquest:tools/stone/stone_axe_cliffstone");
@@ -96,6 +139,7 @@ recipes.removeByRecipeName("minecraft:diamond_axe");
 recipes.removeByRecipeName("minecraft:golden_axe");
 
 // Hoes
+
 recipes.removeByRecipeName("conquest:tools/flint/flint_pickaxe");
 recipes.removeByRecipeName("conquest:tools/stone/stone_hoe_mudstone");
 recipes.removeByRecipeName("conquest:tools/stone/stone_hoe_cliffstone");
@@ -115,10 +159,12 @@ recipes.removeByRecipeName("minecraft:diamond_hoe");
 recipes.removeByRecipeName("minecraft:golden_hoe");
 
 // Other Tools
+
 recipes.removeByRecipeName("minecraft:bow");
 recipes.removeByRecipeName("minecraft:shield");
 
 // Armor
+
 recipes.removeByRecipeName("conquest:chainmail_helmet");
 recipes.removeByRecipeName("conquest:chainmail_chestplate");
 recipes.removeByRecipeName("conquest:chainmail_leggings");
@@ -149,6 +195,7 @@ recipes.removeByRecipeName("minecraft:diamond_leggings");
 recipes.removeByRecipeName("minecraft:diamond_boots");
 
 // Potions
+
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:nether_wart>);
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:gunpowder>);
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:sugar>);
@@ -161,6 +208,7 @@ brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <m
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:rabbit_foot>);
 
 // Materials
+
 recipes.removeByRecipeName("conquest:ore_combinations/copper_and_tin_ore");
 recipes.removeByRecipeName("conquest:ore_combinations/iron_and_coal");
 recipes.removeByRecipeName("minecraft:pumpkins_seeds");
@@ -183,24 +231,50 @@ furnace.remove(<minecraft:coal>);
 furnace.remove(<minecraft:dye:4>);
 furnace.remove(<minecraft:diamond>);
 
-furnace.remove(<minecraft:coal:1>, <minecraft:planks:0>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_2:12>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_3:0>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_6:10>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_8:8>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_6:11>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_8:1>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_8:0>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_2:8>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_7:15>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_7:13>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_8:7>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_8:3>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_7:14>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_6:9>);
-furnace.remove(<minecraft:coal:1>, <conquest:wood_full_2:15>);
+furnace.remove(<minecraft:dye:2>, <minecraft:cactus:*>);
+furnace.remove(<minecraft:gold_nugget>);
+recipes.remove(<minecraft:iron_nugget>, ingot_t1);
+recipes.remove(<minecraft:iron_nugget>, ingot_t2);
+furnace.remove(<minecraft:coal:1>);
+furnace.remove(<minecraft:quartz>, <minecraft:quartz_ore:*>);
+furnace.remove(<minecraft:brick>, <minecraft:clay_ball:*>);
+furnace.remove(<minecraft:netherbrick>, <minecraft:netherrack:*>);
+
+mods.futuremc.BlastFurnace.removeRecipe(<futuremc:ancient_debris>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:gold_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:iron_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:coal_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:lapis_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:diamond_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:redstone_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:emerald_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<minecraft:quartz_ore>);
+mods.futuremc.BlastFurnace.removeRecipe(<conquest:stone_full_hard2:10>);
+mods.futuremc.BlastFurnace.removeRecipe(<conquest:stone_full_hard2:9>);
 
 // Food
+
 recipes.removeByRecipeName("minecraft:golden_apple");
 
+furnace.remove(<minecraft:cooked_beef>, <minecraft:beef:*>);
+furnace.remove(<minecraft:cooked_fish>, <minecraft:fish>);
+furnace.remove(<minecraft:cooked_chicken>, <minecraft:chicken:*>);
+furnace.remove(<minecraft:cooked_rabbit>, <minecraft:rabbit:*>);
+furnace.remove(<minecraft:cooked_fish:1>, <minecraft:fish:1>);
+furnace.remove(<minecraft:cooked_mutton>, <minecraft:mutton:*>);
+furnace.remove(<minecraft:cooked_porkchop>, <minecraft:porkchop:*>);
+furnace.remove(<minecraft:baked_potato>, <minecraft:potato:*>);
+furnace.remove(<minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit:*>);
 
+mods.futuremc.Smoker.removeRecipe(<minecraft:beef:*>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:fish>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:chicken:*>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:rabbit:*>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:fish:1>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:mutton:*>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:porkchop:*>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:potato:*>);
+mods.futuremc.Smoker.removeRecipe(<minecraft:chorus_fruit:*>);
+
+
+// MISC

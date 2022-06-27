@@ -4,6 +4,7 @@ import crafttweaker.recipes.ICraftingRecipe;
 import crafttweaker.recipes.ICraftingInventory;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemStack;
+import mods.futuremc.SmithingTable;
 
 //=========================================================================================//
 //==================================== SWORDS =============================================//
@@ -33,17 +34,17 @@ recipes.addShaped("sword_t3", sword_t3,
 //================================== BATTLEAXES ===========================================//
 //=========================================================================================//
 
-recipes.addShaped("battleaxe_t1", battleaxe_t1,
+recipes.addShapedMirrored("battleaxe_t1", battleaxe_t1,
  [[ingot_t1,stick,ingot_t1],
   [ingot_t1,stick,null],
   [null,stick,null]]);
 
-recipes.addShaped("battleaxe_t2", battleaxe_t2,
+recipes.addShapedMirrored("battleaxe_t2", battleaxe_t2,
  [[ingot_t2,stick,ingot_t2],
   [ingot_t2,stick,null],
   [null,stick,null]]);
 
-recipes.addShaped("battleaxe_t3", battleaxe_t3,
+recipes.addShapedMirrored("battleaxe_t3", battleaxe_t3,
  [[ingot_t3,stick,ingot_t3],
   [ingot_t3,stick,null],
   [null,stick,null]]);
@@ -95,17 +96,17 @@ recipes.addShaped("mace_t3", mace_t3,
 //==================================== STAVES =============================================//
 //=========================================================================================//
 
-recipes.addShaped("staff_t1", staff_t1,
+recipes.addShapedMirrored("staff_t1", staff_t1,
  [[null,null,gem_t1],
   [null,ingot_t1,null],
   [ingot_t1,null,null]]);
 
-recipes.addShaped("staff_t2", staff_t2,
+recipes.addShapedMirrored("staff_t2", staff_t2,
  [[null,null,gem_t2],
   [null,ingot_t2,null],
   [ingot_t2,null,null]]);
 
-recipes.addShaped("staff_t3", staff_t3,
+recipes.addShapedMirrored("staff_t3", staff_t3,
  [[null,null,gem_t3],
   [null,ingot_t3,null],
   [ingot_t3,null,null]]);

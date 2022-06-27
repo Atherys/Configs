@@ -15,7 +15,7 @@ import crafttweaker.entity.IEntity;
 //===================================== Misc ===========================================//
 
 global stick as IItemStack = <minecraft:stick>;
-global charcoal as IItemStack = <minecraft:coal:1>;
+global charcoal as IItemStack = <minecraft:coal:1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Smelts §a§l4§7 items."], Name: "§fCharcoal"}});
 
 //=================================== Farming ===========================================//
 
@@ -202,7 +202,15 @@ global backpack_t3 as IItemStack = <simplybackpacks:rarebackpack>.withTag({inv: 
 //==================================== BLOCKS =============================================//
 //=========================================================================================//
 
+global fortified_stone as IItemStack = <futuremc:smooth_stone>.withTag({HideFlags: 2, display: {Lore: [], Name: "§fFortified Stone"}});
 global large_campfire as IItemStack = <conquest:campfire>;
+global normal_furnace as IItemStack = <minecraft:furnace>;
+global blast_furnace as IItemStack = <futuremc:blast_furnace>.withTag({display: {Name: "§9Blast Furnace"}});
+global smoker as IItemStack = <futuremc:smoker>.withTag({display: {Name: "§9Smoker"}});
+global artisan_table as IItemStack = <futuremc:stonecutter>.withTag({display: {Name: "§fArtisan Table"}});
+global grindstone as IItemStack = <futuremc:grindstone>;
+global loom as IItemStack = <futuremc:loom>;
+global smithing_table as IItemStack = <futuremc:smithing_table>;
 
 global chest as IItemStack = <minecraft:chest>;
 global chest_t1 as IItemStack = <ironchest:iron_chest:3>.withTag({display: {Name: "§rBronze Chest"}});
@@ -210,8 +218,8 @@ global chest_t2 as IItemStack = <ironchest:iron_chest:4>.withTag({display: {Name
 global chest_t3 as IItemStack = <ironchest:iron_chest:5>.withTag({display: {Name: "§6Crystaline Chest"}});
 
 global coal_ore as IItemStack = <minecraft:coal_ore>;
-global tin_ore as IItemStack = <conquest:stone_full_hard2:10>;
-global copper_ore as IItemStack = <conquest:stone_full_hard2:9>;
+global copper_ore as IItemStack = <atherys:copper_ore>.withTag({HideFlags: 2, display: {Lore: [], Name: "§fCopper Ore"}});
+global tin_ore as IItemStack = <atherys:tin_ore>.withTag({HideFlags: 2, display: {Lore: [], Name: "§fTin Ore"}});
 global iron_ore as IItemStack = <minecraft:iron_ore>.withTag({HideFlags: 2, display: {Lore: [], Name: "§9Iron Ore"}});
 global crystal_ore as IItemStack = <minecraft:diamond_ore>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Crystaline Ore"}});
 global redstone_ore as IItemStack = <minecraft:redstone_ore>;
@@ -220,7 +228,9 @@ global lapis_ore as IItemStack = <minecraft:lapis_ore>.withTag({HideFlags: 2, di
 global gold_ore as IItemStack = <minecraft:gold_ore>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Gold Ore"}});
 global emerald_ore as IItemStack = <minecraft:emerald_ore>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Emerald Ore"}});
 
+global bronze_block as IItemStack = <conquest:stone_full_18:12>.withTag({display: {Name: "§fBronze Block"}});
 global iron_block as IItemStack = <minecraft:iron_block>.withTag({HideFlags: 2, display: {Lore: [], Name: "§9Iron Block"}});
+global steel_block as IItemStack = <conquest:iron_full_1>.withTag({display: {Name: "§9Steel Block"}});
 global gold_block as IItemStack = <minecraft:gold_block>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Gold Block"}});
 global lapis_block as IItemStack = <minecraft:lapis_block>.withTag({HideFlags: 2, display: {Lore: [], Name: "§9Lapis Lazuli Block"}});
 global emerald_block as IItemStack = <minecraft:emerald_block>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Emerald Block"}});
@@ -235,6 +245,11 @@ global quartz_block as IItemStack = <minecraft:quartz_block>.withTag({HideFlags:
 global planks as IOreDictEntry = <ore:plankWood>;
 global log as IOreDictEntry = <ore:logWood>;
 global RawStone as IOreDictEntry = <ore:RawStone>;
+global RawLog as IOreDictEntry = <ore:RawLog>;
+global IronIngot as IOreDictEntry = <ore:ingotIron>;
+
+IronIngot.add(ingot_t1);
+IronIngot.add(ingot_t2);
 
 RawStone.add(<minecraft:cobblestone>);
 RawStone.add(<minecraft:sandstone:*>);
@@ -275,6 +290,37 @@ RawStone.add(<conquest:stone_full_18:6>);
 RawStone.add(<conquest:stone_full_18:7>);
 RawStone.add(<conquest:stone_full_19>);
 RawStone.add(<conquest:stone_full_26>);
+
+RawLog.add(<minecraft:log:*>);
+RawLog.add(<minecraft:log2:*>);
+RawLog.add(<conquest:wood_full_1:9>);
+RawLog.add(<conquest:wood_full_1:4>);
+RawLog.add(<conquest:wood_full_1:6>);
+RawLog.add(<conquest:wood_full_8:11>);
+RawLog.add(<conquest:wood_full_2:1>);
+RawLog.add(<conquest:wood_full_1:8>);
+RawLog.add(<conquest:wood_full_1:15>);
+RawLog.add(<conquest:wood_full_5:10>);
+RawLog.add(<conquest:wood_full_2>);
+RawLog.add(<conquest:wood_full_1>);
+RawLog.add(<conquest:wood_full_1:11>);
+RawLog.add(<conquest:wood_log_7>);
+RawLog.add(<conquest:wood_full_8:9>);
+RawLog.add(<conquest:wood_full_1:1>);
+RawLog.add(<conquest:wood_full_1:13>);
+RawLog.add(<conquest:wood_log_10:2>);
+RawLog.add(<conquest:wood_full_6:8>);
+RawLog.add(<conquest:wood_full_1:5>);
+RawLog.add(<conquest:wood_full_8:14>);
+RawLog.add(<conquest:wood_full_1:7>);
+RawLog.add(<conquest:wood_full_1:3>);
+RawLog.add(<conquest:wood_full_1:10>);
+RawLog.add(<conquest:wood_full_8:10>);
+RawLog.add(<conquest:wood_full_1:12>);
+RawLog.add(<conquest:wood_full_8:13>);
+RawLog.add(<conquest:wood_full_8:12>);
+RawLog.add(<conquest:wood_full_1:2>);
+RawLog.add(<conquest:wood_full_1:14>);
 
 //=========================================================================================//
 //==================================== OTHER ==============================================//

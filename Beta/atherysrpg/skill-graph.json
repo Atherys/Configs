@@ -274,151 +274,151 @@
     {
       "child-node": "ddf7a17e-2009-47fd-8732-9ab9bb9079c0",
       "parent-node": "759ba955-8c03-49fe-b4d9-ccd83fe5b030",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "4d117fc0-8f69-4d20-b2df-13d8dc5d5e12",
       "parent-node": "759ba955-8c03-49fe-b4d9-ccd83fe5b030",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "1e6f39ea-bc26-4aec-bbf5-5b1d88d3a7ad",
       "parent-node": "759ba955-8c03-49fe-b4d9-ccd83fe5b030",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "c28b87a4-6aaf-4e12-ad49-73e537c0b872",
       "parent-node": "3bbf50ca-79e1-493a-8a49-4d4cc3af3e8f",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "774fa013-6384-44f8-9321-a7274a9a0dd7",
       "parent-node": "3bbf50ca-79e1-493a-8a49-4d4cc3af3e8f",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "ae2726b4-3b0d-49ab-be28-70c913ae846f",
       "parent-node": "3bbf50ca-79e1-493a-8a49-4d4cc3af3e8f",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "fc130f6c-bf02-453d-8330-84dbb8fc67f2",
       "parent-node": "4d1db43d-81d9-4fb5-96c7-7284af93237d",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "c8d96c5f-949d-4c4c-a6e3-4bfd85fefb4f",
       "parent-node": "4d1db43d-81d9-4fb5-96c7-7284af93237d",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "297b432a-7925-4ba8-bc60-c20bdad2eac4",
       "parent-node": "4d1db43d-81d9-4fb5-96c7-7284af93237d",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "6088cf7c-e5e0-4eca-b4e8-637ae9d2a699",
       "parent-node": "f884f8d6-2f65-4a41-8a42-a1375c8dab5d",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "f3becfef-acc0-44f2-ad0c-53bcffe567c8",
       "parent-node": "f884f8d6-2f65-4a41-8a42-a1375c8dab5d",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "d973b747-76d6-42ba-901c-f1341fbf6227",
       "parent-node": "f884f8d6-2f65-4a41-8a42-a1375c8dab5d",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "76ab30cc-8a32-4cb6-99b2-039f93080407",
       "parent-node": "eb4d0d1f-32ae-47c9-906b-14e554fe2326",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "8a1dd521-4c60-48d3-89a3-d06429b3ae3f",
       "parent-node": "eb4d0d1f-32ae-47c9-906b-14e554fe2326",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "ac8518df-b74c-4172-8df6-c04465e41c89",
       "parent-node": "eb4d0d1f-32ae-47c9-906b-14e554fe2326",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "UNIDIRECTIONAL"
     },
     {
       "child-node": "9238e0e7-6c9d-4572-9c5b-450d93f4f168",
       "parent-node": "ae2726b4-3b0d-49ab-be28-70c913ae846f",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "9238e0e7-6c9d-4572-9c5b-450d93f4f168",
       "parent-node": "ddf7a17e-2009-47fd-8732-9ab9bb9079c0",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "68b8ab74-3435-44bf-b18e-1fcc8b749560",
       "parent-node": "ac8518df-b74c-4172-8df6-c04465e41c89",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "68b8ab74-3435-44bf-b18e-1fcc8b749560",
       "parent-node": "774fa013-6384-44f8-9321-a7274a9a0dd7",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "bc73343a-2b3e-404f-ae79-15fc48f63719",
       "parent-node": "fc130f6c-bf02-453d-8330-84dbb8fc67f2",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "bc73343a-2b3e-404f-ae79-15fc48f63719",
       "parent-node": "6088cf7c-e5e0-4eca-b4e8-637ae9d2a699",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "c6c76b73-72bb-4d0a-849c-ee9359bf7caf",
       "parent-node": "d973b747-76d6-42ba-901c-f1341fbf6227",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "c6c76b73-72bb-4d0a-849c-ee9359bf7caf",
       "parent-node": "76ab30cc-8a32-4cb6-99b2-039f93080407",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "c531890c-d7da-4521-bc0b-9a07ac39fd16",
       "parent-node": "1e6f39ea-bc26-4aec-bbf5-5b1d88d3a7ad",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     },
     {
       "child-node": "c531890c-d7da-4521-bc0b-9a07ac39fd16",
       "parent-node": "297b432a-7925-4ba8-bc60-c20bdad2eac4",
-      "cost": "(ATTRIBUTES*40+SKILLS*200)",
+      "cost": "750+(ATTRIBUTES*20)+((SKILLS-2)*500)",
       "type": "BIDIRECTIONAL"
     }
   ],
