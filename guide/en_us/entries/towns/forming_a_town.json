@@ -1,0 +1,11 @@
+{
+   "name": "Forming a Town",
+   "category": "nations_and_towns",
+   "icon": "minecraft:writable_book",
+   "pages": [
+      {
+         "type": "text",
+         "text": "Forming a town is simple and does not require admin intervention. First you must form a party of at least four people. Then, select a plot to start your town; the plot must be within the borders of a nation. Finally, run the command /town create and a poll will be sent to all of your party members. If it succeeds and you have the required funds, your town will be created!"
+      }
+   ]
+}

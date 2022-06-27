@@ -1,0 +1,11 @@
+{
+    "name": "Equipment",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:combat",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Equipment includes your four armor slots, weapon, offhand, and possibly more in the future. All equipment provide attributes"
+        }
+    ]
+}

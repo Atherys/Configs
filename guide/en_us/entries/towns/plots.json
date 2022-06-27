@@ -1,0 +1,11 @@
+{
+   "name": "Plots",
+   "category": "nations_and_towns",
+   "icon": "minecraft:writable_book",
+   "pages": [
+      {
+         "type": "text",
+         "text": "Towns are made up of plots, $(br)two-dimensional regions that can be any size."
+      }
+   ]
+}

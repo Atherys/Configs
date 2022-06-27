@@ -1,0 +1,15 @@
+{
+    "name": "Classes and Skills",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:combat",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Skills are what really make combat feel different from vanilla. In Horizons, every skill is part of the same skill \"web\" and your class determines where you start. There are 5 classes that make up the archetypes you're probably familiar with: $(br2)$(6)Squire: $() blablabla.$(br2)$(c)Brawler:  $()blablabla."
+        },
+        {
+           "type": "text",
+           "text": "$(2)Knave: $() blablabla. $(br2)$(9)Initiate: $() blablabla. $(br2)$(d)Acolyte:$() blablabla. $(br2)."
+        }
+    ]
+}

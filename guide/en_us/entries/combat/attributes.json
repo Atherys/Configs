@@ -1,0 +1,15 @@
+{
+    "name": "Attributes",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:combat",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Attributes form the basis of your character. There are   five base attributes: $(br2)$(6)Constitution $() increases your base health and health regeneration.$(br2)$(c)Strength  $()increases weapon damage for strength based weapons like axes."
+        },
+        {
+           "type": "text",
+           "text": "$(2)Dexterity $() increases weapon damage for dexterity based weapons like bows. $(br2)$(9)Intelligence $() increases your energy pool. $(br2)$(d)Wisdom$() increases your energy regeneration. $(br2)These base attributes can be upgraded with experience by using the /attributes command."
+        }
+    ]
+}
