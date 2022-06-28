@@ -39,6 +39,11 @@ recipes.addShaped("pickaxe_t3", pickaxe_t3,
 //===================================== AXES ==============================================//
 //=========================================================================================//
 
+recipes.addShapedMirrored("axe_wood", axe_wood,
+ [[planks,planks,null],
+  [planks,stick,null],
+  [null,stick,null]]);
+
 recipes.addShapedMirrored("axe_t0", axe_t0,
  [[RawStone,RawStone,null],
   [RawStone,stick,null],
@@ -63,6 +68,11 @@ recipes.addShapedMirrored("axe_t3", axe_t3,
 //=================================== SHOVELS =============================================//
 //=========================================================================================//
 
+recipes.addShaped("shovel_wood", shovel_wood,
+ [[null,planks,null],
+  [null,stick,null],
+  [null,stick,null]]);
+
 recipes.addShaped("shovel_t0", shovel_t0,
  [[null,RawStone,null],
   [null,stick,null],
@@ -86,6 +96,11 @@ recipes.addShaped("shovel_t3", shovel_t3,
 //=========================================================================================//
 //===================================== HOES ==============================================//
 //=========================================================================================//
+
+recipes.addShapedMirrored("hoe_wood", hoe_wood,
+ [[planks,planks,null],
+  [null,stick,null],
+  [null,stick,null]]);
 
 recipes.addShapedMirrored("hoe_t0", hoe_t0,
  [[RawStone,RawStone,null],

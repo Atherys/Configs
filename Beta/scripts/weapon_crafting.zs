@@ -10,6 +10,11 @@ import mods.futuremc.SmithingTable;
 //==================================== SWORDS =============================================//
 //=========================================================================================//
 
+recipes.addShaped("sword_wood", sword_wood,
+ [[null,planks,null],
+  [null,planks,null],
+  [null,stick,null]]);
+
 recipes.addShaped("sword_t0", sword_t0,
  [[null,RawStone,null],
   [null,RawStone,null],

@@ -14,9 +14,9 @@ recipes.addShapeless("leather_t1", leather_t1, [hide_t1, hide_t1, hide_t1]);
 recipes.addShapeless("leather_t2", leather_t2, [leather_t1, leather_t1, hide_t2]);
 recipes.addShapeless("leather_t3", leather_t3, [leather_t2, leather_t2, hide_t3]);
 
-recipes.addShapeless("cloth_t1", cloth_t1, [cotton, cotton]);
-recipes.addShapeless("cloth_t2", cloth_t2, [cloth_t1, cloth_t1, flax, flax]);
-recipes.addShapeless("cloth_t3", cloth_t3, [cloth_t2, cloth_t2, hemp, hemp]);
+recipes.addShapeless("cloth_t1", cloth_t1, [cotton]);
+recipes.addShapeless("cloth_t2", cloth_t2, [cloth_t1, cloth_t1, flax]);
+recipes.addShapeless("cloth_t3", cloth_t3, [cloth_t2, cloth_t2, hemp]);
 
 recipes.addShapeless("iron_ingot", ingot_iron * 9, [iron_block]);
 recipes.addShapeless("iron_nugget", <minecraft:iron_nugget> * 9, [ingot_iron]);

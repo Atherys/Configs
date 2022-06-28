@@ -46,22 +46,22 @@ global cotton_seeds as IItemStack = <atherys:cotton_seeds>.withTag({HideFlags: 2
 global flax_seeds as IItemStack = <conquest:flax_seeds>.withTag({HideFlags: 2, display: {Lore: ["", "§7Requires Hoe Harvest Level: §a3+"], Name: "§9Flax Seeds"}});
 global hemp_seeds as IItemStack = <conquest:tobacco_seeds>.withTag({HideFlags: 2, display: {Lore: ["", "§7Requires Hoe Harvest Level: §a4+"], Name: "§6Hemp Seeds"}});
 
-global cotton as IItemStack = <atherys:cotton>.withTag({HideFlags: 2, display: {Lore: [], Name: "§fRaw Cotton"}});
-global flax as IItemStack = <conquest:flax_harvest>.withTag({HideFlags: 2, display: {Lore: [], Name: "§9Raw Flax"}});
-global hemp as IItemStack = <conquest:hemp_harvest>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Raw Hemp"}});
+global cotton as IItemStack = <atherys:cotton>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into §fCotton Cloth§7."], Name: "§fRaw Cotton"}});
+global flax as IItemStack = <conquest:flax_harvest>.withTag({HideFlags: 2, display: {Lore: ["", "§7Combine with §f2x Cotton Cloth§7 to create §9Linen Cloth§7."], Name: "§9Raw Flax"}});
+global hemp as IItemStack = <conquest:hemp_harvest>.withTag({HideFlags: 2, display: {Lore: ["", "§7Combine with §92x Linen Cloth§7 to create §6Satin Cloth§7."], Name: "§6Raw Hemp"}});
 
-global cloth_t1 as IItemStack = <atherys:cloth_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Light Armor, Backpacks and Bows."], Name: "§fCotton Cloth"}});
-global cloth_t2 as IItemStack = <atherys:cloth_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Light Armor, Backpacks and Bows."], Name: "§9Linen Cloth"}});
+global cloth_t1 as IItemStack = <atherys:cloth_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Light Armor, Backpacks and Bows.", "", "§7Combine 2x with §9Raw Flax§7 to create §9Linen Cloth§7."], Name: "§fCotton Cloth"}});
+global cloth_t2 as IItemStack = <atherys:cloth_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Light Armor, Backpacks and Bows.", "", "§7Combine 2x with §6Raw Hemp§7 to create §6Satin Cloth§7."], Name: "§9Linen Cloth"}});
 global cloth_t3 as IItemStack = <atherys:cloth_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Light Armor, Backpacks and Bows."], Name: "§6Satin Cloth"}});
 
 //=================================== Hunting ===========================================//
 
-global hide_t1 as IItemStack = <atherys:hide_t1>.withTag({HideFlags: 2, display: {Lore: [], Name: "§fHide Scraps"}});
-global hide_t2 as IItemStack = <atherys:hide_t2>.withTag({HideFlags: 2, display: {Lore: [], Name: "§9Leather Scraps"}});
-global hide_t3 as IItemStack = <atherys:hide_t3>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Thick Leather Scraps"}});
+global hide_t1 as IItemStack = <atherys:hide_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Combine 3x to create §fRough Hide."], Name: "§fHide Scraps"}});
+global hide_t2 as IItemStack = <atherys:hide_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §f2x Rough Hide §7to create §9Leather§7."], Name: "§9Leather Scraps"}});
+global hide_t3 as IItemStack = <atherys:hide_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §92x Leather §7to create §6Reinforced Leather§7."], Name: "§6Thick Leather Scraps"}});
 
-global leather_t1 as IItemStack = <atherys:leather_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Medium Armor and Backpacks."], Name: "§fRough Hide"}});
-global leather_t2 as IItemStack = <atherys:leather_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Medium Armor and Backpacks."], Name: "§9Leather"}});
+global leather_t1 as IItemStack = <atherys:leather_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Medium Armor and Backpacks.", "", "§7Combine 2x with §9Leather Scraps §7to create §9Leather§7."], Name: "§fRough Hide"}});
+global leather_t2 as IItemStack = <atherys:leather_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Medium Armor and Backpacks.", "", "§7Combine 2x with §6Thick Leather Scraps §7to create §6Reinforced Leather§7."], Name: "§9Leather"}});
 global leather_t3 as IItemStack = <atherys:leather_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Medium Armor and Backpacks."], Name: "§6Reinforced Leather"}});
 
 //=================================== Mining ===========================================//
@@ -71,18 +71,18 @@ global gem_t1 as IItemStack = <minecraft:redstone>.withTag({HideFlags: 2, displa
 global gem_t2 as IItemStack = <minecraft:dye:4>.withTag({display: {Name: "§r§9Lapis Lazuli"}});
 global gem_t3 as IItemStack = <minecraft:emerald>.withTag({HideFlags: 2, display: {Lore: [], Name: "§6Emerald"}});
 
-global coal as IItemStack = <minecraft:coal>.withTag({HideFlags: 2, display: {Lore: ["", "§7Smelts §a§l8§7 items.", "", "§7Can be combined with §9Iron§7 to create §9Steel§7."], Name: "§fCoal"}});
+global coal as IItemStack = <minecraft:coal>.withTag({HideFlags: 2, display: {Lore: ["", "§7Smelts §a§l8§7 items.", "", "§7Combine 2x with §9Iron§7 to create §9Steel§7."], Name: "§fCoal"}});
 global raw_copper as IItemStack = <atherys:ore_copper>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §fTin§7 to create §fBronze§7."], Name: "§fRaw Copper"}});
 global raw_tin as IItemStack = <atherys:ore_tin>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §fCopper§7 to create §fBronze§7."], Name: "§fRaw Tin"}});
-global raw_iron as IItemStack = <atherys:ore_iron>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §fCoal§7 to create §9Steel§7."], Name: "§9Raw Iron"}});
-global crystal as IItemStack = <atherys:ore_crystal>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §9Steel§7 to create §6Fatesteel§7.", "", "§7§oSome believe that these lustrous crystals were", "§7§ocreated from manifestations of fate itself..."], Name: "§6Crystaline Shard"}});
+global raw_iron as IItemStack = <atherys:ore_iron>.withTag({HideFlags: 2, display: {Lore: ["", "§7Requires a §9Blast Furnace §7to smelt.", "", "§7Can be combined with §f2x Coal§7 to create §9Steel§7."], Name: "§9Raw Iron"}});
 global raw_gold as IItemStack = <atherys:ore_gold>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be smelted into a §6Gold Ingot."], Name: "§6Raw Gold"}});
+global crystal as IItemStack = <atherys:ore_crystal>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §92x Steel§7 to create §6Fatesteel§7.", "", "§7§oSome believe that these lustrous crystals were", "§7§ocreated from manifestations of fate itself..."], Name: "§6Crystaline Shard"}});
 
 global composite_t1 as IItemStack = <conquest:copper_and_tin_ore>.withTag({HideFlags: 3, display: {Lore: ["", "§7Can be smelted into a §fBronze Ingot§7."], Name: "§fBronze Composite"}});
-global composite_t2 as IItemStack = <conquest:iron_and_coal>.withTag({HideFlags: 3, display: {Lore: ["", "§7Can be smelted into a §9Steel Ingot§7."], Name: "§9Steel Composite"}});
+global composite_t2 as IItemStack = <conquest:iron_and_coal>.withTag({HideFlags: 2, display: {Lore: ["", "§7Requires a §9Blast Furnace §7to smelt.", "", "§7Can be smelted into a §9Steel Ingot§7."], Name: "§9Steel Composite"}});
 
 global ingot_t1 as IItemStack = <atherys:ingot_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Heavy Armor, Tools and Chests."], Name: "§fBronze Ingot"}});
-global ingot_t2 as IItemStack = <atherys:ingot_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Heavy Armor, Tools and Chests."], Name: "§9Steel Ingot"}});
+global ingot_t2 as IItemStack = <atherys:ingot_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Heavy Armor, Tools and Chests.", "", "§7Combine 2x with §6Crystaline Shard§7 to create §6Fatesteel Ingot§7."], Name: "§9Steel Ingot"}});
 global ingot_t3 as IItemStack = <atherys:ingot_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be crafted into Heavy Armor, Tools and Chests."], Name: "§6Fatesteel Ingot"}});
 global ingot_copper as IItemStack = <atherys:copper_ingot>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §fTin§7 to create §fBronze§7."], Name: "§fCopper Ingot"}});
 global ingot_tin as IItemStack = <atherys:tin_ingot>.withTag({HideFlags: 2, display: {Lore: ["", "§7Can be combined with §fCopper§7 to create §fBronze§7."], Name: "§fTin Ingot"}});
@@ -141,7 +141,7 @@ global heavy_t3_legs as IItemStack = <atherys:heavy_t3_legs>.withTag({HideFlags:
 global heavy_t3_boots as IItemStack = <atherys:heavy_t3_boots>.withTag({HideFlags: 2, SpongeData: {CustomManipulators: [{ContentVersion: 2, ManipulatorId: "atherysrpg:attributes", ManipulatorData: {ContentVersion: 1, Attributes: {"atherys:physical_resistance": 8.7, "atherys:speed_multiplier": -1.0, "atherys:healing_rate": 2.4, "atherys:magical_resistance": 5.8}}}]}, display: {Lore: ["§7Heavy Armor", "", "§c▶ Physical Resistance§7: +8.7%", "§3▶ Magical Resistance§7: +5.8%", "", "§a+2.4% §7Healing Rate", "§c-1.0% §7Movement Speed", "", "§6Rare"], Name: "§6Fatesteel Sabatons"}});
 
 //===================================== Weapons ===========================================//
-
+global sword_wood as IItemStack = <atherys:sword_wood>.withTag({HideFlags: 2, SpongeData: {CustomManipulators: [{ContentVersion: 2, ManipulatorId: "atherysrpg:attributes", ManipulatorData: {ContentVersion: 1, Attributes: {"atherys:cooldown_reduction": 1.0, "atherys:base_damage": 5.0}}}]}, display: {Lore: ["§7Sword (DEX)", "", "§c▶ Physical Damage§7: 5.0", "§b2.0 §7Attack Speed", "", "§a+1.0 §7Cooldown Reduction", "", "§8Shoddy"], Name: "§8Wooden Sword"}});
 global sword_t0 as IItemStack = <atherys:sword_t0>.withTag({HideFlags: 2, SpongeData: {CustomManipulators: [{ContentVersion: 2, ManipulatorId: "atherysrpg:attributes", ManipulatorData: {ContentVersion: 1, Attributes: {"atherys:cooldown_reduction": 2.0, "atherys:base_damage": 6.0}}}]}, display: {Lore: ["§7Sword (DEX)", "", "§c▶ Physical Damage§7: 6.0", "§b2.0 §7Attack Speed", "", "§a+2.0 §7Cooldown Reduction", "", "§8Shoddy"], Name: "§8Stone Blade"}});
 global sword_t1 as IItemStack = <atherys:sword_t1>.withTag({HideFlags: 2, SpongeData: {CustomManipulators: [{ContentVersion: 2, ManipulatorId: "atherysrpg:attributes", ManipulatorData: {ContentVersion: 1, Attributes: {"atherys:cooldown_reduction": 5.0, "atherys:base_damage": 7.5}}}]}, display: {Lore: ["§7Sword (DEX)", "", "§c▶ Physical Damage§7: 7.5", "§b2.0 §7Attack Speed", "", "§a+5.0 §7Cooldown Reduction", "", "§fCommon"], Name: "§fBronze Sword"}});
 global sword_t2 as IItemStack = <atherys:sword_t2>.withTag({HideFlags: 2, SpongeData: {CustomManipulators: [{ContentVersion: 2, ManipulatorId: "atherysrpg:attributes", ManipulatorData: {ContentVersion: 1, Attributes: {"atherys:cooldown_reduction": 6.0, "atherys:base_damage": 10.0}}}]}, display: {Lore: ["§7Sword (DEX)", "", "§c▶ Physical Damage§7: 10.0", "§b2.0 §7Attack Speed", "", "§a+6.0 §7Cooldown Reduction", "", "§9Uncommon"], Name: "§9Steel Sword"}});
@@ -171,22 +171,25 @@ global scepter_t3 as IItemStack = <atherys:scepter_t3>.withTag({HideFlags: 2, Sp
 
 //===================================== Tools =============================================//
 
-global pickaxe_wood as IItemStack = <atherys:pickaxe_wood>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Mining Speed§7:§6 2.0", "§b◆ Harvest Level§7:§6 2", "", "§8Shoddy"], Name: "§8Wooden Pickaxe"}});
+global pickaxe_wood as IItemStack = <atherys:pickaxe_wood>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Mining Speed§7:§6 2.0", "§b◆ Harvest Level§7:§6 1", "", "§8Shoddy"], Name: "§8Wooden Pickaxe"}});
 global pickaxe_t0 as IItemStack = <atherys:pickaxe_t0>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Mining Speed§7:§6 4.0", "§b◆ Harvest Level§7:§6 2", "", "§8Shoddy"], Name: "§8Stone Pickaxe"}});
 global pickaxe_t1 as IItemStack = <atherys:pickaxe_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Mining Speed§7:§6 6.0", "§b◆ Harvest Level§7:§6 3", "", "§fCommon"], Name: "§fBronze Pickaxe"}});
 global pickaxe_t2 as IItemStack = <atherys:pickaxe_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Mining Speed§7:§6 8.0", "§b◆ Harvest Level§7:§6 4", "", "§9Uncommon"], Name: "§9Steel Pickaxe"}});
 global pickaxe_t3 as IItemStack = <atherys:pickaxe_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Mining Speed§7:§6 9.0", "§b◆ Harvest Level§7:§6 5", "", "§6Rare"], Name: "§6Fatesteel Pickaxe"}});
 
+global axe_wood as IItemStack = <atherys:axe_wood>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Woodcutting Speed§7:§6 2.0", "§b◆ Harvest Level§7:§6 1", "", "§8Shoddy"], Name: "§8Wooden Axe"}});
 global axe_t0 as IItemStack = <atherys:axe_t0>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Woodcutting Speed§7:§6 4.0", "§b◆ Harvest Level§7:§6 2", "", "§8Shoddy"], Name: "§8Stone Axe"}});
 global axe_t1 as IItemStack = <atherys:axe_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Woodcutting Speed§7:§6 6.0", "§b◆ Harvest Level§7:§6 3", "", "§fCommon"], Name: "§fBronze Axe"}});
 global axe_t2 as IItemStack = <atherys:axe_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Woodcutting Speed§7:§6 8.0", "§b◆ Harvest Level§7:§6 4", "", "§9Uncommon"], Name: "§9Steel Axe"}});
 global axe_t3 as IItemStack = <atherys:axe_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Woodcutting Speed§7:§6 9.0", "§b◆ Harvest Level§7:§6 5", "", "§6Rare"], Name: "§6Fatesteel Axe"}});
 
+global shovel_wood as IItemStack = <atherys:shovel_wood>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Digging Speed§7:§6 2.0", "§b◆ Harvest Level§7:§6 1", "", "§8Shoddy"], Name: "§8Wooden Shovel"}});
 global shovel_t0 as IItemStack = <atherys:shovel_t0>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Digging Speed§7:§6 4.0", "§b◆ Harvest Level§7:§6 2", "", "§8Shoddy"], Name: "§8Stone Shovel"}});
 global shovel_t1 as IItemStack = <atherys:shovel_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Digging Speed§7:§6 6.0", "§b◆ Harvest Level§7:§6 3", "", "§fCommon"], Name: "§fBronze Shovel"}});
 global shovel_t2 as IItemStack = <atherys:shovel_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Digging Speed§7:§6 8.0", "§b◆ Harvest Level§7:§6 4", "", "§9Uncommon"], Name: "§9Steel Shovel"}});
 global shovel_t3 as IItemStack = <atherys:shovel_t3>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Digging Speed§7:§6 9.0", "§b◆ Harvest Level§7:§6 5", "", "§6Rare"], Name: "§6Fatesteel Shovel"}});
 
+global hoe_wood as IItemStack = <atherys:hoe_wood>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Tilling Speed§7:§6 1.0s", "§b◆ Harvest Level§7:§6 1", "", "§8Shoddy"], Name: "§8Wooden Hoe"}});
 global hoe_t0 as IItemStack = <atherys:hoe_t0>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Tilling Speed§7:§6 1.0s", "§b◆ Harvest Level§7:§6 2", "", "§8Shoddy"], Name: "§8Stone Hoe"}});
 global hoe_t1 as IItemStack = <atherys:hoe_t1>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Tilling Speed§7:§6 0.75s", "§b◆ Harvest Level§7:§6 3", "", "§fCommon"], Name: "§fBronze Hoe"}});
 global hoe_t2 as IItemStack = <atherys:hoe_t2>.withTag({HideFlags: 2, display: {Lore: ["", "§a▶ Tilling Speed§7:§6 0.5s", "§b◆ Harvest Level§7:§6 4", "", "§9Uncommon"], Name: "§9Steel Hoe"}});

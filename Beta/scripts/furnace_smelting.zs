@@ -5,31 +5,26 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.block.IBlock;
 import crafttweaker.recipes.IFurnaceRecipe;
 
+// Blast Furnace
+
+mods.futuremc.BlastFurnace.addRecipe(composite_t1, ingot_t1);
+mods.futuremc.BlastFurnace.addRecipe(composite_t2, ingot_t2);
+mods.futuremc.BlastFurnace.addRecipe(raw_copper, ingot_copper);
+mods.futuremc.BlastFurnace.addRecipe(raw_tin, ingot_tin);
+mods.futuremc.BlastFurnace.addRecipe(raw_iron, ingot_iron);
+mods.futuremc.BlastFurnace.addRecipe(raw_gold, ingot_gold);
+
 // Materials
 
 furnace.addRecipe(ingot_t1, composite_t1);
-furnace.addRecipe(ingot_t2, composite_t2);
 furnace.addRecipe(ingot_copper, raw_copper);
 furnace.addRecipe(ingot_tin, raw_tin);
-furnace.addRecipe(ingot_iron, raw_iron);
 furnace.addRecipe(ingot_gold, raw_gold);
 
 furnace.addRecipe(charcoal, RawLog);
 furnace.addRecipe(<minecraft:dye:2>, <minecraft:cactus:*>);
 furnace.addRecipe(<minecraft:brick>, <minecraft:clay_ball:*>);
 furnace.remove(<minecraft:netherbrick>, <minecraft:netherrack:*>);
-
-// Food
-
-furnace.addRecipe(<minecraft:cooked_fish>, <minecraft:fish>);
-furnace.addRecipe(<minecraft:cooked_chicken>, <minecraft:chicken:*>);
-furnace.addRecipe(<minecraft:cooked_rabbit>, <minecraft:rabbit:*>);
-furnace.addRecipe(<minecraft:cooked_beef>, <minecraft:beef:*>);
-furnace.addRecipe(<minecraft:cooked_fish:1>, <minecraft:fish:1>);
-furnace.addRecipe(<minecraft:cooked_mutton>, <minecraft:mutton:*>);
-furnace.addRecipe(<minecraft:cooked_porkchop>, <minecraft:porkchop:*>);
-furnace.addRecipe(<minecraft:baked_potato>, <minecraft:potato:*>);
-furnace.addRecipe(<minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit:*>);
 
 // Blocks
 
