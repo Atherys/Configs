@@ -13,7 +13,8 @@
         "minecraft:rabbit",
         "minecraft:mooshroom",
         "minecraft:polar_bear",
-        "minecraft:wolf"
+        "minecraft:wolf",
+        "minecraft:villager_golem"
       ],
       "removeall": true
     },

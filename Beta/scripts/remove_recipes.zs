@@ -10,6 +10,7 @@ SmithingTable.clearDefaults();
 mods.futuremc.Campfire.clearRecipes();
 
 // Blocks
+recipes.removeByRecipeName("minecraft:slime");
 recipes.removeByRecipeName("minecraft:tnt");
 recipes.removeByRecipeName("conquest:campfire");
 recipes.removeByRecipeName("conquest:campfire");
@@ -162,6 +163,9 @@ recipes.removeByRecipeName("minecraft:golden_hoe");
 
 recipes.removeByRecipeName("minecraft:bow");
 recipes.removeByRecipeName("minecraft:shield");
+
+recipes.remove(<minecraft:spectral_arrow:*>);
+recipes.remove(<minecraft:tipped_arrow:*>);
 
 // Armor
 
